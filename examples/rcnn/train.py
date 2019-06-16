@@ -10,11 +10,11 @@ class Config(ConfigRCNN):
     def __init__(self):
         super(Config, self).__init__()
 
-    # gpu = -1
-    log_per_batch = 5
+    gpu = 0
 
-    epochs = 20
-    batch_size = 8
+    log_per_batch = 2
+    epochs = 50
+    batch_size = 64
     max_sent_num = 1
     max_sent_len = 60
 

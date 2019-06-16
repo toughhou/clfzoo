@@ -196,6 +196,7 @@ class TextCNN(BaseModel):
 
         # evaluate dev
         _, metrics = self.run_evaluate(dev, summary_op=dev_summary_op, writer=dev_summary_writer)
+
         ts = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))
         msg = "{}\t".format(ts) + "\t".join(["{} {:.4f}".format(k, v) for k, v in metrics.items()])
         self.logger.info(msg)

@@ -11,17 +11,18 @@ class Config(ConfigHAN):
     def __init__(self):
         super(Config, self).__init__()
     
-    gpu = -1
+    gpu = 0
 
-    batch_size = 16
+    log_per_batch = 2
+    batch_size = 32
     epochs = 50
     lr_rate = 1e-3
 
     max_sent_num = 25
     max_sent_len = 60
 
-    train_file = '../data/english/TREC.train.txt'
-    dev_file = '../data/english/TREC.test.txt'
+    train_file = '../data/smp2019_ecdt/SMP2019.train'
+    dev_file = '../data/smp2019_ecdt/SMP2019.test'
 
 clf.model(Config(), training=True)
 clf.train()

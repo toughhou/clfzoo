@@ -55,6 +55,9 @@ class RCNN(BaseModel):
         Layer embedding
         Default fuse word and char embeddings
         """
+
+        self.global_step = tf.Variable(0, name="global_step", trainable=False)
+
         with tf.variable_scope('embeddings'):
             self.word_mat = tf.get_variable(
                 'word_embeddings',
@@ -138,9 +141,9 @@ class RCNN(BaseModel):
             true_pred = tf.equal(tf.cast(self.label, tf.int64), self.predict)
             self.accu = tf.reduce_mean(tf.cast(true_pred, tf.float32))
             # train op
-            self.add_train_op(self.loss)
+            self.add_train_op(self.loss, self.global_step)
 
-    def run_epoch(self, train, dev, epoch):
+    def run_epoch(self, train, dev, epoch, train_summary_writer, dev_summary_writer):
         """
         train epoch
 
@@ -152,6 +155,16 @@ class RCNN(BaseModel):
 
         total_loss, total_accu = 0.0, 0.0
 
+        # Summaries for loss and accuracy
+        tf.summary.scalar("loss", self.loss)
+        tf.summary.scalar("accuracy", self.accu)
+
+        # Train Summaries
+        train_summary_op = tf.summary.merge_all()
+
+        # Dev summaries
+        dev_summary_op = tf.summary.merge_all()
+
         for idx, batch in enumerate(train, 1):
             # print(batch['token_char_ids'])
             feed_dict = {
@@ -162,17 +175,24 @@ class RCNN(BaseModel):
             }
 
             try:
-                _, loss, accu = self.sess.run([self.train_op, self.loss, self.accu], feed_dict)
+                _, global_step, summary, loss, accu = self.sess.run(
+                    [self.train_op, self.global_step, train_summary_op, self.loss, self.accu], feed_dict)
+
                 total_loss += loss
                 total_accu += accu
+
+                train_summary_writer.add_summary(summary, global_step)
+
             except Exception as e:
                 print(e)
                 continue
 
             if idx % self.config.log_per_batch == 0:
-                self.logger.info("{}\t batch {} to {}:\tloss {:.4f}\tacc {:.4f}".format(
+                self.logger.info("{}\t batch {:<3d} to {:<3d}:\tglobal_step {:<5d}\tloss {:.4f}\tacc {:.4f}".format(
                     time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time())),
-                    idx - self.config.log_per_batch + 1, idx,
+                    idx - self.config.log_per_batch + 1,
+                    idx,
+                    global_step,
                     total_loss / self.config.log_per_batch,
                     total_accu / self.config.log_per_batch
                 ))
@@ -180,14 +200,14 @@ class RCNN(BaseModel):
                 total_accu = 0
 
         # evaluate dev
-        _, metrics = self.run_evaluate(dev)
+        _, metrics = self.run_evaluate(dev, summary_op=dev_summary_op, writer=dev_summary_writer)
         ts = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))
         msg = "{}\t".format(ts) + "\t".join(["{} {:.4f}".format(k, v) for k, v in metrics.items()])
         self.logger.info(msg)
 
         return metrics
 
-    def run_evaluate(self, dev):
+    def run_evaluate(self, dev, summary_op=None, writer=None):
         y_true, y_pred, y_score = [], [], []
 
         total_loss = 0.0
@@ -202,9 +222,13 @@ class RCNN(BaseModel):
             }
 
             try:
-                predict, prob, loss = self.sess.run([self.predict, self.probs, self.loss], feed_dict)
+                global_step, summary, predict, prob, loss, accuracy = self.sess.run(
+                    [self.global_step, summary_op, self.predict, self.probs, self.loss, self.accu], feed_dict)
+
                 total_loss += loss
                 total_num += 1
+
+                writer.add_summary(summary, global_step)
 
                 real_size = len(batch['raw_data'])
                 y_pred += predict.tolist()[:real_size]
