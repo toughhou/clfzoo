@@ -11,11 +11,15 @@ import json
 Define your tokenizer
 for Chinese jieba is the default tokenizer
 """
+
+
 def tokenizer(sent):
     return sent.split()
 
+
 def sentence_split(sent):
     return re.split('[.!?。！？]', sent)
+
 
 class DataLoader(object):
     def __init__(self, config):
@@ -49,25 +53,30 @@ class DataLoader(object):
             self.test_set = self._load_dataset(config.test_file, is_train=False)
 
     def _load_dataset(self, fpath, is_train=False):
-        with open(fpath, 'r') as rf:
+        with open(fpath, 'r', encoding='utf-8') as rf:
             data_set = []
             label_set = set()
             for line in rf:
                 line = line.strip()
                 arr = line.split(self.config.splitter)
+
                 if len(arr) == 0:
                     continue
 
-                sample = {}                
+                sample = {}
                 if is_train:
                     if len(arr) < 2:
                         continue
-                    sample['label'] = arr[0].strip()
-                    label_set.add(arr[0].strip())
 
-                sample = self._get_sample(sample, arr[1])
+                    label = arr[0].strip()
+                    data = arr[1]
+
+                    sample['label'] = label
+                    label_set.add(label)
+
+                sample = self._get_sample(sample, data)
                 data_set.append(sample)
-            
+
             if is_train:
                 self.label2idx = dict(zip(label_set, range(len(label_set))))
                 self.idx2label = dict(zip(range(len(label_set)), label_set))
@@ -79,7 +88,7 @@ class DataLoader(object):
         data_set = []
         for idx, data in enumerate(datas):
 
-            sample = {}                
+            sample = {}
             if labels is not None:
                 sample['label'] = labels[idx]
             else:
@@ -101,7 +110,7 @@ class DataLoader(object):
         if self.max_sent_num > 1:
             all_sentences = sentence_split(sentence)
             if len(all_sentences) > self.max_sent_num:
-                sentences = all_sentences[:self.max_sent_num-1] + [''.join(all_sentences[self.max_sent_num-1:])]
+                sentences = all_sentences[:self.max_sent_num - 1] + [''.join(all_sentences[self.max_sent_num - 1:])]
             else:
                 sentences = all_sentences
 
@@ -144,7 +153,7 @@ class DataLoader(object):
                     batch_data['token_char_ids'].append([])
 
             batch_data['label_ids'].append(self.label2idx.get(sample['label'], 0))
-        
+
         diff = batch_size - len(batch_data['label_ids'])
         if diff > 0:
             batch_data['label_ids'].extend([pad_id] * diff)
@@ -161,25 +170,25 @@ class DataLoader(object):
 
         # pad token ids
         batch_data['token_ids'] = [(ids + [pad_id] * (pad_len - len(ids)))[:pad_len]
-                                    for ids in batch_data['token_ids']]
-        
+                                   for ids in batch_data['token_ids']]
+
         # pad char ids
         for index, char_list in enumerate(batch_data['token_char_ids']):
             for char_index in range(len(char_list)):
                 if len(char_list[char_index]) >= pad_char_len:
                     char_list[char_index] = char_list[char_index][:pad_char_len]
                 else:
-                    char_list[char_index] += [pad_id]*(pad_char_len - len(char_list[char_index]))
+                    char_list[char_index] += [pad_id] * (pad_char_len - len(char_list[char_index]))
             batch_data['token_char_ids'][index] = char_list
 
-        batch_data['token_char_ids'] = [(ids + [[pad_id]*pad_char_len]*(pad_len-len(ids)))[:pad_len]
+        batch_data['token_char_ids'] = [(ids + [[pad_id] * pad_char_len] * (pad_len - len(ids)))[:pad_len]
                                         for ids in batch_data['token_char_ids']]
 
         # pad full batch
         diff = batch_size - len(batch_data['token_ids'])
         if diff > 0:
             batch_data['token_ids'] += [[pad_id for y in range(pad_len)] for x in range(diff)]
-            batch_data['token_char_ids']  += [[[pad_id for z in range(pad_char_len)] for y in range(pad_len)] for x in range(diff)]
+            batch_data['token_char_ids'] += [[[pad_id for z in range(pad_char_len)] for y in range(pad_len)] for x in range(diff)]
 
         if self.max_sent_num > 1:
             token_ids = []
@@ -246,7 +255,7 @@ class DataLoader(object):
         indices = np.arange(data_size)
         if shuffle:
             np.random.shuffle(indices)
-        
+
         for start_id in np.arange(0, data_size, batch_size):
             batch_indices = indices[start_id: start_id + batch_size]
             yield self._mini_batch(batch_size, data, batch_indices, pad_id)
@@ -294,4 +303,4 @@ class DataLoader(object):
             for sample in dataset:
                 for sent in sample['tokens']:
                     for token in sent:
-                         yield token
+                        yield token

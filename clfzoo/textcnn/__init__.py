@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import os
-from .model import TextCNN 
+from .model import TextCNN
 
 from clfzoo.config import ConfigTextCNN
 from clfzoo.instance import Instance
@@ -10,8 +10,8 @@ clf_model = None
 config = None
 instance = None
 
-def model(cfg=None, training=False):
 
+def model(cfg=None, training=False):
     global clf_model, config, instance
 
     if cfg is None:
@@ -30,6 +30,7 @@ def model(cfg=None, training=False):
         cfg.logger.info("Restore model...")
         clf_model.restore()
 
+
 def train():
     global clf_model, config, instance
 
@@ -41,6 +42,7 @@ def train():
 
     clf_model.train(instance.dataloader, pad_id)
 
+
 def predict(datas):
     global clf_model, config, instance
 
@@ -48,9 +50,10 @@ def predict(datas):
     pad_id = instance.vocab.get_word_idx(instance.vocab.pad_token)
 
     pred_data = instance.dataloader.next_batch('predict', config.batch_size, pad_id, shuffle=False)
-    preds, _  = clf_model.evaluate(pred_data)
+    preds, _ = clf_model.evaluate(pred_data)
 
     return preds
+
 
 def test(datas, labels):
     global clf_model, config, instance
@@ -62,4 +65,3 @@ def test(datas, labels):
     preds, metrics = clf_model.evaluate(pred_data)
 
     return preds, metrics
-

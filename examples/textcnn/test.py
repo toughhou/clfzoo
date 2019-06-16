@@ -17,14 +17,14 @@ class Config(ConfigTextCNN):
     max_sent_len = 60
     max_char_len = 10
 
-    train_file = '../data/english/TREC.train.txt'
-    dev_file = '../data/english/TREC.test.txt'
+    train_file = '../data/smp2019_ecdt/SMP2019.train'
+    dev_file = '../data/smp2019_ecdt/SMP2019.test'
 
 
 clf.model(Config())
 
-datas = ['几点了', '天气怎样啊']
-labels = ['datetime', 'weather']
+datas = ['打开QQ游戏', '红烧肉怎么做']
+labels = ['app', 'cookbook']
 preds, metrics = clf.test(datas, labels)
 print(preds)
 print(metrics)

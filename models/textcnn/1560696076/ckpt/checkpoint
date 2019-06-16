@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\code\\challenge\\clfzoo\\models/textcnn/1560696076/ckpt/textcnn"
+all_model_checkpoint_paths: "C:\\code\\challenge\\clfzoo\\models/textcnn/1560696076/ckpt/textcnn"

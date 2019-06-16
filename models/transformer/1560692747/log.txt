@@ -1,0 +1,1683 @@
+2019-06-16 21:45:47,407:INFO: process train file ../data/smp2019_ecdt/SMP2019.train
+2019-06-16 21:45:47,527:INFO: process dev file ../data/smp2019_ecdt/SMP2019.test
+2019-06-16 21:45:47,539:INFO: Preprocesing...
+2019-06-16 21:45:47,616:INFO: After filter 1881 tokens, the final vocab size is 438
+2019-06-16 21:45:47,617:INFO: Assigning embeddings...
+2019-06-16 21:45:47,619:INFO: Saving vocab...
+2019-06-16 21:45:47,630:INFO: ====== Done with preparing! ======
+2019-06-16 21:45:47,630:INFO: Init model...
+2019-06-16 21:45:48,757:INFO: Init session
+2019-06-16 21:45:50,562:INFO: Convert text to id
+2019-06-16 21:45:50,653:INFO: Start to train
+2019-06-16 21:45:51,080:INFO: ########################################
+2019-06-16 21:45:51,080:INFO: Epoch 1 / 50
+2019-06-16 21:45:52,917:INFO: 2019-06-16 21:45:52	 batch 1   to 1  :	global_step 0    	loss 3.3114	acc 0.0312
+2019-06-16 21:45:53,020:INFO: 2019-06-16 21:45:53	 batch 2   to 2  :	global_step 0    	loss 3.2681	acc 0.0156
+2019-06-16 21:45:53,116:INFO: 2019-06-16 21:45:53	 batch 3   to 3  :	global_step 0    	loss 3.1268	acc 0.1719
+2019-06-16 21:45:53,209:INFO: 2019-06-16 21:45:53	 batch 4   to 4  :	global_step 0    	loss 3.1927	acc 0.1562
+2019-06-16 21:45:53,300:INFO: 2019-06-16 21:45:53	 batch 5   to 5  :	global_step 0    	loss 3.1687	acc 0.1562
+2019-06-16 21:45:53,392:INFO: 2019-06-16 21:45:53	 batch 6   to 6  :	global_step 0    	loss 3.1521	acc 0.0781
+2019-06-16 21:45:53,483:INFO: 2019-06-16 21:45:53	 batch 7   to 7  :	global_step 0    	loss 3.0315	acc 0.1875
+2019-06-16 21:45:53,576:INFO: 2019-06-16 21:45:53	 batch 8   to 8  :	global_step 0    	loss 2.9499	acc 0.1562
+2019-06-16 21:45:53,671:INFO: 2019-06-16 21:45:53	 batch 9   to 9  :	global_step 0    	loss 2.9549	acc 0.2500
+2019-06-16 21:45:53,763:INFO: 2019-06-16 21:45:53	 batch 10  to 10 :	global_step 0    	loss 2.9867	acc 0.1875
+2019-06-16 21:45:53,858:INFO: 2019-06-16 21:45:53	 batch 11  to 11 :	global_step 0    	loss 3.0886	acc 0.1250
+2019-06-16 21:45:53,951:INFO: 2019-06-16 21:45:53	 batch 12  to 12 :	global_step 0    	loss 2.9827	acc 0.1875
+2019-06-16 21:45:54,042:INFO: 2019-06-16 21:45:54	 batch 13  to 13 :	global_step 0    	loss 2.9544	acc 0.2188
+2019-06-16 21:45:54,137:INFO: 2019-06-16 21:45:54	 batch 14  to 14 :	global_step 0    	loss 2.9835	acc 0.1406
+2019-06-16 21:45:54,232:INFO: 2019-06-16 21:45:54	 batch 15  to 15 :	global_step 0    	loss 3.1419	acc 0.1094
+2019-06-16 21:45:54,330:INFO: 2019-06-16 21:45:54	 batch 16  to 16 :	global_step 0    	loss 2.8184	acc 0.1719
+2019-06-16 21:45:54,426:INFO: 2019-06-16 21:45:54	 batch 17  to 17 :	global_step 0    	loss 2.8986	acc 0.1875
+2019-06-16 21:45:54,521:INFO: 2019-06-16 21:45:54	 batch 18  to 18 :	global_step 0    	loss 2.8683	acc 0.2188
+2019-06-16 21:45:54,617:INFO: 2019-06-16 21:45:54	 batch 19  to 19 :	global_step 0    	loss 2.8621	acc 0.2344
+2019-06-16 21:45:54,711:INFO: 2019-06-16 21:45:54	 batch 20  to 20 :	global_step 0    	loss 2.7205	acc 0.2812
+2019-06-16 21:45:54,802:INFO: 2019-06-16 21:45:54	 batch 21  to 21 :	global_step 0    	loss 2.9324	acc 0.1719
+2019-06-16 21:45:54,896:INFO: 2019-06-16 21:45:54	 batch 22  to 22 :	global_step 0    	loss 2.6616	acc 0.2656
+2019-06-16 21:45:54,988:INFO: 2019-06-16 21:45:54	 batch 23  to 23 :	global_step 0    	loss 2.6612	acc 0.2812
+2019-06-16 21:45:55,080:INFO: 2019-06-16 21:45:55	 batch 24  to 24 :	global_step 0    	loss 2.6783	acc 0.2812
+2019-06-16 21:45:55,175:INFO: 2019-06-16 21:45:55	 batch 25  to 25 :	global_step 0    	loss 2.7679	acc 0.2031
+2019-06-16 21:45:55,268:INFO: 2019-06-16 21:45:55	 batch 26  to 26 :	global_step 0    	loss 2.6301	acc 0.3281
+2019-06-16 21:45:55,360:INFO: 2019-06-16 21:45:55	 batch 27  to 27 :	global_step 0    	loss 2.5330	acc 0.2656
+2019-06-16 21:45:55,455:INFO: 2019-06-16 21:45:55	 batch 28  to 28 :	global_step 0    	loss 2.3178	acc 0.3750
+2019-06-16 21:45:55,682:INFO: 2019-06-16 21:45:55	 batch 29  to 29 :	global_step 0    	loss 3.0501	acc 0.0312
+2019-06-16 21:45:56,382:INFO: 2019-06-16 21:45:56	acc 0.2975	p 0.1087	r 0.1277	f1 0.0908
+2019-06-16 21:45:56,615:INFO: Model saved in C:\code\challenge\clfzoo\models/textcnn/1560692747/ckpt/, with name textcnn.
+2019-06-16 21:45:56,616:INFO: New best score!
+
+2019-06-16 21:45:56,616:INFO: ########################################
+2019-06-16 21:45:56,616:INFO: Epoch 2 / 50
+2019-06-16 21:45:57,266:INFO: 2019-06-16 21:45:57	 batch 1   to 1  :	global_step 0    	loss 2.7162	acc 0.2500
+2019-06-16 21:45:57,361:INFO: 2019-06-16 21:45:57	 batch 2   to 2  :	global_step 0    	loss 2.8465	acc 0.1562
+2019-06-16 21:45:57,456:INFO: 2019-06-16 21:45:57	 batch 3   to 3  :	global_step 0    	loss 2.4389	acc 0.3438
+2019-06-16 21:45:57,549:INFO: 2019-06-16 21:45:57	 batch 4   to 4  :	global_step 0    	loss 2.6462	acc 0.1719
+2019-06-16 21:45:57,661:INFO: 2019-06-16 21:45:57	 batch 5   to 5  :	global_step 0    	loss 2.4301	acc 0.2344
+2019-06-16 21:45:57,853:INFO: 2019-06-16 21:45:57	 batch 6   to 6  :	global_step 0    	loss 2.6251	acc 0.2656
+2019-06-16 21:45:58,027:INFO: 2019-06-16 21:45:58	 batch 7   to 7  :	global_step 0    	loss 2.6255	acc 0.2656
+2019-06-16 21:45:58,125:INFO: 2019-06-16 21:45:58	 batch 8   to 8  :	global_step 0    	loss 2.6920	acc 0.3125
+2019-06-16 21:45:58,220:INFO: 2019-06-16 21:45:58	 batch 9   to 9  :	global_step 0    	loss 2.1950	acc 0.4844
+2019-06-16 21:45:58,313:INFO: 2019-06-16 21:45:58	 batch 10  to 10 :	global_step 0    	loss 2.4220	acc 0.3750
+2019-06-16 21:45:58,406:INFO: 2019-06-16 21:45:58	 batch 11  to 11 :	global_step 0    	loss 2.5323	acc 0.2656
+2019-06-16 21:45:58,498:INFO: 2019-06-16 21:45:58	 batch 12  to 12 :	global_step 0    	loss 2.5245	acc 0.2656
+2019-06-16 21:45:58,593:INFO: 2019-06-16 21:45:58	 batch 13  to 13 :	global_step 0    	loss 2.3286	acc 0.3438
+2019-06-16 21:45:58,686:INFO: 2019-06-16 21:45:58	 batch 14  to 14 :	global_step 0    	loss 2.2643	acc 0.3594
+2019-06-16 21:45:58,780:INFO: 2019-06-16 21:45:58	 batch 15  to 15 :	global_step 0    	loss 2.5272	acc 0.2500
+2019-06-16 21:45:58,874:INFO: 2019-06-16 21:45:58	 batch 16  to 16 :	global_step 0    	loss 2.2457	acc 0.5156
+2019-06-16 21:45:58,966:INFO: 2019-06-16 21:45:58	 batch 17  to 17 :	global_step 0    	loss 2.1491	acc 0.4531
+2019-06-16 21:45:59,062:INFO: 2019-06-16 21:45:59	 batch 18  to 18 :	global_step 0    	loss 2.1225	acc 0.4062
+2019-06-16 21:45:59,157:INFO: 2019-06-16 21:45:59	 batch 19  to 19 :	global_step 0    	loss 2.0971	acc 0.4688
+2019-06-16 21:45:59,261:INFO: 2019-06-16 21:45:59	 batch 20  to 20 :	global_step 0    	loss 2.1674	acc 0.4375
+2019-06-16 21:45:59,357:INFO: 2019-06-16 21:45:59	 batch 21  to 21 :	global_step 0    	loss 2.0653	acc 0.4531
+2019-06-16 21:45:59,450:INFO: 2019-06-16 21:45:59	 batch 22  to 22 :	global_step 0    	loss 2.1556	acc 0.4375
+2019-06-16 21:45:59,543:INFO: 2019-06-16 21:45:59	 batch 23  to 23 :	global_step 0    	loss 2.0428	acc 0.4375
+2019-06-16 21:45:59,637:INFO: 2019-06-16 21:45:59	 batch 24  to 24 :	global_step 0    	loss 2.3166	acc 0.4219
+2019-06-16 21:45:59,728:INFO: 2019-06-16 21:45:59	 batch 25  to 25 :	global_step 0    	loss 2.1673	acc 0.4219
+2019-06-16 21:45:59,820:INFO: 2019-06-16 21:45:59	 batch 26  to 26 :	global_step 0    	loss 2.2926	acc 0.3594
+2019-06-16 21:45:59,911:INFO: 2019-06-16 21:45:59	 batch 27  to 27 :	global_step 0    	loss 2.4256	acc 0.3438
+2019-06-16 21:46:00,005:INFO: 2019-06-16 21:46:00	 batch 28  to 28 :	global_step 0    	loss 2.1018	acc 0.4531
+2019-06-16 21:46:00,108:INFO: 2019-06-16 21:46:00	 batch 29  to 29 :	global_step 0    	loss 2.3014	acc 0.9219
+2019-06-16 21:46:00,767:INFO: 2019-06-16 21:46:00	acc 0.4735	p 0.3370	r 0.2827	f1 0.2700
+2019-06-16 21:46:00,989:INFO: Model saved in C:\code\challenge\clfzoo\models/textcnn/1560692747/ckpt/, with name textcnn.
+2019-06-16 21:46:00,990:INFO: New best score!
+
+2019-06-16 21:46:00,990:INFO: ########################################
+2019-06-16 21:46:00,991:INFO: Epoch 3 / 50
+2019-06-16 21:46:01,659:INFO: 2019-06-16 21:46:01	 batch 1   to 1  :	global_step 0    	loss 2.0918	acc 0.3750
+2019-06-16 21:46:01,756:INFO: 2019-06-16 21:46:01	 batch 2   to 2  :	global_step 0    	loss 2.0644	acc 0.4844
+2019-06-16 21:46:01,852:INFO: 2019-06-16 21:46:01	 batch 3   to 3  :	global_step 0    	loss 2.1064	acc 0.4375
+2019-06-16 21:46:01,945:INFO: 2019-06-16 21:46:01	 batch 4   to 4  :	global_step 0    	loss 2.0349	acc 0.4219
+2019-06-16 21:46:02,036:INFO: 2019-06-16 21:46:02	 batch 5   to 5  :	global_step 0    	loss 1.8925	acc 0.5469
+2019-06-16 21:46:02,130:INFO: 2019-06-16 21:46:02	 batch 6   to 6  :	global_step 0    	loss 1.8472	acc 0.5469
+2019-06-16 21:46:02,223:INFO: 2019-06-16 21:46:02	 batch 7   to 7  :	global_step 0    	loss 1.9735	acc 0.4375
+2019-06-16 21:46:02,315:INFO: 2019-06-16 21:46:02	 batch 8   to 8  :	global_step 0    	loss 1.8070	acc 0.5156
+2019-06-16 21:46:02,410:INFO: 2019-06-16 21:46:02	 batch 9   to 9  :	global_step 0    	loss 2.0645	acc 0.4688
+2019-06-16 21:46:02,504:INFO: 2019-06-16 21:46:02	 batch 10  to 10 :	global_step 0    	loss 1.7883	acc 0.4844
+2019-06-16 21:46:02,597:INFO: 2019-06-16 21:46:02	 batch 11  to 11 :	global_step 0    	loss 1.9417	acc 0.5000
+2019-06-16 21:46:02,691:INFO: 2019-06-16 21:46:02	 batch 12  to 12 :	global_step 0    	loss 1.9097	acc 0.4375
+2019-06-16 21:46:02,783:INFO: 2019-06-16 21:46:02	 batch 13  to 13 :	global_step 0    	loss 2.1542	acc 0.4375
+2019-06-16 21:46:02,956:INFO: 2019-06-16 21:46:02	 batch 14  to 14 :	global_step 0    	loss 1.9525	acc 0.5156
+2019-06-16 21:46:03,089:INFO: 2019-06-16 21:46:03	 batch 15  to 15 :	global_step 0    	loss 1.7258	acc 0.5625
+2019-06-16 21:46:03,275:INFO: 2019-06-16 21:46:03	 batch 16  to 16 :	global_step 0    	loss 1.7124	acc 0.4688
+2019-06-16 21:46:03,373:INFO: 2019-06-16 21:46:03	 batch 17  to 17 :	global_step 0    	loss 1.8711	acc 0.5781
+2019-06-16 21:46:03,471:INFO: 2019-06-16 21:46:03	 batch 18  to 18 :	global_step 0    	loss 1.6822	acc 0.5469
+2019-06-16 21:46:03,566:INFO: 2019-06-16 21:46:03	 batch 19  to 19 :	global_step 0    	loss 1.7232	acc 0.5625
+2019-06-16 21:46:03,662:INFO: 2019-06-16 21:46:03	 batch 20  to 20 :	global_step 0    	loss 1.7308	acc 0.5312
+2019-06-16 21:46:03,753:INFO: 2019-06-16 21:46:03	 batch 21  to 21 :	global_step 0    	loss 1.8577	acc 0.5156
+2019-06-16 21:46:03,848:INFO: 2019-06-16 21:46:03	 batch 22  to 22 :	global_step 0    	loss 1.3733	acc 0.6250
+2019-06-16 21:46:03,944:INFO: 2019-06-16 21:46:03	 batch 23  to 23 :	global_step 0    	loss 1.6204	acc 0.6094
+2019-06-16 21:46:04,048:INFO: 2019-06-16 21:46:04	 batch 24  to 24 :	global_step 0    	loss 1.4935	acc 0.5781
+2019-06-16 21:46:04,144:INFO: 2019-06-16 21:46:04	 batch 25  to 25 :	global_step 0    	loss 1.7690	acc 0.4844
+2019-06-16 21:46:04,239:INFO: 2019-06-16 21:46:04	 batch 26  to 26 :	global_step 0    	loss 1.8643	acc 0.4531
+2019-06-16 21:46:04,335:INFO: 2019-06-16 21:46:04	 batch 27  to 27 :	global_step 0    	loss 1.5542	acc 0.6094
+2019-06-16 21:46:04,432:INFO: 2019-06-16 21:46:04	 batch 28  to 28 :	global_step 0    	loss 1.7943	acc 0.5000
+2019-06-16 21:46:04,536:INFO: 2019-06-16 21:46:04	 batch 29  to 29 :	global_step 0    	loss 1.6330	acc 0.9375
+2019-06-16 21:46:05,170:INFO: 2019-06-16 21:46:05	acc 0.5110	p 0.4435	r 0.3166	f1 0.3240
+2019-06-16 21:46:05,360:INFO: Model saved in C:\code\challenge\clfzoo\models/textcnn/1560692747/ckpt/, with name textcnn.
+2019-06-16 21:46:05,360:INFO: New best score!
+
+2019-06-16 21:46:05,361:INFO: ########################################
+2019-06-16 21:46:05,361:INFO: Epoch 4 / 50
+2019-06-16 21:46:06,441:INFO: 2019-06-16 21:46:06	 batch 1   to 1  :	global_step 0    	loss 1.5418	acc 0.5156
+2019-06-16 21:46:06,598:INFO: 2019-06-16 21:46:06	 batch 2   to 2  :	global_step 0    	loss 1.6200	acc 0.5156
+2019-06-16 21:46:06,733:INFO: 2019-06-16 21:46:06	 batch 3   to 3  :	global_step 0    	loss 1.9135	acc 0.4844
+2019-06-16 21:46:06,830:INFO: 2019-06-16 21:46:06	 batch 4   to 4  :	global_step 0    	loss 1.4395	acc 0.6250
+2019-06-16 21:46:06,930:INFO: 2019-06-16 21:46:06	 batch 5   to 5  :	global_step 0    	loss 1.5329	acc 0.5781
+2019-06-16 21:46:07,029:INFO: 2019-06-16 21:46:07	 batch 6   to 6  :	global_step 0    	loss 1.4938	acc 0.5469
+2019-06-16 21:46:07,126:INFO: 2019-06-16 21:46:07	 batch 7   to 7  :	global_step 0    	loss 1.3725	acc 0.6094
+2019-06-16 21:46:07,221:INFO: 2019-06-16 21:46:07	 batch 8   to 8  :	global_step 0    	loss 1.5475	acc 0.5469
+2019-06-16 21:46:07,316:INFO: 2019-06-16 21:46:07	 batch 9   to 9  :	global_step 0    	loss 1.4566	acc 0.6250
+2019-06-16 21:46:07,410:INFO: 2019-06-16 21:46:07	 batch 10  to 10 :	global_step 0    	loss 1.2714	acc 0.6875
+2019-06-16 21:46:07,504:INFO: 2019-06-16 21:46:07	 batch 11  to 11 :	global_step 0    	loss 1.5527	acc 0.5000
+2019-06-16 21:46:07,598:INFO: 2019-06-16 21:46:07	 batch 12  to 12 :	global_step 0    	loss 1.5103	acc 0.5781
+2019-06-16 21:46:07,692:INFO: 2019-06-16 21:46:07	 batch 13  to 13 :	global_step 0    	loss 1.6238	acc 0.5781
+2019-06-16 21:46:07,787:INFO: 2019-06-16 21:46:07	 batch 14  to 14 :	global_step 0    	loss 1.4873	acc 0.5625
+2019-06-16 21:46:07,880:INFO: 2019-06-16 21:46:07	 batch 15  to 15 :	global_step 0    	loss 1.5794	acc 0.6094
+2019-06-16 21:46:07,973:INFO: 2019-06-16 21:46:07	 batch 16  to 16 :	global_step 0    	loss 1.5923	acc 0.5469
+2019-06-16 21:46:08,072:INFO: 2019-06-16 21:46:08	 batch 17  to 17 :	global_step 0    	loss 1.2602	acc 0.6875
+2019-06-16 21:46:08,167:INFO: 2019-06-16 21:46:08	 batch 18  to 18 :	global_step 0    	loss 1.4690	acc 0.6250
+2019-06-16 21:46:08,259:INFO: 2019-06-16 21:46:08	 batch 19  to 19 :	global_step 0    	loss 1.2828	acc 0.6562
+2019-06-16 21:46:08,351:INFO: 2019-06-16 21:46:08	 batch 20  to 20 :	global_step 0    	loss 1.5633	acc 0.5625
+2019-06-16 21:46:08,442:INFO: 2019-06-16 21:46:08	 batch 21  to 21 :	global_step 0    	loss 1.3687	acc 0.6406
+2019-06-16 21:46:08,536:INFO: 2019-06-16 21:46:08	 batch 22  to 22 :	global_step 0    	loss 1.3655	acc 0.6562
+2019-06-16 21:46:08,629:INFO: 2019-06-16 21:46:08	 batch 23  to 23 :	global_step 0    	loss 1.4660	acc 0.5781
+2019-06-16 21:46:08,719:INFO: 2019-06-16 21:46:08	 batch 24  to 24 :	global_step 0    	loss 1.1130	acc 0.7188
+2019-06-16 21:46:08,813:INFO: 2019-06-16 21:46:08	 batch 25  to 25 :	global_step 0    	loss 1.1922	acc 0.6562
+2019-06-16 21:46:08,903:INFO: 2019-06-16 21:46:08	 batch 26  to 26 :	global_step 0    	loss 1.4340	acc 0.5781
+2019-06-16 21:46:08,996:INFO: 2019-06-16 21:46:08	 batch 27  to 27 :	global_step 0    	loss 1.4056	acc 0.5938
+2019-06-16 21:46:09,090:INFO: 2019-06-16 21:46:09	 batch 28  to 28 :	global_step 0    	loss 1.2781	acc 0.6562
+2019-06-16 21:46:09,189:INFO: 2019-06-16 21:46:09	 batch 29  to 29 :	global_step 0    	loss 1.1089	acc 0.9375
+2019-06-16 21:46:09,984:INFO: 2019-06-16 21:46:09	acc 0.6119	p 0.4739	r 0.4601	f1 0.4371
+2019-06-16 21:46:10,149:INFO: Model saved in C:\code\challenge\clfzoo\models/textcnn/1560692747/ckpt/, with name textcnn.
+2019-06-16 21:46:10,149:INFO: New best score!
+
+2019-06-16 21:46:10,150:INFO: ########################################
+2019-06-16 21:46:10,150:INFO: Epoch 5 / 50
+2019-06-16 21:46:10,808:INFO: 2019-06-16 21:46:10	 batch 1   to 1  :	global_step 0    	loss 1.3142	acc 0.6094
+2019-06-16 21:46:10,903:INFO: 2019-06-16 21:46:10	 batch 2   to 2  :	global_step 0    	loss 1.4243	acc 0.6094
+2019-06-16 21:46:10,995:INFO: 2019-06-16 21:46:10	 batch 3   to 3  :	global_step 0    	loss 1.1948	acc 0.7188
+2019-06-16 21:46:11,088:INFO: 2019-06-16 21:46:11	 batch 4   to 4  :	global_step 0    	loss 1.2686	acc 0.6250
+2019-06-16 21:46:11,180:INFO: 2019-06-16 21:46:11	 batch 5   to 5  :	global_step 0    	loss 1.3701	acc 0.6094
+2019-06-16 21:46:11,271:INFO: 2019-06-16 21:46:11	 batch 6   to 6  :	global_step 0    	loss 1.2614	acc 0.6562
+2019-06-16 21:46:11,363:INFO: 2019-06-16 21:46:11	 batch 7   to 7  :	global_step 0    	loss 1.0714	acc 0.7656
+2019-06-16 21:46:11,455:INFO: 2019-06-16 21:46:11	 batch 8   to 8  :	global_step 0    	loss 1.1403	acc 0.7031
+2019-06-16 21:46:11,547:INFO: 2019-06-16 21:46:11	 batch 9   to 9  :	global_step 0    	loss 1.5012	acc 0.5781
+2019-06-16 21:46:11,642:INFO: 2019-06-16 21:46:11	 batch 10  to 10 :	global_step 0    	loss 1.1966	acc 0.6875
+2019-06-16 21:46:11,736:INFO: 2019-06-16 21:46:11	 batch 11  to 11 :	global_step 0    	loss 1.1851	acc 0.6562
+2019-06-16 21:46:11,831:INFO: 2019-06-16 21:46:11	 batch 12  to 12 :	global_step 0    	loss 1.4656	acc 0.5938
+2019-06-16 21:46:11,923:INFO: 2019-06-16 21:46:11	 batch 13  to 13 :	global_step 0    	loss 1.3808	acc 0.6562
+2019-06-16 21:46:12,016:INFO: 2019-06-16 21:46:12	 batch 14  to 14 :	global_step 0    	loss 1.0606	acc 0.7344
+2019-06-16 21:46:12,113:INFO: 2019-06-16 21:46:12	 batch 15  to 15 :	global_step 0    	loss 1.2060	acc 0.7344
+2019-06-16 21:46:12,209:INFO: 2019-06-16 21:46:12	 batch 16  to 16 :	global_step 0    	loss 0.7678	acc 0.7969
+2019-06-16 21:46:12,300:INFO: 2019-06-16 21:46:12	 batch 17  to 17 :	global_step 0    	loss 1.1464	acc 0.7031
+2019-06-16 21:46:12,396:INFO: 2019-06-16 21:46:12	 batch 18  to 18 :	global_step 0    	loss 1.0507	acc 0.7656
+2019-06-16 21:46:12,492:INFO: 2019-06-16 21:46:12	 batch 19  to 19 :	global_step 0    	loss 1.1318	acc 0.7031
+2019-06-16 21:46:12,587:INFO: 2019-06-16 21:46:12	 batch 20  to 20 :	global_step 0    	loss 0.9437	acc 0.7188
+2019-06-16 21:46:12,684:INFO: 2019-06-16 21:46:12	 batch 21  to 21 :	global_step 0    	loss 0.9596	acc 0.7188
+2019-06-16 21:46:12,781:INFO: 2019-06-16 21:46:12	 batch 22  to 22 :	global_step 0    	loss 1.1880	acc 0.6562
+2019-06-16 21:46:12,880:INFO: 2019-06-16 21:46:12	 batch 23  to 23 :	global_step 0    	loss 0.9522	acc 0.7656
+2019-06-16 21:46:12,988:INFO: 2019-06-16 21:46:12	 batch 24  to 24 :	global_step 0    	loss 1.1460	acc 0.7344
+2019-06-16 21:46:13,081:INFO: 2019-06-16 21:46:13	 batch 25  to 25 :	global_step 0    	loss 1.0381	acc 0.7344
+2019-06-16 21:46:13,174:INFO: 2019-06-16 21:46:13	 batch 26  to 26 :	global_step 0    	loss 0.7913	acc 0.7500
+2019-06-16 21:46:13,266:INFO: 2019-06-16 21:46:13	 batch 27  to 27 :	global_step 0    	loss 1.0660	acc 0.7500
+2019-06-16 21:46:13,359:INFO: 2019-06-16 21:46:13	 batch 28  to 28 :	global_step 0    	loss 1.0096	acc 0.7500
+2019-06-16 21:46:13,458:INFO: 2019-06-16 21:46:13	 batch 29  to 29 :	global_step 0    	loss 0.7747	acc 0.9375
+2019-06-16 21:46:14,067:INFO: 2019-06-16 21:46:14	acc 0.6753	p 0.6151	r 0.4960	f1 0.5175
+2019-06-16 21:46:14,246:INFO: Model saved in C:\code\challenge\clfzoo\models/textcnn/1560692747/ckpt/, with name textcnn.
+2019-06-16 21:46:14,246:INFO: New best score!
+
+2019-06-16 21:46:14,246:INFO: ########################################
+2019-06-16 21:46:14,247:INFO: Epoch 6 / 50
+2019-06-16 21:46:14,883:INFO: 2019-06-16 21:46:14	 batch 1   to 1  :	global_step 0    	loss 0.9790	acc 0.7031
+2019-06-16 21:46:14,974:INFO: 2019-06-16 21:46:14	 batch 2   to 2  :	global_step 0    	loss 1.1195	acc 0.6875
+2019-06-16 21:46:15,070:INFO: 2019-06-16 21:46:15	 batch 3   to 3  :	global_step 0    	loss 1.0657	acc 0.6875
+2019-06-16 21:46:15,165:INFO: 2019-06-16 21:46:15	 batch 4   to 4  :	global_step 0    	loss 0.9905	acc 0.7500
+2019-06-16 21:46:15,261:INFO: 2019-06-16 21:46:15	 batch 5   to 5  :	global_step 0    	loss 0.9078	acc 0.7500
+2019-06-16 21:46:15,361:INFO: 2019-06-16 21:46:15	 batch 6   to 6  :	global_step 0    	loss 0.8560	acc 0.7656
+2019-06-16 21:46:15,455:INFO: 2019-06-16 21:46:15	 batch 7   to 7  :	global_step 0    	loss 1.0478	acc 0.7656
+2019-06-16 21:46:15,546:INFO: 2019-06-16 21:46:15	 batch 8   to 8  :	global_step 0    	loss 0.9269	acc 0.7812
+2019-06-16 21:46:15,639:INFO: 2019-06-16 21:46:15	 batch 9   to 9  :	global_step 0    	loss 0.6890	acc 0.8281
+2019-06-16 21:46:15,730:INFO: 2019-06-16 21:46:15	 batch 10  to 10 :	global_step 0    	loss 0.7875	acc 0.7969
+2019-06-16 21:46:15,823:INFO: 2019-06-16 21:46:15	 batch 11  to 11 :	global_step 0    	loss 1.1163	acc 0.7656
+2019-06-16 21:46:15,914:INFO: 2019-06-16 21:46:15	 batch 12  to 12 :	global_step 0    	loss 0.8987	acc 0.7812
+2019-06-16 21:46:16,004:INFO: 2019-06-16 21:46:16	 batch 13  to 13 :	global_step 0    	loss 0.7972	acc 0.8125
+2019-06-16 21:46:16,095:INFO: 2019-06-16 21:46:16	 batch 14  to 14 :	global_step 0    	loss 0.8818	acc 0.7969
+2019-06-16 21:46:16,189:INFO: 2019-06-16 21:46:16	 batch 15  to 15 :	global_step 0    	loss 0.6278	acc 0.8594
+2019-06-16 21:46:16,280:INFO: 2019-06-16 21:46:16	 batch 16  to 16 :	global_step 0    	loss 1.3916	acc 0.6094
+2019-06-16 21:46:16,372:INFO: 2019-06-16 21:46:16	 batch 17  to 17 :	global_step 0    	loss 0.8566	acc 0.7656
+2019-06-16 21:46:16,468:INFO: 2019-06-16 21:46:16	 batch 18  to 18 :	global_step 0    	loss 0.7614	acc 0.7656
+2019-06-16 21:46:16,559:INFO: 2019-06-16 21:46:16	 batch 19  to 19 :	global_step 0    	loss 0.7865	acc 0.7656
+2019-06-16 21:46:16,652:INFO: 2019-06-16 21:46:16	 batch 20  to 20 :	global_step 0    	loss 0.8877	acc 0.7188
+2019-06-16 21:46:16,745:INFO: 2019-06-16 21:46:16	 batch 21  to 21 :	global_step 0    	loss 0.7410	acc 0.7969
+2019-06-16 21:46:16,835:INFO: 2019-06-16 21:46:16	 batch 22  to 22 :	global_step 0    	loss 0.7772	acc 0.8125
+2019-06-16 21:46:16,926:INFO: 2019-06-16 21:46:16	 batch 23  to 23 :	global_step 0    	loss 0.9551	acc 0.7656
+2019-06-16 21:46:17,022:INFO: 2019-06-16 21:46:17	 batch 24  to 24 :	global_step 0    	loss 0.9296	acc 0.7031
+2019-06-16 21:46:17,114:INFO: 2019-06-16 21:46:17	 batch 25  to 25 :	global_step 0    	loss 1.0779	acc 0.6875
+2019-06-16 21:46:17,206:INFO: 2019-06-16 21:46:17	 batch 26  to 26 :	global_step 0    	loss 0.9670	acc 0.7500
+2019-06-16 21:46:17,298:INFO: 2019-06-16 21:46:17	 batch 27  to 27 :	global_step 0    	loss 0.7973	acc 0.7969
+2019-06-16 21:46:17,391:INFO: 2019-06-16 21:46:17	 batch 28  to 28 :	global_step 0    	loss 0.8319	acc 0.7500
+2019-06-16 21:46:17,491:INFO: 2019-06-16 21:46:17	 batch 29  to 29 :	global_step 0    	loss 0.5215	acc 1.0000
+2019-06-16 21:46:18,135:INFO: 2019-06-16 21:46:18	acc 0.7322	p 0.7283	r 0.6153	f1 0.6455
+2019-06-16 21:46:18,306:INFO: Model saved in C:\code\challenge\clfzoo\models/textcnn/1560692747/ckpt/, with name textcnn.
+2019-06-16 21:46:18,306:INFO: New best score!
+
+2019-06-16 21:46:18,307:INFO: ########################################
+2019-06-16 21:46:18,307:INFO: Epoch 7 / 50
+2019-06-16 21:46:19,000:INFO: 2019-06-16 21:46:19	 batch 1   to 1  :	global_step 0    	loss 0.7347	acc 0.7969
+2019-06-16 21:46:19,093:INFO: 2019-06-16 21:46:19	 batch 2   to 2  :	global_step 0    	loss 0.7558	acc 0.7969
+2019-06-16 21:46:19,185:INFO: 2019-06-16 21:46:19	 batch 3   to 3  :	global_step 0    	loss 0.7122	acc 0.8594
+2019-06-16 21:46:19,278:INFO: 2019-06-16 21:46:19	 batch 4   to 4  :	global_step 0    	loss 0.7952	acc 0.7656
+2019-06-16 21:46:19,369:INFO: 2019-06-16 21:46:19	 batch 5   to 5  :	global_step 0    	loss 0.7004	acc 0.7656
+2019-06-16 21:46:19,459:INFO: 2019-06-16 21:46:19	 batch 6   to 6  :	global_step 0    	loss 0.5965	acc 0.8438
+2019-06-16 21:46:19,551:INFO: 2019-06-16 21:46:19	 batch 7   to 7  :	global_step 0    	loss 0.7635	acc 0.7656
+2019-06-16 21:46:19,644:INFO: 2019-06-16 21:46:19	 batch 8   to 8  :	global_step 0    	loss 0.5461	acc 0.8906
+2019-06-16 21:46:19,735:INFO: 2019-06-16 21:46:19	 batch 9   to 9  :	global_step 0    	loss 0.8360	acc 0.7969
+2019-06-16 21:46:19,828:INFO: 2019-06-16 21:46:19	 batch 10  to 10 :	global_step 0    	loss 0.7026	acc 0.8438
+2019-06-16 21:46:19,920:INFO: 2019-06-16 21:46:19	 batch 11  to 11 :	global_step 0    	loss 0.6287	acc 0.8125
+2019-06-16 21:46:20,013:INFO: 2019-06-16 21:46:20	 batch 12  to 12 :	global_step 0    	loss 0.7155	acc 0.7969
+2019-06-16 21:46:20,109:INFO: 2019-06-16 21:46:20	 batch 13  to 13 :	global_step 0    	loss 0.7611	acc 0.8281
+2019-06-16 21:46:20,199:INFO: 2019-06-16 21:46:20	 batch 14  to 14 :	global_step 0    	loss 0.7493	acc 0.8125
+2019-06-16 21:46:20,290:INFO: 2019-06-16 21:46:20	 batch 15  to 15 :	global_step 0    	loss 0.5664	acc 0.9062
+2019-06-16 21:46:20,383:INFO: 2019-06-16 21:46:20	 batch 16  to 16 :	global_step 0    	loss 0.8998	acc 0.7812
+2019-06-16 21:46:20,478:INFO: 2019-06-16 21:46:20	 batch 17  to 17 :	global_step 0    	loss 0.7821	acc 0.7969
+2019-06-16 21:46:20,572:INFO: 2019-06-16 21:46:20	 batch 18  to 18 :	global_step 0    	loss 0.7771	acc 0.7812
+2019-06-16 21:46:20,667:INFO: 2019-06-16 21:46:20	 batch 19  to 19 :	global_step 0    	loss 0.8323	acc 0.7812
+2019-06-16 21:46:20,761:INFO: 2019-06-16 21:46:20	 batch 20  to 20 :	global_step 0    	loss 0.5436	acc 0.8906
+2019-06-16 21:46:20,856:INFO: 2019-06-16 21:46:20	 batch 21  to 21 :	global_step 0    	loss 0.6224	acc 0.8594
+2019-06-16 21:46:20,951:INFO: 2019-06-16 21:46:20	 batch 22  to 22 :	global_step 0    	loss 0.5928	acc 0.8594
+2019-06-16 21:46:21,046:INFO: 2019-06-16 21:46:21	 batch 23  to 23 :	global_step 0    	loss 0.5744	acc 0.8438
+2019-06-16 21:46:21,140:INFO: 2019-06-16 21:46:21	 batch 24  to 24 :	global_step 0    	loss 0.7835	acc 0.8281
+2019-06-16 21:46:21,236:INFO: 2019-06-16 21:46:21	 batch 25  to 25 :	global_step 0    	loss 0.7291	acc 0.8438
+2019-06-16 21:46:21,331:INFO: 2019-06-16 21:46:21	 batch 26  to 26 :	global_step 0    	loss 0.7396	acc 0.8281
+2019-06-16 21:46:21,426:INFO: 2019-06-16 21:46:21	 batch 27  to 27 :	global_step 0    	loss 0.8510	acc 0.7500
+2019-06-16 21:46:21,520:INFO: 2019-06-16 21:46:21	 batch 28  to 28 :	global_step 0    	loss 0.4737	acc 0.8906
+2019-06-16 21:46:21,621:INFO: 2019-06-16 21:46:21	 batch 29  to 29 :	global_step 0    	loss 0.5762	acc 0.9375
+2019-06-16 21:46:22,229:INFO: 2019-06-16 21:46:22	acc 0.7658	p 0.7393	r 0.6438	f1 0.6628
+2019-06-16 21:46:22,409:INFO: Model saved in C:\code\challenge\clfzoo\models/textcnn/1560692747/ckpt/, with name textcnn.
+2019-06-16 21:46:22,410:INFO: New best score!
+
+2019-06-16 21:46:22,410:INFO: ########################################
+2019-06-16 21:46:22,411:INFO: Epoch 8 / 50
+2019-06-16 21:46:23,110:INFO: 2019-06-16 21:46:23	 batch 1   to 1  :	global_step 0    	loss 0.6881	acc 0.8594
+2019-06-16 21:46:23,204:INFO: 2019-06-16 21:46:23	 batch 2   to 2  :	global_step 0    	loss 0.6940	acc 0.8281
+2019-06-16 21:46:23,293:INFO: 2019-06-16 21:46:23	 batch 3   to 3  :	global_step 0    	loss 0.5179	acc 0.8906
+2019-06-16 21:46:23,386:INFO: 2019-06-16 21:46:23	 batch 4   to 4  :	global_step 0    	loss 0.3675	acc 0.9688
+2019-06-16 21:46:23,480:INFO: 2019-06-16 21:46:23	 batch 5   to 5  :	global_step 0    	loss 0.7169	acc 0.7812
+2019-06-16 21:46:23,574:INFO: 2019-06-16 21:46:23	 batch 6   to 6  :	global_step 0    	loss 0.4889	acc 0.8906
+2019-06-16 21:46:23,667:INFO: 2019-06-16 21:46:23	 batch 7   to 7  :	global_step 0    	loss 0.4620	acc 0.9219
+2019-06-16 21:46:23,760:INFO: 2019-06-16 21:46:23	 batch 8   to 8  :	global_step 0    	loss 0.6725	acc 0.8125
+2019-06-16 21:46:23,852:INFO: 2019-06-16 21:46:23	 batch 9   to 9  :	global_step 0    	loss 0.6054	acc 0.8750
+2019-06-16 21:46:23,945:INFO: 2019-06-16 21:46:23	 batch 10  to 10 :	global_step 0    	loss 0.4775	acc 0.8906
+2019-06-16 21:46:24,036:INFO: 2019-06-16 21:46:24	 batch 11  to 11 :	global_step 0    	loss 0.6155	acc 0.8594
+2019-06-16 21:46:24,126:INFO: 2019-06-16 21:46:24	 batch 12  to 12 :	global_step 0    	loss 0.5738	acc 0.8594
+2019-06-16 21:46:24,219:INFO: 2019-06-16 21:46:24	 batch 13  to 13 :	global_step 0    	loss 0.6326	acc 0.8594
+2019-06-16 21:46:24,311:INFO: 2019-06-16 21:46:24	 batch 14  to 14 :	global_step 0    	loss 0.5104	acc 0.8594
+2019-06-16 21:46:24,402:INFO: 2019-06-16 21:46:24	 batch 15  to 15 :	global_step 0    	loss 0.5539	acc 0.8438
+2019-06-16 21:46:24,494:INFO: 2019-06-16 21:46:24	 batch 16  to 16 :	global_step 0    	loss 0.7762	acc 0.7656
+2019-06-16 21:46:24,585:INFO: 2019-06-16 21:46:24	 batch 17  to 17 :	global_step 0    	loss 0.7639	acc 0.7656
+2019-06-16 21:46:24,676:INFO: 2019-06-16 21:46:24	 batch 18  to 18 :	global_step 0    	loss 0.4920	acc 0.8750
+2019-06-16 21:46:24,773:INFO: 2019-06-16 21:46:24	 batch 19  to 19 :	global_step 0    	loss 0.7454	acc 0.7500
+2019-06-16 21:46:24,867:INFO: 2019-06-16 21:46:24	 batch 20  to 20 :	global_step 0    	loss 0.5222	acc 0.8750
+2019-06-16 21:46:24,960:INFO: 2019-06-16 21:46:24	 batch 21  to 21 :	global_step 0    	loss 0.4923	acc 0.8750
+2019-06-16 21:46:25,054:INFO: 2019-06-16 21:46:25	 batch 22  to 22 :	global_step 0    	loss 1.1266	acc 0.6719
+2019-06-16 21:46:25,145:INFO: 2019-06-16 21:46:25	 batch 23  to 23 :	global_step 0    	loss 0.8319	acc 0.7656
+2019-06-16 21:46:25,239:INFO: 2019-06-16 21:46:25	 batch 24  to 24 :	global_step 0    	loss 0.6021	acc 0.8438
+2019-06-16 21:46:25,333:INFO: 2019-06-16 21:46:25	 batch 25  to 25 :	global_step 0    	loss 0.4272	acc 0.9219
+2019-06-16 21:46:25,425:INFO: 2019-06-16 21:46:25	 batch 26  to 26 :	global_step 0    	loss 0.4397	acc 0.9219
+2019-06-16 21:46:25,520:INFO: 2019-06-16 21:46:25	 batch 27  to 27 :	global_step 0    	loss 0.4286	acc 0.9375
+2019-06-16 21:46:25,614:INFO: 2019-06-16 21:46:25	 batch 28  to 28 :	global_step 0    	loss 0.4730	acc 0.9062
+2019-06-16 21:46:25,719:INFO: 2019-06-16 21:46:25	 batch 29  to 29 :	global_step 0    	loss 0.3847	acc 0.9688
+2019-06-16 21:46:26,369:INFO: 2019-06-16 21:46:26	acc 0.7620	p 0.7768	r 0.6459	f1 0.6814
+2019-06-16 21:46:26,369:INFO: ########################################
+2019-06-16 21:46:26,370:INFO: Epoch 9 / 50
+2019-06-16 21:46:26,994:INFO: 2019-06-16 21:46:26	 batch 1   to 1  :	global_step 0    	loss 0.6516	acc 0.8125
+2019-06-16 21:46:27,089:INFO: 2019-06-16 21:46:27	 batch 2   to 2  :	global_step 0    	loss 0.5975	acc 0.8438
+2019-06-16 21:46:27,184:INFO: 2019-06-16 21:46:27	 batch 3   to 3  :	global_step 0    	loss 0.4062	acc 0.8594
+2019-06-16 21:46:27,279:INFO: 2019-06-16 21:46:27	 batch 4   to 4  :	global_step 0    	loss 0.5621	acc 0.9062
+2019-06-16 21:46:27,371:INFO: 2019-06-16 21:46:27	 batch 5   to 5  :	global_step 0    	loss 0.4631	acc 0.8281
+2019-06-16 21:46:27,466:INFO: 2019-06-16 21:46:27	 batch 6   to 6  :	global_step 0    	loss 0.4896	acc 0.9219
+2019-06-16 21:46:27,557:INFO: 2019-06-16 21:46:27	 batch 7   to 7  :	global_step 0    	loss 0.4364	acc 0.9062
+2019-06-16 21:46:27,653:INFO: 2019-06-16 21:46:27	 batch 8   to 8  :	global_step 0    	loss 0.5619	acc 0.7812
+2019-06-16 21:46:27,745:INFO: 2019-06-16 21:46:27	 batch 9   to 9  :	global_step 0    	loss 0.4344	acc 0.8750
+2019-06-16 21:46:27,840:INFO: 2019-06-16 21:46:27	 batch 10  to 10 :	global_step 0    	loss 0.4263	acc 0.8750
+2019-06-16 21:46:27,935:INFO: 2019-06-16 21:46:27	 batch 11  to 11 :	global_step 0    	loss 0.5206	acc 0.8438
+2019-06-16 21:46:28,029:INFO: 2019-06-16 21:46:28	 batch 12  to 12 :	global_step 0    	loss 0.4048	acc 0.9375
+2019-06-16 21:46:28,120:INFO: 2019-06-16 21:46:28	 batch 13  to 13 :	global_step 0    	loss 0.5046	acc 0.8438
+2019-06-16 21:46:28,218:INFO: 2019-06-16 21:46:28	 batch 14  to 14 :	global_step 0    	loss 0.3529	acc 0.9375
+2019-06-16 21:46:28,317:INFO: 2019-06-16 21:46:28	 batch 15  to 15 :	global_step 0    	loss 0.6047	acc 0.8125
+2019-06-16 21:46:28,415:INFO: 2019-06-16 21:46:28	 batch 16  to 16 :	global_step 0    	loss 0.6481	acc 0.8438
+2019-06-16 21:46:28,510:INFO: 2019-06-16 21:46:28	 batch 17  to 17 :	global_step 0    	loss 0.6759	acc 0.7812
+2019-06-16 21:46:28,602:INFO: 2019-06-16 21:46:28	 batch 18  to 18 :	global_step 0    	loss 0.5786	acc 0.8281
+2019-06-16 21:46:28,694:INFO: 2019-06-16 21:46:28	 batch 19  to 19 :	global_step 0    	loss 0.4843	acc 0.8750
+2019-06-16 21:46:28,789:INFO: 2019-06-16 21:46:28	 batch 20  to 20 :	global_step 0    	loss 0.3709	acc 0.9062
+2019-06-16 21:46:28,883:INFO: 2019-06-16 21:46:28	 batch 21  to 21 :	global_step 0    	loss 0.3773	acc 0.8906
+2019-06-16 21:46:28,980:INFO: 2019-06-16 21:46:28	 batch 22  to 22 :	global_step 0    	loss 0.4940	acc 0.8750
+2019-06-16 21:46:29,075:INFO: 2019-06-16 21:46:29	 batch 23  to 23 :	global_step 0    	loss 0.4858	acc 0.8906
+2019-06-16 21:46:29,165:INFO: 2019-06-16 21:46:29	 batch 24  to 24 :	global_step 0    	loss 0.4406	acc 0.8438
+2019-06-16 21:46:29,258:INFO: 2019-06-16 21:46:29	 batch 25  to 25 :	global_step 0    	loss 0.4668	acc 0.8906
+2019-06-16 21:46:29,350:INFO: 2019-06-16 21:46:29	 batch 26  to 26 :	global_step 0    	loss 0.5032	acc 0.8906
+2019-06-16 21:46:29,442:INFO: 2019-06-16 21:46:29	 batch 27  to 27 :	global_step 0    	loss 0.3619	acc 0.9375
+2019-06-16 21:46:29,537:INFO: 2019-06-16 21:46:29	 batch 28  to 28 :	global_step 0    	loss 0.4973	acc 0.8438
+2019-06-16 21:46:29,643:INFO: 2019-06-16 21:46:29	 batch 29  to 29 :	global_step 0    	loss 0.3557	acc 0.9844
+2019-06-16 21:46:30,281:INFO: 2019-06-16 21:46:30	acc 0.7788	p 0.7678	r 0.6675	f1 0.6891
+2019-06-16 21:46:30,453:INFO: Model saved in C:\code\challenge\clfzoo\models/textcnn/1560692747/ckpt/, with name textcnn.
+2019-06-16 21:46:30,453:INFO: New best score!
+
+2019-06-16 21:46:30,454:INFO: ########################################
+2019-06-16 21:46:30,454:INFO: Epoch 10 / 50
+2019-06-16 21:46:31,175:INFO: 2019-06-16 21:46:31	 batch 1   to 1  :	global_step 0    	loss 0.5138	acc 0.8750
+2019-06-16 21:46:31,265:INFO: 2019-06-16 21:46:31	 batch 2   to 2  :	global_step 0    	loss 0.3282	acc 0.9062
+2019-06-16 21:46:31,358:INFO: 2019-06-16 21:46:31	 batch 3   to 3  :	global_step 0    	loss 0.4928	acc 0.8438
+2019-06-16 21:46:31,450:INFO: 2019-06-16 21:46:31	 batch 4   to 4  :	global_step 0    	loss 0.4939	acc 0.8594
+2019-06-16 21:46:31,541:INFO: 2019-06-16 21:46:31	 batch 5   to 5  :	global_step 0    	loss 0.3520	acc 0.9688
+2019-06-16 21:46:31,635:INFO: 2019-06-16 21:46:31	 batch 6   to 6  :	global_step 0    	loss 0.3891	acc 0.9219
+2019-06-16 21:46:31,729:INFO: 2019-06-16 21:46:31	 batch 7   to 7  :	global_step 0    	loss 0.5837	acc 0.8750
+2019-06-16 21:46:31,822:INFO: 2019-06-16 21:46:31	 batch 8   to 8  :	global_step 0    	loss 0.4080	acc 0.9062
+2019-06-16 21:46:31,918:INFO: 2019-06-16 21:46:31	 batch 9   to 9  :	global_step 0    	loss 0.3845	acc 0.8906
+2019-06-16 21:46:32,012:INFO: 2019-06-16 21:46:32	 batch 10  to 10 :	global_step 0    	loss 0.4172	acc 0.9062
+2019-06-16 21:46:32,108:INFO: 2019-06-16 21:46:32	 batch 11  to 11 :	global_step 0    	loss 0.3208	acc 0.9219
+2019-06-16 21:46:32,202:INFO: 2019-06-16 21:46:32	 batch 12  to 12 :	global_step 0    	loss 0.3435	acc 0.9375
+2019-06-16 21:46:32,295:INFO: 2019-06-16 21:46:32	 batch 13  to 13 :	global_step 0    	loss 0.3282	acc 0.9219
+2019-06-16 21:46:32,392:INFO: 2019-06-16 21:46:32	 batch 14  to 14 :	global_step 0    	loss 0.4574	acc 0.8594
+2019-06-16 21:46:32,488:INFO: 2019-06-16 21:46:32	 batch 15  to 15 :	global_step 0    	loss 0.2936	acc 0.9375
+2019-06-16 21:46:32,580:INFO: 2019-06-16 21:46:32	 batch 16  to 16 :	global_step 0    	loss 0.4439	acc 0.8750
+2019-06-16 21:46:32,672:INFO: 2019-06-16 21:46:32	 batch 17  to 17 :	global_step 0    	loss 0.3548	acc 0.8906
+2019-06-16 21:46:32,764:INFO: 2019-06-16 21:46:32	 batch 18  to 18 :	global_step 0    	loss 0.4158	acc 0.8906
+2019-06-16 21:46:32,859:INFO: 2019-06-16 21:46:32	 batch 19  to 19 :	global_step 0    	loss 0.2921	acc 0.8906
+2019-06-16 21:46:32,953:INFO: 2019-06-16 21:46:32	 batch 20  to 20 :	global_step 0    	loss 0.5600	acc 0.8750
+2019-06-16 21:46:33,047:INFO: 2019-06-16 21:46:33	 batch 21  to 21 :	global_step 0    	loss 0.4397	acc 0.8906
+2019-06-16 21:46:33,148:INFO: 2019-06-16 21:46:33	 batch 22  to 22 :	global_step 0    	loss 0.3470	acc 0.8750
+2019-06-16 21:46:33,251:INFO: 2019-06-16 21:46:33	 batch 23  to 23 :	global_step 0    	loss 0.4872	acc 0.8750
+2019-06-16 21:46:33,344:INFO: 2019-06-16 21:46:33	 batch 24  to 24 :	global_step 0    	loss 0.2910	acc 0.9219
+2019-06-16 21:46:33,442:INFO: 2019-06-16 21:46:33	 batch 25  to 25 :	global_step 0    	loss 0.4166	acc 0.9375
+2019-06-16 21:46:33,541:INFO: 2019-06-16 21:46:33	 batch 26  to 26 :	global_step 0    	loss 0.4893	acc 0.8750
+2019-06-16 21:46:33,637:INFO: 2019-06-16 21:46:33	 batch 27  to 27 :	global_step 0    	loss 0.5037	acc 0.8438
+2019-06-16 21:46:33,734:INFO: 2019-06-16 21:46:33	 batch 28  to 28 :	global_step 0    	loss 0.4577	acc 0.9062
+2019-06-16 21:46:33,831:INFO: 2019-06-16 21:46:33	 batch 29  to 29 :	global_step 0    	loss 0.3133	acc 0.9844
+2019-06-16 21:46:34,530:INFO: 2019-06-16 21:46:34	acc 0.7956	p 0.7972	r 0.6966	f1 0.7259
+2019-06-16 21:46:34,703:INFO: Model saved in C:\code\challenge\clfzoo\models/textcnn/1560692747/ckpt/, with name textcnn.
+2019-06-16 21:46:34,704:INFO: New best score!
+
+2019-06-16 21:46:34,704:INFO: ########################################
+2019-06-16 21:46:34,704:INFO: Epoch 11 / 50
+2019-06-16 21:46:35,551:INFO: 2019-06-16 21:46:35	 batch 1   to 1  :	global_step 0    	loss 0.3454	acc 0.9531
+2019-06-16 21:46:35,651:INFO: 2019-06-16 21:46:35	 batch 2   to 2  :	global_step 0    	loss 0.4154	acc 0.9219
+2019-06-16 21:46:35,750:INFO: 2019-06-16 21:46:35	 batch 3   to 3  :	global_step 0    	loss 0.3644	acc 0.9219
+2019-06-16 21:46:35,849:INFO: 2019-06-16 21:46:35	 batch 4   to 4  :	global_step 0    	loss 0.4237	acc 0.8594
+2019-06-16 21:46:35,946:INFO: 2019-06-16 21:46:35	 batch 5   to 5  :	global_step 0    	loss 0.2477	acc 0.9844
+2019-06-16 21:46:36,047:INFO: 2019-06-16 21:46:36	 batch 6   to 6  :	global_step 0    	loss 0.2394	acc 0.9688
+2019-06-16 21:46:36,146:INFO: 2019-06-16 21:46:36	 batch 7   to 7  :	global_step 0    	loss 0.3709	acc 0.8750
+2019-06-16 21:46:36,243:INFO: 2019-06-16 21:46:36	 batch 8   to 8  :	global_step 0    	loss 0.4313	acc 0.9062
+2019-06-16 21:46:36,343:INFO: 2019-06-16 21:46:36	 batch 9   to 9  :	global_step 0    	loss 0.4315	acc 0.8594
+2019-06-16 21:46:36,440:INFO: 2019-06-16 21:46:36	 batch 10  to 10 :	global_step 0    	loss 0.5284	acc 0.8906
+2019-06-16 21:46:36,537:INFO: 2019-06-16 21:46:36	 batch 11  to 11 :	global_step 0    	loss 0.3262	acc 0.9375
+2019-06-16 21:46:36,635:INFO: 2019-06-16 21:46:36	 batch 12  to 12 :	global_step 0    	loss 0.4352	acc 0.8438
+2019-06-16 21:46:36,734:INFO: 2019-06-16 21:46:36	 batch 13  to 13 :	global_step 0    	loss 0.2787	acc 0.9531
+2019-06-16 21:46:36,835:INFO: 2019-06-16 21:46:36	 batch 14  to 14 :	global_step 0    	loss 0.4317	acc 0.9219
+2019-06-16 21:46:36,942:INFO: 2019-06-16 21:46:36	 batch 15  to 15 :	global_step 0    	loss 0.4473	acc 0.9062
+2019-06-16 21:46:37,041:INFO: 2019-06-16 21:46:37	 batch 16  to 16 :	global_step 0    	loss 0.3483	acc 0.9219
+2019-06-16 21:46:37,136:INFO: 2019-06-16 21:46:37	 batch 17  to 17 :	global_step 0    	loss 0.3881	acc 0.8906
+2019-06-16 21:46:37,232:INFO: 2019-06-16 21:46:37	 batch 18  to 18 :	global_step 0    	loss 0.2240	acc 0.9844
+2019-06-16 21:46:37,327:INFO: 2019-06-16 21:46:37	 batch 19  to 19 :	global_step 0    	loss 0.1961	acc 0.9531
+2019-06-16 21:46:37,425:INFO: 2019-06-16 21:46:37	 batch 20  to 20 :	global_step 0    	loss 0.2699	acc 0.9531
+2019-06-16 21:46:37,519:INFO: 2019-06-16 21:46:37	 batch 21  to 21 :	global_step 0    	loss 0.4380	acc 0.8594
+2019-06-16 21:46:37,610:INFO: 2019-06-16 21:46:37	 batch 22  to 22 :	global_step 0    	loss 0.3244	acc 0.9531
+2019-06-16 21:46:37,702:INFO: 2019-06-16 21:46:37	 batch 23  to 23 :	global_step 0    	loss 0.3150	acc 0.9375
+2019-06-16 21:46:37,795:INFO: 2019-06-16 21:46:37	 batch 24  to 24 :	global_step 0    	loss 0.3801	acc 0.8906
+2019-06-16 21:46:37,888:INFO: 2019-06-16 21:46:37	 batch 25  to 25 :	global_step 0    	loss 0.3006	acc 0.9375
+2019-06-16 21:46:37,983:INFO: 2019-06-16 21:46:37	 batch 26  to 26 :	global_step 0    	loss 0.2764	acc 0.9688
+2019-06-16 21:46:38,079:INFO: 2019-06-16 21:46:38	 batch 27  to 27 :	global_step 0    	loss 0.2554	acc 0.9375
+2019-06-16 21:46:38,174:INFO: 2019-06-16 21:46:38	 batch 28  to 28 :	global_step 0    	loss 0.3235	acc 0.9219
+2019-06-16 21:46:38,278:INFO: 2019-06-16 21:46:38	 batch 29  to 29 :	global_step 0    	loss 0.3452	acc 1.0000
+2019-06-16 21:46:38,989:INFO: 2019-06-16 21:46:38	acc 0.8279	p 0.8115	r 0.7317	f1 0.7592
+2019-06-16 21:46:39,139:INFO: Model saved in C:\code\challenge\clfzoo\models/textcnn/1560692747/ckpt/, with name textcnn.
+2019-06-16 21:46:39,140:INFO: New best score!
+
+2019-06-16 21:46:39,140:INFO: ########################################
+2019-06-16 21:46:39,140:INFO: Epoch 12 / 50
+2019-06-16 21:46:39,862:INFO: 2019-06-16 21:46:39	 batch 1   to 1  :	global_step 0    	loss 0.2903	acc 0.9219
+2019-06-16 21:46:39,955:INFO: 2019-06-16 21:46:39	 batch 2   to 2  :	global_step 0    	loss 0.3321	acc 0.9062
+2019-06-16 21:46:40,049:INFO: 2019-06-16 21:46:40	 batch 3   to 3  :	global_step 0    	loss 0.2422	acc 0.9531
+2019-06-16 21:46:40,145:INFO: 2019-06-16 21:46:40	 batch 4   to 4  :	global_step 0    	loss 0.2033	acc 0.9531
+2019-06-16 21:46:40,252:INFO: 2019-06-16 21:46:40	 batch 5   to 5  :	global_step 0    	loss 0.2407	acc 0.9375
+2019-06-16 21:46:40,348:INFO: 2019-06-16 21:46:40	 batch 6   to 6  :	global_step 0    	loss 0.3040	acc 0.9219
+2019-06-16 21:46:40,441:INFO: 2019-06-16 21:46:40	 batch 7   to 7  :	global_step 0    	loss 0.3908	acc 0.9062
+2019-06-16 21:46:40,543:INFO: 2019-06-16 21:46:40	 batch 8   to 8  :	global_step 0    	loss 0.3446	acc 0.9219
+2019-06-16 21:46:40,640:INFO: 2019-06-16 21:46:40	 batch 9   to 9  :	global_step 0    	loss 0.1973	acc 0.9688
+2019-06-16 21:46:40,737:INFO: 2019-06-16 21:46:40	 batch 10  to 10 :	global_step 0    	loss 0.2293	acc 0.9688
+2019-06-16 21:46:40,834:INFO: 2019-06-16 21:46:40	 batch 11  to 11 :	global_step 0    	loss 0.3174	acc 0.9219
+2019-06-16 21:46:40,927:INFO: 2019-06-16 21:46:40	 batch 12  to 12 :	global_step 0    	loss 0.2476	acc 0.9375
+2019-06-16 21:46:41,024:INFO: 2019-06-16 21:46:41	 batch 13  to 13 :	global_step 0    	loss 0.2233	acc 0.9375
+2019-06-16 21:46:41,117:INFO: 2019-06-16 21:46:41	 batch 14  to 14 :	global_step 0    	loss 0.4023	acc 0.9219
+2019-06-16 21:46:41,210:INFO: 2019-06-16 21:46:41	 batch 15  to 15 :	global_step 0    	loss 0.2091	acc 0.9375
+2019-06-16 21:46:41,306:INFO: 2019-06-16 21:46:41	 batch 16  to 16 :	global_step 0    	loss 0.2378	acc 0.9688
+2019-06-16 21:46:41,399:INFO: 2019-06-16 21:46:41	 batch 17  to 17 :	global_step 0    	loss 0.2690	acc 0.9531
+2019-06-16 21:46:41,493:INFO: 2019-06-16 21:46:41	 batch 18  to 18 :	global_step 0    	loss 0.2435	acc 0.9219
+2019-06-16 21:46:41,585:INFO: 2019-06-16 21:46:41	 batch 19  to 19 :	global_step 0    	loss 0.2662	acc 0.9219
+2019-06-16 21:46:41,679:INFO: 2019-06-16 21:46:41	 batch 20  to 20 :	global_step 0    	loss 0.3968	acc 0.8906
+2019-06-16 21:46:41,776:INFO: 2019-06-16 21:46:41	 batch 21  to 21 :	global_step 0    	loss 0.2329	acc 0.9531
+2019-06-16 21:46:41,873:INFO: 2019-06-16 21:46:41	 batch 22  to 22 :	global_step 0    	loss 0.3031	acc 0.9688
+2019-06-16 21:46:41,965:INFO: 2019-06-16 21:46:41	 batch 23  to 23 :	global_step 0    	loss 0.4790	acc 0.9062
+2019-06-16 21:46:42,061:INFO: 2019-06-16 21:46:42	 batch 24  to 24 :	global_step 0    	loss 0.3729	acc 0.9375
+2019-06-16 21:46:42,155:INFO: 2019-06-16 21:46:42	 batch 25  to 25 :	global_step 0    	loss 0.2751	acc 0.9062
+2019-06-16 21:46:42,247:INFO: 2019-06-16 21:46:42	 batch 26  to 26 :	global_step 0    	loss 0.2884	acc 0.9531
+2019-06-16 21:46:42,342:INFO: 2019-06-16 21:46:42	 batch 27  to 27 :	global_step 0    	loss 0.2274	acc 0.9531
+2019-06-16 21:46:42,436:INFO: 2019-06-16 21:46:42	 batch 28  to 28 :	global_step 0    	loss 0.3188	acc 0.9062
+2019-06-16 21:46:42,549:INFO: 2019-06-16 21:46:42	 batch 29  to 29 :	global_step 0    	loss 0.2053	acc 1.0000
+2019-06-16 21:46:43,237:INFO: 2019-06-16 21:46:43	acc 0.8292	p 0.7733	r 0.7328	f1 0.7433
+2019-06-16 21:46:43,410:INFO: Model saved in C:\code\challenge\clfzoo\models/textcnn/1560692747/ckpt/, with name textcnn.
+2019-06-16 21:46:43,411:INFO: New best score!
+
+2019-06-16 21:46:43,411:INFO: ########################################
+2019-06-16 21:46:43,412:INFO: Epoch 13 / 50
+2019-06-16 21:46:44,143:INFO: 2019-06-16 21:46:44	 batch 1   to 1  :	global_step 0    	loss 0.2438	acc 0.9531
+2019-06-16 21:46:44,238:INFO: 2019-06-16 21:46:44	 batch 2   to 2  :	global_step 0    	loss 0.2366	acc 0.9688
+2019-06-16 21:46:44,331:INFO: 2019-06-16 21:46:44	 batch 3   to 3  :	global_step 0    	loss 0.2937	acc 0.9219
+2019-06-16 21:46:44,423:INFO: 2019-06-16 21:46:44	 batch 4   to 4  :	global_step 0    	loss 0.2958	acc 0.9219
+2019-06-16 21:46:44,516:INFO: 2019-06-16 21:46:44	 batch 5   to 5  :	global_step 0    	loss 0.4081	acc 0.8906
+2019-06-16 21:46:44,610:INFO: 2019-06-16 21:46:44	 batch 6   to 6  :	global_step 0    	loss 0.2239	acc 0.9375
+2019-06-16 21:46:44,702:INFO: 2019-06-16 21:46:44	 batch 7   to 7  :	global_step 0    	loss 0.2021	acc 0.9219
+2019-06-16 21:46:44,796:INFO: 2019-06-16 21:46:44	 batch 8   to 8  :	global_step 0    	loss 0.2784	acc 0.9375
+2019-06-16 21:46:44,889:INFO: 2019-06-16 21:46:44	 batch 9   to 9  :	global_step 0    	loss 0.1953	acc 0.9688
+2019-06-16 21:46:44,984:INFO: 2019-06-16 21:46:44	 batch 10  to 10 :	global_step 0    	loss 0.3608	acc 0.9219
+2019-06-16 21:46:45,079:INFO: 2019-06-16 21:46:45	 batch 11  to 11 :	global_step 0    	loss 0.2729	acc 0.9531
+2019-06-16 21:46:45,193:INFO: 2019-06-16 21:46:45	 batch 12  to 12 :	global_step 0    	loss 0.2275	acc 0.9219
+2019-06-16 21:46:45,291:INFO: 2019-06-16 21:46:45	 batch 13  to 13 :	global_step 0    	loss 0.1905	acc 0.9844
+2019-06-16 21:46:45,387:INFO: 2019-06-16 21:46:45	 batch 14  to 14 :	global_step 0    	loss 0.2852	acc 0.9375
+2019-06-16 21:46:45,482:INFO: 2019-06-16 21:46:45	 batch 15  to 15 :	global_step 0    	loss 0.1822	acc 0.9688
+2019-06-16 21:46:45,577:INFO: 2019-06-16 21:46:45	 batch 16  to 16 :	global_step 0    	loss 0.2624	acc 0.9375
+2019-06-16 21:46:45,670:INFO: 2019-06-16 21:46:45	 batch 17  to 17 :	global_step 0    	loss 0.1959	acc 0.9844
+2019-06-16 21:46:45,763:INFO: 2019-06-16 21:46:45	 batch 18  to 18 :	global_step 0    	loss 0.1594	acc 0.9688
+2019-06-16 21:46:45,858:INFO: 2019-06-16 21:46:45	 batch 19  to 19 :	global_step 0    	loss 0.2596	acc 0.9531
+2019-06-16 21:46:45,948:INFO: 2019-06-16 21:46:45	 batch 20  to 20 :	global_step 0    	loss 0.3097	acc 0.9219
+2019-06-16 21:46:46,041:INFO: 2019-06-16 21:46:46	 batch 21  to 21 :	global_step 0    	loss 0.1669	acc 0.9844
+2019-06-16 21:46:46,135:INFO: 2019-06-16 21:46:46	 batch 22  to 22 :	global_step 0    	loss 0.1567	acc 0.9531
+2019-06-16 21:46:46,226:INFO: 2019-06-16 21:46:46	 batch 23  to 23 :	global_step 0    	loss 0.2396	acc 0.9531
+2019-06-16 21:46:46,319:INFO: 2019-06-16 21:46:46	 batch 24  to 24 :	global_step 0    	loss 0.1732	acc 0.9688
+2019-06-16 21:46:46,514:INFO: 2019-06-16 21:46:46	 batch 25  to 25 :	global_step 0    	loss 0.2311	acc 0.9375
+2019-06-16 21:46:46,691:INFO: 2019-06-16 21:46:46	 batch 26  to 26 :	global_step 0    	loss 0.2967	acc 0.9688
+2019-06-16 21:46:46,835:INFO: 2019-06-16 21:46:46	 batch 27  to 27 :	global_step 0    	loss 0.1919	acc 0.9531
+2019-06-16 21:46:46,933:INFO: 2019-06-16 21:46:46	 batch 28  to 28 :	global_step 0    	loss 0.2455	acc 0.9531
+2019-06-16 21:46:47,047:INFO: 2019-06-16 21:46:47	 batch 29  to 29 :	global_step 0    	loss 0.3213	acc 0.9844
+2019-06-16 21:46:47,694:INFO: 2019-06-16 21:46:47	acc 0.8318	p 0.7565	r 0.7553	f1 0.7510
+2019-06-16 21:46:47,877:INFO: Model saved in C:\code\challenge\clfzoo\models/textcnn/1560692747/ckpt/, with name textcnn.
+2019-06-16 21:46:47,877:INFO: New best score!
+
+2019-06-16 21:46:47,877:INFO: ########################################
+2019-06-16 21:46:47,877:INFO: Epoch 14 / 50
+2019-06-16 21:46:48,574:INFO: 2019-06-16 21:46:48	 batch 1   to 1  :	global_step 0    	loss 0.2224	acc 0.9531
+2019-06-16 21:46:48,670:INFO: 2019-06-16 21:46:48	 batch 2   to 2  :	global_step 0    	loss 0.2254	acc 0.9688
+2019-06-16 21:46:48,762:INFO: 2019-06-16 21:46:48	 batch 3   to 3  :	global_step 0    	loss 0.1849	acc 0.9375
+2019-06-16 21:46:48,883:INFO: 2019-06-16 21:46:48	 batch 4   to 4  :	global_step 0    	loss 0.1957	acc 0.9844
+2019-06-16 21:46:48,984:INFO: 2019-06-16 21:46:48	 batch 5   to 5  :	global_step 0    	loss 0.1631	acc 0.9688
+2019-06-16 21:46:49,079:INFO: 2019-06-16 21:46:49	 batch 6   to 6  :	global_step 0    	loss 0.1063	acc 1.0000
+2019-06-16 21:46:49,177:INFO: 2019-06-16 21:46:49	 batch 7   to 7  :	global_step 0    	loss 0.2042	acc 0.9844
+2019-06-16 21:46:49,274:INFO: 2019-06-16 21:46:49	 batch 8   to 8  :	global_step 0    	loss 0.1724	acc 0.9375
+2019-06-16 21:46:49,466:INFO: 2019-06-16 21:46:49	 batch 9   to 9  :	global_step 0    	loss 0.1419	acc 0.9844
+2019-06-16 21:46:49,616:INFO: 2019-06-16 21:46:49	 batch 10  to 10 :	global_step 0    	loss 0.1835	acc 0.9844
+2019-06-16 21:46:49,740:INFO: 2019-06-16 21:46:49	 batch 11  to 11 :	global_step 0    	loss 0.1404	acc 0.9688
+2019-06-16 21:46:49,836:INFO: 2019-06-16 21:46:49	 batch 12  to 12 :	global_step 0    	loss 0.2121	acc 0.9531
+2019-06-16 21:46:49,931:INFO: 2019-06-16 21:46:49	 batch 13  to 13 :	global_step 0    	loss 0.2132	acc 0.9375
+2019-06-16 21:46:50,025:INFO: 2019-06-16 21:46:50	 batch 14  to 14 :	global_step 0    	loss 0.2782	acc 0.9219
+2019-06-16 21:46:50,117:INFO: 2019-06-16 21:46:50	 batch 15  to 15 :	global_step 0    	loss 0.1877	acc 0.9688
+2019-06-16 21:46:50,211:INFO: 2019-06-16 21:46:50	 batch 16  to 16 :	global_step 0    	loss 0.1262	acc 0.9844
+2019-06-16 21:46:50,301:INFO: 2019-06-16 21:46:50	 batch 17  to 17 :	global_step 0    	loss 0.2312	acc 0.9531
+2019-06-16 21:46:50,394:INFO: 2019-06-16 21:46:50	 batch 18  to 18 :	global_step 0    	loss 0.1425	acc 0.9688
+2019-06-16 21:46:50,492:INFO: 2019-06-16 21:46:50	 batch 19  to 19 :	global_step 0    	loss 0.3473	acc 0.9531
+2019-06-16 21:46:50,590:INFO: 2019-06-16 21:46:50	 batch 20  to 20 :	global_step 0    	loss 0.1525	acc 0.9688
+2019-06-16 21:46:50,686:INFO: 2019-06-16 21:46:50	 batch 21  to 21 :	global_step 0    	loss 0.2307	acc 0.9688
+2019-06-16 21:46:50,783:INFO: 2019-06-16 21:46:50	 batch 22  to 22 :	global_step 0    	loss 0.1690	acc 0.9688
+2019-06-16 21:46:50,881:INFO: 2019-06-16 21:46:50	 batch 23  to 23 :	global_step 0    	loss 0.2674	acc 0.9219
+2019-06-16 21:46:50,980:INFO: 2019-06-16 21:46:50	 batch 24  to 24 :	global_step 0    	loss 0.4276	acc 0.8750
+2019-06-16 21:46:51,076:INFO: 2019-06-16 21:46:51	 batch 25  to 25 :	global_step 0    	loss 0.1709	acc 0.9688
+2019-06-16 21:46:51,172:INFO: 2019-06-16 21:46:51	 batch 26  to 26 :	global_step 0    	loss 0.2368	acc 0.9688
+2019-06-16 21:46:51,267:INFO: 2019-06-16 21:46:51	 batch 27  to 27 :	global_step 0    	loss 0.2823	acc 0.9062
+2019-06-16 21:46:51,363:INFO: 2019-06-16 21:46:51	 batch 28  to 28 :	global_step 0    	loss 0.2165	acc 0.9531
+2019-06-16 21:46:51,481:INFO: 2019-06-16 21:46:51	 batch 29  to 29 :	global_step 0    	loss 0.2015	acc 1.0000
+2019-06-16 21:46:52,377:INFO: 2019-06-16 21:46:52	acc 0.8448	p 0.7782	r 0.7614	f1 0.7654
+2019-06-16 21:46:52,588:INFO: Model saved in C:\code\challenge\clfzoo\models/textcnn/1560692747/ckpt/, with name textcnn.
+2019-06-16 21:46:52,588:INFO: New best score!
+
+2019-06-16 21:46:52,589:INFO: ########################################
+2019-06-16 21:46:52,589:INFO: Epoch 15 / 50
+2019-06-16 21:46:53,508:INFO: 2019-06-16 21:46:53	 batch 1   to 1  :	global_step 0    	loss 0.1416	acc 0.9688
+2019-06-16 21:46:53,605:INFO: 2019-06-16 21:46:53	 batch 2   to 2  :	global_step 0    	loss 0.1822	acc 0.9688
+2019-06-16 21:46:53,702:INFO: 2019-06-16 21:46:53	 batch 3   to 3  :	global_step 0    	loss 0.1415	acc 0.9844
+2019-06-16 21:46:53,795:INFO: 2019-06-16 21:46:53	 batch 4   to 4  :	global_step 0    	loss 0.2323	acc 0.9531
+2019-06-16 21:46:53,906:INFO: 2019-06-16 21:46:53	 batch 5   to 5  :	global_step 0    	loss 0.1482	acc 0.9688
+2019-06-16 21:46:54,000:INFO: 2019-06-16 21:46:54	 batch 6   to 6  :	global_step 0    	loss 0.1562	acc 0.9688
+2019-06-16 21:46:54,093:INFO: 2019-06-16 21:46:54	 batch 7   to 7  :	global_step 0    	loss 0.1431	acc 0.9844
+2019-06-16 21:46:54,185:INFO: 2019-06-16 21:46:54	 batch 8   to 8  :	global_step 0    	loss 0.1594	acc 0.9531
+2019-06-16 21:46:54,277:INFO: 2019-06-16 21:46:54	 batch 9   to 9  :	global_step 0    	loss 0.2258	acc 0.9531
+2019-06-16 21:46:54,372:INFO: 2019-06-16 21:46:54	 batch 10  to 10 :	global_step 0    	loss 0.2603	acc 0.9531
+2019-06-16 21:46:54,469:INFO: 2019-06-16 21:46:54	 batch 11  to 11 :	global_step 0    	loss 0.2432	acc 0.9531
+2019-06-16 21:46:54,621:INFO: 2019-06-16 21:46:54	 batch 12  to 12 :	global_step 0    	loss 0.1442	acc 1.0000
+2019-06-16 21:46:54,855:INFO: 2019-06-16 21:46:54	 batch 13  to 13 :	global_step 0    	loss 0.1787	acc 0.9844
+2019-06-16 21:46:54,990:INFO: 2019-06-16 21:46:54	 batch 14  to 14 :	global_step 0    	loss 0.1911	acc 0.9375
+2019-06-16 21:46:55,100:INFO: 2019-06-16 21:46:55	 batch 15  to 15 :	global_step 0    	loss 0.1709	acc 0.9531
+2019-06-16 21:46:55,196:INFO: 2019-06-16 21:46:55	 batch 16  to 16 :	global_step 0    	loss 0.1619	acc 0.9688
+2019-06-16 21:46:55,302:INFO: 2019-06-16 21:46:55	 batch 17  to 17 :	global_step 0    	loss 0.1300	acc 0.9844
+2019-06-16 21:46:55,399:INFO: 2019-06-16 21:46:55	 batch 18  to 18 :	global_step 0    	loss 0.1242	acc 0.9844
+2019-06-16 21:46:55,497:INFO: 2019-06-16 21:46:55	 batch 19  to 19 :	global_step 0    	loss 0.1797	acc 0.9688
+2019-06-16 21:46:55,613:INFO: 2019-06-16 21:46:55	 batch 20  to 20 :	global_step 0    	loss 0.2001	acc 0.9531
+2019-06-16 21:46:55,708:INFO: 2019-06-16 21:46:55	 batch 21  to 21 :	global_step 0    	loss 0.1148	acc 0.9844
+2019-06-16 21:46:55,800:INFO: 2019-06-16 21:46:55	 batch 22  to 22 :	global_step 0    	loss 0.0943	acc 0.9844
+2019-06-16 21:46:55,898:INFO: 2019-06-16 21:46:55	 batch 23  to 23 :	global_step 0    	loss 0.1897	acc 0.9688
+2019-06-16 21:46:55,996:INFO: 2019-06-16 21:46:55	 batch 24  to 24 :	global_step 0    	loss 0.2022	acc 0.9688
+2019-06-16 21:46:56,093:INFO: 2019-06-16 21:46:56	 batch 25  to 25 :	global_step 0    	loss 0.1012	acc 0.9844
+2019-06-16 21:46:56,190:INFO: 2019-06-16 21:46:56	 batch 26  to 26 :	global_step 0    	loss 0.1760	acc 0.9844
+2019-06-16 21:46:56,284:INFO: 2019-06-16 21:46:56	 batch 27  to 27 :	global_step 0    	loss 0.2245	acc 0.9375
+2019-06-16 21:46:56,375:INFO: 2019-06-16 21:46:56	 batch 28  to 28 :	global_step 0    	loss 0.2568	acc 0.9531
+2019-06-16 21:46:56,477:INFO: 2019-06-16 21:46:56	 batch 29  to 29 :	global_step 0    	loss 0.2633	acc 1.0000
+2019-06-16 21:46:57,303:INFO: 2019-06-16 21:46:57	acc 0.8396	p 0.7864	r 0.7574	f1 0.7661
+2019-06-16 21:46:57,304:INFO: ########################################
+2019-06-16 21:46:57,304:INFO: Epoch 16 / 50
+2019-06-16 21:46:58,008:INFO: 2019-06-16 21:46:58	 batch 1   to 1  :	global_step 0    	loss 0.1905	acc 0.9531
+2019-06-16 21:46:58,101:INFO: 2019-06-16 21:46:58	 batch 2   to 2  :	global_step 0    	loss 0.1778	acc 0.9688
+2019-06-16 21:46:58,192:INFO: 2019-06-16 21:46:58	 batch 3   to 3  :	global_step 0    	loss 0.1569	acc 0.9844
+2019-06-16 21:46:58,287:INFO: 2019-06-16 21:46:58	 batch 4   to 4  :	global_step 0    	loss 0.0917	acc 0.9844
+2019-06-16 21:46:58,387:INFO: 2019-06-16 21:46:58	 batch 5   to 5  :	global_step 0    	loss 0.1999	acc 0.9688
+2019-06-16 21:46:58,482:INFO: 2019-06-16 21:46:58	 batch 6   to 6  :	global_step 0    	loss 0.1224	acc 0.9844
+2019-06-16 21:46:58,580:INFO: 2019-06-16 21:46:58	 batch 7   to 7  :	global_step 0    	loss 0.2495	acc 0.9531
+2019-06-16 21:46:58,675:INFO: 2019-06-16 21:46:58	 batch 8   to 8  :	global_step 0    	loss 0.2485	acc 0.9375
+2019-06-16 21:46:58,768:INFO: 2019-06-16 21:46:58	 batch 9   to 9  :	global_step 0    	loss 0.1476	acc 0.9844
+2019-06-16 21:46:58,896:INFO: 2019-06-16 21:46:58	 batch 10  to 10 :	global_step 0    	loss 0.1414	acc 0.9688
+2019-06-16 21:46:58,993:INFO: 2019-06-16 21:46:58	 batch 11  to 11 :	global_step 0    	loss 0.2346	acc 0.9531
+2019-06-16 21:46:59,088:INFO: 2019-06-16 21:46:59	 batch 12  to 12 :	global_step 0    	loss 0.1280	acc 1.0000
+2019-06-16 21:46:59,183:INFO: 2019-06-16 21:46:59	 batch 13  to 13 :	global_step 0    	loss 0.1441	acc 0.9688
+2019-06-16 21:46:59,280:INFO: 2019-06-16 21:46:59	 batch 14  to 14 :	global_step 0    	loss 0.1148	acc 1.0000
+2019-06-16 21:46:59,378:INFO: 2019-06-16 21:46:59	 batch 15  to 15 :	global_step 0    	loss 0.1193	acc 0.9844
+2019-06-16 21:46:59,474:INFO: 2019-06-16 21:46:59	 batch 16  to 16 :	global_step 0    	loss 0.0587	acc 1.0000
+2019-06-16 21:46:59,570:INFO: 2019-06-16 21:46:59	 batch 17  to 17 :	global_step 0    	loss 0.1229	acc 0.9688
+2019-06-16 21:46:59,666:INFO: 2019-06-16 21:46:59	 batch 18  to 18 :	global_step 0    	loss 0.1547	acc 0.9844
+2019-06-16 21:46:59,814:INFO: 2019-06-16 21:46:59	 batch 19  to 19 :	global_step 0    	loss 0.1598	acc 0.9688
+2019-06-16 21:47:00,072:INFO: 2019-06-16 21:47:00	 batch 20  to 20 :	global_step 0    	loss 0.1470	acc 0.9844
+2019-06-16 21:47:00,173:INFO: 2019-06-16 21:47:00	 batch 21  to 21 :	global_step 0    	loss 0.1087	acc 0.9844
+2019-06-16 21:47:00,268:INFO: 2019-06-16 21:47:00	 batch 22  to 22 :	global_step 0    	loss 0.1681	acc 0.9688
+2019-06-16 21:47:00,361:INFO: 2019-06-16 21:47:00	 batch 23  to 23 :	global_step 0    	loss 0.1817	acc 0.9844
+2019-06-16 21:47:00,455:INFO: 2019-06-16 21:47:00	 batch 24  to 24 :	global_step 0    	loss 0.2771	acc 0.9531
+2019-06-16 21:47:00,550:INFO: 2019-06-16 21:47:00	 batch 25  to 25 :	global_step 0    	loss 0.1737	acc 0.9688
+2019-06-16 21:47:00,645:INFO: 2019-06-16 21:47:00	 batch 26  to 26 :	global_step 0    	loss 0.1036	acc 1.0000
+2019-06-16 21:47:00,746:INFO: 2019-06-16 21:47:00	 batch 27  to 27 :	global_step 0    	loss 0.0859	acc 0.9844
+2019-06-16 21:47:00,854:INFO: 2019-06-16 21:47:00	 batch 28  to 28 :	global_step 0    	loss 0.1239	acc 0.9688
+2019-06-16 21:47:00,961:INFO: 2019-06-16 21:47:00	 batch 29  to 29 :	global_step 0    	loss 0.2751	acc 0.9844
+2019-06-16 21:47:01,632:INFO: 2019-06-16 21:47:01	acc 0.8499	p 0.7968	r 0.7625	f1 0.7765
+2019-06-16 21:47:01,823:INFO: Model saved in C:\code\challenge\clfzoo\models/textcnn/1560692747/ckpt/, with name textcnn.
+2019-06-16 21:47:01,823:INFO: New best score!
+
+2019-06-16 21:47:01,824:INFO: ########################################
+2019-06-16 21:47:01,824:INFO: Epoch 17 / 50
+2019-06-16 21:47:02,820:INFO: 2019-06-16 21:47:02	 batch 1   to 1  :	global_step 0    	loss 0.1439	acc 0.9688
+2019-06-16 21:47:02,917:INFO: 2019-06-16 21:47:02	 batch 2   to 2  :	global_step 0    	loss 0.1211	acc 0.9688
+2019-06-16 21:47:03,023:INFO: 2019-06-16 21:47:03	 batch 3   to 3  :	global_step 0    	loss 0.0684	acc 0.9844
+2019-06-16 21:47:03,117:INFO: 2019-06-16 21:47:03	 batch 4   to 4  :	global_step 0    	loss 0.0988	acc 1.0000
+2019-06-16 21:47:03,211:INFO: 2019-06-16 21:47:03	 batch 5   to 5  :	global_step 0    	loss 0.1043	acc 1.0000
+2019-06-16 21:47:03,306:INFO: 2019-06-16 21:47:03	 batch 6   to 6  :	global_step 0    	loss 0.2008	acc 0.9531
+2019-06-16 21:47:03,406:INFO: 2019-06-16 21:47:03	 batch 7   to 7  :	global_step 0    	loss 0.1009	acc 0.9688
+2019-06-16 21:47:03,498:INFO: 2019-06-16 21:47:03	 batch 8   to 8  :	global_step 0    	loss 0.1801	acc 0.9688
+2019-06-16 21:47:03,595:INFO: 2019-06-16 21:47:03	 batch 9   to 9  :	global_step 0    	loss 0.0600	acc 1.0000
+2019-06-16 21:47:03,692:INFO: 2019-06-16 21:47:03	 batch 10  to 10 :	global_step 0    	loss 0.0913	acc 0.9844
+2019-06-16 21:47:03,785:INFO: 2019-06-16 21:47:03	 batch 11  to 11 :	global_step 0    	loss 0.2424	acc 0.9375
+2019-06-16 21:47:03,879:INFO: 2019-06-16 21:47:03	 batch 12  to 12 :	global_step 0    	loss 0.0823	acc 0.9844
+2019-06-16 21:47:03,970:INFO: 2019-06-16 21:47:03	 batch 13  to 13 :	global_step 0    	loss 0.0982	acc 0.9844
+2019-06-16 21:47:04,066:INFO: 2019-06-16 21:47:04	 batch 14  to 14 :	global_step 0    	loss 0.1852	acc 0.9688
+2019-06-16 21:47:04,163:INFO: 2019-06-16 21:47:04	 batch 15  to 15 :	global_step 0    	loss 0.1900	acc 0.9688
+2019-06-16 21:47:04,258:INFO: 2019-06-16 21:47:04	 batch 16  to 16 :	global_step 0    	loss 0.1296	acc 0.9844
+2019-06-16 21:47:04,355:INFO: 2019-06-16 21:47:04	 batch 17  to 17 :	global_step 0    	loss 0.1496	acc 0.9844
+2019-06-16 21:47:04,451:INFO: 2019-06-16 21:47:04	 batch 18  to 18 :	global_step 0    	loss 0.1674	acc 0.9688
+2019-06-16 21:47:04,546:INFO: 2019-06-16 21:47:04	 batch 19  to 19 :	global_step 0    	loss 0.2028	acc 0.9375
+2019-06-16 21:47:04,642:INFO: 2019-06-16 21:47:04	 batch 20  to 20 :	global_step 0    	loss 0.0974	acc 0.9688
+2019-06-16 21:47:04,744:INFO: 2019-06-16 21:47:04	 batch 21  to 21 :	global_step 0    	loss 0.1829	acc 0.9531
+2019-06-16 21:47:04,998:INFO: 2019-06-16 21:47:04	 batch 22  to 22 :	global_step 0    	loss 0.1103	acc 0.9844
+2019-06-16 21:47:05,258:INFO: 2019-06-16 21:47:05	 batch 23  to 23 :	global_step 0    	loss 0.1123	acc 0.9844
+2019-06-16 21:47:05,408:INFO: 2019-06-16 21:47:05	 batch 24  to 24 :	global_step 0    	loss 0.1397	acc 0.9688
+2019-06-16 21:47:05,510:INFO: 2019-06-16 21:47:05	 batch 25  to 25 :	global_step 0    	loss 0.2094	acc 0.9531
+2019-06-16 21:47:05,607:INFO: 2019-06-16 21:47:05	 batch 26  to 26 :	global_step 0    	loss 0.1191	acc 0.9688
+2019-06-16 21:47:05,704:INFO: 2019-06-16 21:47:05	 batch 27  to 27 :	global_step 0    	loss 0.2180	acc 0.9531
+2019-06-16 21:47:05,801:INFO: 2019-06-16 21:47:05	 batch 28  to 28 :	global_step 0    	loss 0.0627	acc 0.9844
+2019-06-16 21:47:05,908:INFO: 2019-06-16 21:47:05	 batch 29  to 29 :	global_step 0    	loss 0.2481	acc 1.0000
+2019-06-16 21:47:06,649:INFO: 2019-06-16 21:47:06	acc 0.8473	p 0.8071	r 0.7571	f1 0.7763
+2019-06-16 21:47:06,650:INFO: ########################################
+2019-06-16 21:47:06,650:INFO: Epoch 18 / 50
+2019-06-16 21:47:07,711:INFO: 2019-06-16 21:47:07	 batch 1   to 1  :	global_step 0    	loss 0.1302	acc 0.9844
+2019-06-16 21:47:07,807:INFO: 2019-06-16 21:47:07	 batch 2   to 2  :	global_step 0    	loss 0.1578	acc 0.9688
+2019-06-16 21:47:07,903:INFO: 2019-06-16 21:47:07	 batch 3   to 3  :	global_step 0    	loss 0.1608	acc 0.9844
+2019-06-16 21:47:08,026:INFO: 2019-06-16 21:47:08	 batch 4   to 4  :	global_step 0    	loss 0.1382	acc 0.9844
+2019-06-16 21:47:08,129:INFO: 2019-06-16 21:47:08	 batch 5   to 5  :	global_step 0    	loss 0.1057	acc 0.9844
+2019-06-16 21:47:08,226:INFO: 2019-06-16 21:47:08	 batch 6   to 6  :	global_step 0    	loss 0.0682	acc 0.9844
+2019-06-16 21:47:08,333:INFO: 2019-06-16 21:47:08	 batch 7   to 7  :	global_step 0    	loss 0.1517	acc 0.9844
+2019-06-16 21:47:08,433:INFO: 2019-06-16 21:47:08	 batch 8   to 8  :	global_step 0    	loss 0.0896	acc 1.0000
+2019-06-16 21:47:08,533:INFO: 2019-06-16 21:47:08	 batch 9   to 9  :	global_step 0    	loss 0.1711	acc 0.9688
+2019-06-16 21:47:08,631:INFO: 2019-06-16 21:47:08	 batch 10  to 10 :	global_step 0    	loss 0.0884	acc 0.9844
+2019-06-16 21:47:08,727:INFO: 2019-06-16 21:47:08	 batch 11  to 11 :	global_step 0    	loss 0.1002	acc 1.0000
+2019-06-16 21:47:08,862:INFO: 2019-06-16 21:47:08	 batch 12  to 12 :	global_step 0    	loss 0.0927	acc 0.9844
+2019-06-16 21:47:08,994:INFO: 2019-06-16 21:47:08	 batch 13  to 13 :	global_step 0    	loss 0.2121	acc 0.9531
+2019-06-16 21:47:09,128:INFO: 2019-06-16 21:47:09	 batch 14  to 14 :	global_step 0    	loss 0.1117	acc 0.9844
+2019-06-16 21:47:09,228:INFO: 2019-06-16 21:47:09	 batch 15  to 15 :	global_step 0    	loss 0.0554	acc 1.0000
+2019-06-16 21:47:09,354:INFO: 2019-06-16 21:47:09	 batch 16  to 16 :	global_step 0    	loss 0.1130	acc 1.0000
+2019-06-16 21:47:09,451:INFO: 2019-06-16 21:47:09	 batch 17  to 17 :	global_step 0    	loss 0.1435	acc 0.9688
+2019-06-16 21:47:09,551:INFO: 2019-06-16 21:47:09	 batch 18  to 18 :	global_step 0    	loss 0.1254	acc 0.9531
+2019-06-16 21:47:09,653:INFO: 2019-06-16 21:47:09	 batch 19  to 19 :	global_step 0    	loss 0.2447	acc 0.9062
+2019-06-16 21:47:09,752:INFO: 2019-06-16 21:47:09	 batch 20  to 20 :	global_step 0    	loss 0.0915	acc 0.9844
+2019-06-16 21:47:09,853:INFO: 2019-06-16 21:47:09	 batch 21  to 21 :	global_step 0    	loss 0.1170	acc 0.9688
+2019-06-16 21:47:09,952:INFO: 2019-06-16 21:47:09	 batch 22  to 22 :	global_step 0    	loss 0.1259	acc 0.9688
+2019-06-16 21:47:10,168:INFO: 2019-06-16 21:47:10	 batch 23  to 23 :	global_step 0    	loss 0.1377	acc 0.9688
+2019-06-16 21:47:10,383:INFO: 2019-06-16 21:47:10	 batch 24  to 24 :	global_step 0    	loss 0.1063	acc 0.9688
+2019-06-16 21:47:10,564:INFO: 2019-06-16 21:47:10	 batch 25  to 25 :	global_step 0    	loss 0.0933	acc 0.9844
+2019-06-16 21:47:10,753:INFO: 2019-06-16 21:47:10	 batch 26  to 26 :	global_step 0    	loss 0.1027	acc 1.0000
+2019-06-16 21:47:10,945:INFO: 2019-06-16 21:47:10	 batch 27  to 27 :	global_step 0    	loss 0.1099	acc 0.9844
+2019-06-16 21:47:11,044:INFO: 2019-06-16 21:47:11	 batch 28  to 28 :	global_step 0    	loss 0.1865	acc 0.9531
+2019-06-16 21:47:11,154:INFO: 2019-06-16 21:47:11	 batch 29  to 29 :	global_step 0    	loss 0.2262	acc 1.0000
+2019-06-16 21:47:11,965:INFO: 2019-06-16 21:47:11	acc 0.8409	p 0.7912	r 0.7602	f1 0.7705
+2019-06-16 21:47:11,966:INFO: ########################################
+2019-06-16 21:47:11,967:INFO: Epoch 19 / 50
+2019-06-16 21:47:13,238:INFO: 2019-06-16 21:47:13	 batch 1   to 1  :	global_step 0    	loss 0.0759	acc 0.9844
+2019-06-16 21:47:13,337:INFO: 2019-06-16 21:47:13	 batch 2   to 2  :	global_step 0    	loss 0.1339	acc 0.9844
+2019-06-16 21:47:13,435:INFO: 2019-06-16 21:47:13	 batch 3   to 3  :	global_step 0    	loss 0.0919	acc 1.0000
+2019-06-16 21:47:13,533:INFO: 2019-06-16 21:47:13	 batch 4   to 4  :	global_step 0    	loss 0.1076	acc 0.9688
+2019-06-16 21:47:13,639:INFO: 2019-06-16 21:47:13	 batch 5   to 5  :	global_step 0    	loss 0.0875	acc 0.9844
+2019-06-16 21:47:13,738:INFO: 2019-06-16 21:47:13	 batch 6   to 6  :	global_step 0    	loss 0.1206	acc 0.9844
+2019-06-16 21:47:13,836:INFO: 2019-06-16 21:47:13	 batch 7   to 7  :	global_step 0    	loss 0.1237	acc 0.9844
+2019-06-16 21:47:13,948:INFO: 2019-06-16 21:47:13	 batch 8   to 8  :	global_step 0    	loss 0.1514	acc 0.9844
+2019-06-16 21:47:14,047:INFO: 2019-06-16 21:47:14	 batch 9   to 9  :	global_step 0    	loss 0.0710	acc 1.0000
+2019-06-16 21:47:14,146:INFO: 2019-06-16 21:47:14	 batch 10  to 10 :	global_step 0    	loss 0.1594	acc 0.9688
+2019-06-16 21:47:14,247:INFO: 2019-06-16 21:47:14	 batch 11  to 11 :	global_step 0    	loss 0.1169	acc 0.9688
+2019-06-16 21:47:14,345:INFO: 2019-06-16 21:47:14	 batch 12  to 12 :	global_step 0    	loss 0.0981	acc 0.9844
+2019-06-16 21:47:14,486:INFO: 2019-06-16 21:47:14	 batch 13  to 13 :	global_step 0    	loss 0.2137	acc 0.9531
+2019-06-16 21:47:14,585:INFO: 2019-06-16 21:47:14	 batch 14  to 14 :	global_step 0    	loss 0.0938	acc 0.9688
+2019-06-16 21:47:14,685:INFO: 2019-06-16 21:47:14	 batch 15  to 15 :	global_step 0    	loss 0.1119	acc 0.9688
+2019-06-16 21:47:14,782:INFO: 2019-06-16 21:47:14	 batch 16  to 16 :	global_step 0    	loss 0.0822	acc 1.0000
+2019-06-16 21:47:14,879:INFO: 2019-06-16 21:47:14	 batch 17  to 17 :	global_step 0    	loss 0.0646	acc 1.0000
+2019-06-16 21:47:14,979:INFO: 2019-06-16 21:47:14	 batch 18  to 18 :	global_step 0    	loss 0.0988	acc 0.9844
+2019-06-16 21:47:15,079:INFO: 2019-06-16 21:47:15	 batch 19  to 19 :	global_step 0    	loss 0.1203	acc 0.9688
+2019-06-16 21:47:15,177:INFO: 2019-06-16 21:47:15	 batch 20  to 20 :	global_step 0    	loss 0.1509	acc 0.9688
+2019-06-16 21:47:15,441:INFO: 2019-06-16 21:47:15	 batch 21  to 21 :	global_step 0    	loss 0.0583	acc 1.0000
+2019-06-16 21:47:15,728:INFO: 2019-06-16 21:47:15	 batch 22  to 22 :	global_step 0    	loss 0.0969	acc 1.0000
+2019-06-16 21:47:15,835:INFO: 2019-06-16 21:47:15	 batch 23  to 23 :	global_step 0    	loss 0.0635	acc 1.0000
+2019-06-16 21:47:15,957:INFO: 2019-06-16 21:47:15	 batch 24  to 24 :	global_step 0    	loss 0.1450	acc 0.9688
+2019-06-16 21:47:16,058:INFO: 2019-06-16 21:47:16	 batch 25  to 25 :	global_step 0    	loss 0.1200	acc 0.9844
+2019-06-16 21:47:16,156:INFO: 2019-06-16 21:47:16	 batch 26  to 26 :	global_step 0    	loss 0.1387	acc 0.9688
+2019-06-16 21:47:16,255:INFO: 2019-06-16 21:47:16	 batch 27  to 27 :	global_step 0    	loss 0.1841	acc 0.9531
+2019-06-16 21:47:16,353:INFO: 2019-06-16 21:47:16	 batch 28  to 28 :	global_step 0    	loss 0.1103	acc 0.9688
+2019-06-16 21:47:16,465:INFO: 2019-06-16 21:47:16	 batch 29  to 29 :	global_step 0    	loss 0.2516	acc 0.9844
+2019-06-16 21:47:17,248:INFO: 2019-06-16 21:47:17	acc 0.8499	p 0.8113	r 0.7595	f1 0.7800
+2019-06-16 21:47:17,448:INFO: Model saved in C:\code\challenge\clfzoo\models/textcnn/1560692747/ckpt/, with name textcnn.
+2019-06-16 21:47:17,448:INFO: New best score!
+
+2019-06-16 21:47:17,448:INFO: ########################################
+2019-06-16 21:47:17,449:INFO: Epoch 20 / 50
+2019-06-16 21:47:18,662:INFO: 2019-06-16 21:47:18	 batch 1   to 1  :	global_step 0    	loss 0.0890	acc 0.9844
+2019-06-16 21:47:18,760:INFO: 2019-06-16 21:47:18	 batch 2   to 2  :	global_step 0    	loss 0.0610	acc 1.0000
+2019-06-16 21:47:18,892:INFO: 2019-06-16 21:47:18	 batch 3   to 3  :	global_step 0    	loss 0.1222	acc 0.9844
+2019-06-16 21:47:19,042:INFO: 2019-06-16 21:47:19	 batch 4   to 4  :	global_step 0    	loss 0.1056	acc 0.9844
+2019-06-16 21:47:19,144:INFO: 2019-06-16 21:47:19	 batch 5   to 5  :	global_step 0    	loss 0.0784	acc 1.0000
+2019-06-16 21:47:19,249:INFO: 2019-06-16 21:47:19	 batch 6   to 6  :	global_step 0    	loss 0.1268	acc 0.9688
+2019-06-16 21:47:19,346:INFO: 2019-06-16 21:47:19	 batch 7   to 7  :	global_step 0    	loss 0.0885	acc 0.9844
+2019-06-16 21:47:19,446:INFO: 2019-06-16 21:47:19	 batch 8   to 8  :	global_step 0    	loss 0.0548	acc 1.0000
+2019-06-16 21:47:19,545:INFO: 2019-06-16 21:47:19	 batch 9   to 9  :	global_step 0    	loss 0.0832	acc 0.9844
+2019-06-16 21:47:19,672:INFO: 2019-06-16 21:47:19	 batch 10  to 10 :	global_step 0    	loss 0.1169	acc 0.9844
+2019-06-16 21:47:19,777:INFO: 2019-06-16 21:47:19	 batch 11  to 11 :	global_step 0    	loss 0.0537	acc 1.0000
+2019-06-16 21:47:19,896:INFO: 2019-06-16 21:47:19	 batch 12  to 12 :	global_step 0    	loss 0.1460	acc 0.9531
+2019-06-16 21:47:20,083:INFO: 2019-06-16 21:47:20	 batch 13  to 13 :	global_step 0    	loss 0.0980	acc 0.9844
+2019-06-16 21:47:20,197:INFO: 2019-06-16 21:47:20	 batch 14  to 14 :	global_step 0    	loss 0.1884	acc 0.9688
+2019-06-16 21:47:20,294:INFO: 2019-06-16 21:47:20	 batch 15  to 15 :	global_step 0    	loss 0.0492	acc 1.0000
+2019-06-16 21:47:20,391:INFO: 2019-06-16 21:47:20	 batch 16  to 16 :	global_step 0    	loss 0.0727	acc 0.9844
+2019-06-16 21:47:20,560:INFO: 2019-06-16 21:47:20	 batch 17  to 17 :	global_step 0    	loss 0.0307	acc 1.0000
+2019-06-16 21:47:20,755:INFO: 2019-06-16 21:47:20	 batch 18  to 18 :	global_step 0    	loss 0.1186	acc 0.9844
+2019-06-16 21:47:20,963:INFO: 2019-06-16 21:47:20	 batch 19  to 19 :	global_step 0    	loss 0.1156	acc 0.9688
+2019-06-16 21:47:21,088:INFO: 2019-06-16 21:47:21	 batch 20  to 20 :	global_step 0    	loss 0.1701	acc 0.9688
+2019-06-16 21:47:21,190:INFO: 2019-06-16 21:47:21	 batch 21  to 21 :	global_step 0    	loss 0.0519	acc 1.0000
+2019-06-16 21:47:21,292:INFO: 2019-06-16 21:47:21	 batch 22  to 22 :	global_step 0    	loss 0.1510	acc 0.9688
+2019-06-16 21:47:21,392:INFO: 2019-06-16 21:47:21	 batch 23  to 23 :	global_step 0    	loss 0.0534	acc 0.9844
+2019-06-16 21:47:21,497:INFO: 2019-06-16 21:47:21	 batch 24  to 24 :	global_step 0    	loss 0.1443	acc 0.9531
+2019-06-16 21:47:21,596:INFO: 2019-06-16 21:47:21	 batch 25  to 25 :	global_step 0    	loss 0.0820	acc 0.9844
+2019-06-16 21:47:21,697:INFO: 2019-06-16 21:47:21	 batch 26  to 26 :	global_step 0    	loss 0.2104	acc 0.9375
+2019-06-16 21:47:21,795:INFO: 2019-06-16 21:47:21	 batch 27  to 27 :	global_step 0    	loss 0.1231	acc 0.9531
+2019-06-16 21:47:21,893:INFO: 2019-06-16 21:47:21	 batch 28  to 28 :	global_step 0    	loss 0.0516	acc 1.0000
+2019-06-16 21:47:22,002:INFO: 2019-06-16 21:47:22	 batch 29  to 29 :	global_step 0    	loss 0.2504	acc 1.0000
+2019-06-16 21:47:22,759:INFO: 2019-06-16 21:47:22	acc 0.8512	p 0.7988	r 0.7709	f1 0.7800
+2019-06-16 21:47:22,958:INFO: Model saved in C:\code\challenge\clfzoo\models/textcnn/1560692747/ckpt/, with name textcnn.
+2019-06-16 21:47:22,958:INFO: New best score!
+
+2019-06-16 21:47:22,959:INFO: ########################################
+2019-06-16 21:47:22,959:INFO: Epoch 21 / 50
+2019-06-16 21:47:23,891:INFO: 2019-06-16 21:47:23	 batch 1   to 1  :	global_step 0    	loss 0.0554	acc 1.0000
+2019-06-16 21:47:23,987:INFO: 2019-06-16 21:47:23	 batch 2   to 2  :	global_step 0    	loss 0.1328	acc 0.9688
+2019-06-16 21:47:24,084:INFO: 2019-06-16 21:47:24	 batch 3   to 3  :	global_step 0    	loss 0.1714	acc 0.9688
+2019-06-16 21:47:24,182:INFO: 2019-06-16 21:47:24	 batch 4   to 4  :	global_step 0    	loss 0.0383	acc 1.0000
+2019-06-16 21:47:24,276:INFO: 2019-06-16 21:47:24	 batch 5   to 5  :	global_step 0    	loss 0.0624	acc 0.9844
+2019-06-16 21:47:24,374:INFO: 2019-06-16 21:47:24	 batch 6   to 6  :	global_step 0    	loss 0.0452	acc 1.0000
+2019-06-16 21:47:24,471:INFO: 2019-06-16 21:47:24	 batch 7   to 7  :	global_step 0    	loss 0.0546	acc 1.0000
+2019-06-16 21:47:24,568:INFO: 2019-06-16 21:47:24	 batch 8   to 8  :	global_step 0    	loss 0.1182	acc 0.9688
+2019-06-16 21:47:24,668:INFO: 2019-06-16 21:47:24	 batch 9   to 9  :	global_step 0    	loss 0.0617	acc 1.0000
+2019-06-16 21:47:24,770:INFO: 2019-06-16 21:47:24	 batch 10  to 10 :	global_step 0    	loss 0.1849	acc 0.9688
+2019-06-16 21:47:24,867:INFO: 2019-06-16 21:47:24	 batch 11  to 11 :	global_step 0    	loss 0.0431	acc 1.0000
+2019-06-16 21:47:24,965:INFO: 2019-06-16 21:47:24	 batch 12  to 12 :	global_step 0    	loss 0.0399	acc 1.0000
+2019-06-16 21:47:25,064:INFO: 2019-06-16 21:47:25	 batch 13  to 13 :	global_step 0    	loss 0.0373	acc 1.0000
+2019-06-16 21:47:25,159:INFO: 2019-06-16 21:47:25	 batch 14  to 14 :	global_step 0    	loss 0.0914	acc 0.9844
+2019-06-16 21:47:25,256:INFO: 2019-06-16 21:47:25	 batch 15  to 15 :	global_step 0    	loss 0.1119	acc 0.9844
+2019-06-16 21:47:25,351:INFO: 2019-06-16 21:47:25	 batch 16  to 16 :	global_step 0    	loss 0.1166	acc 0.9688
+2019-06-16 21:47:25,449:INFO: 2019-06-16 21:47:25	 batch 17  to 17 :	global_step 0    	loss 0.0573	acc 1.0000
+2019-06-16 21:47:25,545:INFO: 2019-06-16 21:47:25	 batch 18  to 18 :	global_step 0    	loss 0.0945	acc 0.9844
+2019-06-16 21:47:25,645:INFO: 2019-06-16 21:47:25	 batch 19  to 19 :	global_step 0    	loss 0.0461	acc 1.0000
+2019-06-16 21:47:25,743:INFO: 2019-06-16 21:47:25	 batch 20  to 20 :	global_step 0    	loss 0.0687	acc 1.0000
+2019-06-16 21:47:25,840:INFO: 2019-06-16 21:47:25	 batch 21  to 21 :	global_step 0    	loss 0.0643	acc 1.0000
+2019-06-16 21:47:25,941:INFO: 2019-06-16 21:47:25	 batch 22  to 22 :	global_step 0    	loss 0.1279	acc 0.9844
+2019-06-16 21:47:26,039:INFO: 2019-06-16 21:47:26	 batch 23  to 23 :	global_step 0    	loss 0.0968	acc 0.9844
+2019-06-16 21:47:26,135:INFO: 2019-06-16 21:47:26	 batch 24  to 24 :	global_step 0    	loss 0.1189	acc 0.9688
+2019-06-16 21:47:26,235:INFO: 2019-06-16 21:47:26	 batch 25  to 25 :	global_step 0    	loss 0.0992	acc 0.9844
+2019-06-16 21:47:26,331:INFO: 2019-06-16 21:47:26	 batch 26  to 26 :	global_step 0    	loss 0.0634	acc 0.9844
+2019-06-16 21:47:26,428:INFO: 2019-06-16 21:47:26	 batch 27  to 27 :	global_step 0    	loss 0.0765	acc 0.9844
+2019-06-16 21:47:26,527:INFO: 2019-06-16 21:47:26	 batch 28  to 28 :	global_step 0    	loss 0.0750	acc 0.9844
+2019-06-16 21:47:26,634:INFO: 2019-06-16 21:47:26	 batch 29  to 29 :	global_step 0    	loss 0.1830	acc 1.0000
+2019-06-16 21:47:27,549:INFO: 2019-06-16 21:47:27	acc 0.8577	p 0.7964	r 0.7718	f1 0.7810
+2019-06-16 21:47:27,747:INFO: Model saved in C:\code\challenge\clfzoo\models/textcnn/1560692747/ckpt/, with name textcnn.
+2019-06-16 21:47:27,748:INFO: New best score!
+
+2019-06-16 21:47:27,748:INFO: ########################################
+2019-06-16 21:47:27,748:INFO: Epoch 22 / 50
+2019-06-16 21:47:29,040:INFO: 2019-06-16 21:47:29	 batch 1   to 1  :	global_step 0    	loss 0.0395	acc 1.0000
+2019-06-16 21:47:29,138:INFO: 2019-06-16 21:47:29	 batch 2   to 2  :	global_step 0    	loss 0.1135	acc 0.9844
+2019-06-16 21:47:29,234:INFO: 2019-06-16 21:47:29	 batch 3   to 3  :	global_step 0    	loss 0.0598	acc 0.9844
+2019-06-16 21:47:29,332:INFO: 2019-06-16 21:47:29	 batch 4   to 4  :	global_step 0    	loss 0.0973	acc 0.9844
+2019-06-16 21:47:29,429:INFO: 2019-06-16 21:47:29	 batch 5   to 5  :	global_step 0    	loss 0.0383	acc 1.0000
+2019-06-16 21:47:29,525:INFO: 2019-06-16 21:47:29	 batch 6   to 6  :	global_step 0    	loss 0.1861	acc 0.9531
+2019-06-16 21:47:29,623:INFO: 2019-06-16 21:47:29	 batch 7   to 7  :	global_step 0    	loss 0.0588	acc 1.0000
+2019-06-16 21:47:29,720:INFO: 2019-06-16 21:47:29	 batch 8   to 8  :	global_step 0    	loss 0.0462	acc 0.9844
+2019-06-16 21:47:29,815:INFO: 2019-06-16 21:47:29	 batch 9   to 9  :	global_step 0    	loss 0.0415	acc 1.0000
+2019-06-16 21:47:29,913:INFO: 2019-06-16 21:47:29	 batch 10  to 10 :	global_step 0    	loss 0.1044	acc 0.9531
+2019-06-16 21:47:30,010:INFO: 2019-06-16 21:47:30	 batch 11  to 11 :	global_step 0    	loss 0.0533	acc 1.0000
+2019-06-16 21:47:30,109:INFO: 2019-06-16 21:47:30	 batch 12  to 12 :	global_step 0    	loss 0.0501	acc 1.0000
+2019-06-16 21:47:30,209:INFO: 2019-06-16 21:47:30	 batch 13  to 13 :	global_step 0    	loss 0.1511	acc 0.9688
+2019-06-16 21:47:30,463:INFO: 2019-06-16 21:47:30	 batch 14  to 14 :	global_step 0    	loss 0.0506	acc 1.0000
+2019-06-16 21:47:30,564:INFO: 2019-06-16 21:47:30	 batch 15  to 15 :	global_step 0    	loss 0.0980	acc 0.9844
+2019-06-16 21:47:30,674:INFO: 2019-06-16 21:47:30	 batch 16  to 16 :	global_step 0    	loss 0.0620	acc 0.9844
+2019-06-16 21:47:30,790:INFO: 2019-06-16 21:47:30	 batch 17  to 17 :	global_step 0    	loss 0.0704	acc 1.0000
+2019-06-16 21:47:31,196:INFO: 2019-06-16 21:47:31	 batch 18  to 18 :	global_step 0    	loss 0.0915	acc 0.9844
+2019-06-16 21:47:31,491:INFO: 2019-06-16 21:47:31	 batch 19  to 19 :	global_step 0    	loss 0.0403	acc 1.0000
+2019-06-16 21:47:31,655:INFO: 2019-06-16 21:47:31	 batch 20  to 20 :	global_step 0    	loss 0.0351	acc 1.0000
+2019-06-16 21:47:31,775:INFO: 2019-06-16 21:47:31	 batch 21  to 21 :	global_step 0    	loss 0.1100	acc 0.9844
+2019-06-16 21:47:31,883:INFO: 2019-06-16 21:47:31	 batch 22  to 22 :	global_step 0    	loss 0.0836	acc 0.9844
+2019-06-16 21:47:31,984:INFO: 2019-06-16 21:47:31	 batch 23  to 23 :	global_step 0    	loss 0.0704	acc 0.9844
+2019-06-16 21:47:32,092:INFO: 2019-06-16 21:47:32	 batch 24  to 24 :	global_step 0    	loss 0.1501	acc 0.9531
+2019-06-16 21:47:32,252:INFO: 2019-06-16 21:47:32	 batch 25  to 25 :	global_step 0    	loss 0.0586	acc 1.0000
+2019-06-16 21:47:32,463:INFO: 2019-06-16 21:47:32	 batch 26  to 26 :	global_step 0    	loss 0.1049	acc 0.9688
+2019-06-16 21:47:32,562:INFO: 2019-06-16 21:47:32	 batch 27  to 27 :	global_step 0    	loss 0.0824	acc 0.9844
+2019-06-16 21:47:32,667:INFO: 2019-06-16 21:47:32	 batch 28  to 28 :	global_step 0    	loss 0.0673	acc 0.9844
+2019-06-16 21:47:32,777:INFO: 2019-06-16 21:47:32	 batch 29  to 29 :	global_step 0    	loss 0.1862	acc 1.0000
+2019-06-16 21:47:34,126:INFO: 2019-06-16 21:47:34	acc 0.8577	p 0.8521	r 0.8140	f1 0.8284
+2019-06-16 21:47:34,366:INFO: Model saved in C:\code\challenge\clfzoo\models/textcnn/1560692747/ckpt/, with name textcnn.
+2019-06-16 21:47:34,366:INFO: New best score!
+
+2019-06-16 21:47:34,367:INFO: ########################################
+2019-06-16 21:47:34,367:INFO: Epoch 23 / 50
+2019-06-16 21:47:35,501:INFO: 2019-06-16 21:47:35	 batch 1   to 1  :	global_step 0    	loss 0.0951	acc 0.9844
+2019-06-16 21:47:35,603:INFO: 2019-06-16 21:47:35	 batch 2   to 2  :	global_step 0    	loss 0.0626	acc 1.0000
+2019-06-16 21:47:35,704:INFO: 2019-06-16 21:47:35	 batch 3   to 3  :	global_step 0    	loss 0.0733	acc 0.9844
+2019-06-16 21:47:35,803:INFO: 2019-06-16 21:47:35	 batch 4   to 4  :	global_step 0    	loss 0.0993	acc 0.9844
+2019-06-16 21:47:35,902:INFO: 2019-06-16 21:47:35	 batch 5   to 5  :	global_step 0    	loss 0.0278	acc 1.0000
+2019-06-16 21:47:36,003:INFO: 2019-06-16 21:47:36	 batch 6   to 6  :	global_step 0    	loss 0.0328	acc 1.0000
+2019-06-16 21:47:36,328:INFO: 2019-06-16 21:47:36	 batch 7   to 7  :	global_step 0    	loss 0.0350	acc 1.0000
+2019-06-16 21:47:36,606:INFO: 2019-06-16 21:47:36	 batch 8   to 8  :	global_step 0    	loss 0.0241	acc 1.0000
+2019-06-16 21:47:36,740:INFO: 2019-06-16 21:47:36	 batch 9   to 9  :	global_step 0    	loss 0.1499	acc 0.9688
+2019-06-16 21:47:36,921:INFO: 2019-06-16 21:47:36	 batch 10  to 10 :	global_step 0    	loss 0.0425	acc 1.0000
+2019-06-16 21:47:37,084:INFO: 2019-06-16 21:47:37	 batch 11  to 11 :	global_step 0    	loss 0.0911	acc 0.9844
+2019-06-16 21:47:37,224:INFO: 2019-06-16 21:47:37	 batch 12  to 12 :	global_step 0    	loss 0.1117	acc 0.9844
+2019-06-16 21:47:37,332:INFO: 2019-06-16 21:47:37	 batch 13  to 13 :	global_step 0    	loss 0.0705	acc 0.9844
+2019-06-16 21:47:37,433:INFO: 2019-06-16 21:47:37	 batch 14  to 14 :	global_step 0    	loss 0.1323	acc 0.9531
+2019-06-16 21:47:37,540:INFO: 2019-06-16 21:47:37	 batch 15  to 15 :	global_step 0    	loss 0.0311	acc 1.0000
+2019-06-16 21:47:37,650:INFO: 2019-06-16 21:47:37	 batch 16  to 16 :	global_step 0    	loss 0.0869	acc 0.9844
+2019-06-16 21:47:37,758:INFO: 2019-06-16 21:47:37	 batch 17  to 17 :	global_step 0    	loss 0.0366	acc 1.0000
+2019-06-16 21:47:37,856:INFO: 2019-06-16 21:47:37	 batch 18  to 18 :	global_step 0    	loss 0.1116	acc 0.9844
+2019-06-16 21:47:37,953:INFO: 2019-06-16 21:47:37	 batch 19  to 19 :	global_step 0    	loss 0.0471	acc 1.0000
+2019-06-16 21:47:38,053:INFO: 2019-06-16 21:47:38	 batch 20  to 20 :	global_step 0    	loss 0.1007	acc 0.9844
+2019-06-16 21:47:38,161:INFO: 2019-06-16 21:47:38	 batch 21  to 21 :	global_step 0    	loss 0.0422	acc 1.0000
+2019-06-16 21:47:38,335:INFO: 2019-06-16 21:47:38	 batch 22  to 22 :	global_step 0    	loss 0.0322	acc 1.0000
+2019-06-16 21:47:38,646:INFO: 2019-06-16 21:47:38	 batch 23  to 23 :	global_step 0    	loss 0.1544	acc 0.9688
+2019-06-16 21:47:38,926:INFO: 2019-06-16 21:47:38	 batch 24  to 24 :	global_step 0    	loss 0.0868	acc 0.9844
+2019-06-16 21:47:39,078:INFO: 2019-06-16 21:47:39	 batch 25  to 25 :	global_step 0    	loss 0.0725	acc 0.9844
+2019-06-16 21:47:39,196:INFO: 2019-06-16 21:47:39	 batch 26  to 26 :	global_step 0    	loss 0.0480	acc 1.0000
+2019-06-16 21:47:39,299:INFO: 2019-06-16 21:47:39	 batch 27  to 27 :	global_step 0    	loss 0.0449	acc 1.0000
+2019-06-16 21:47:39,397:INFO: 2019-06-16 21:47:39	 batch 28  to 28 :	global_step 0    	loss 0.0264	acc 1.0000
+2019-06-16 21:47:39,512:INFO: 2019-06-16 21:47:39	 batch 29  to 29 :	global_step 0    	loss 0.2657	acc 1.0000
+2019-06-16 21:47:40,229:INFO: 2019-06-16 21:47:40	acc 0.8564	p 0.8142	r 0.7748	f1 0.7886
+2019-06-16 21:47:40,230:INFO: ########################################
+2019-06-16 21:47:40,231:INFO: Epoch 24 / 50
+2019-06-16 21:47:41,315:INFO: 2019-06-16 21:47:41	 batch 1   to 1  :	global_step 0    	loss 0.0424	acc 1.0000
+2019-06-16 21:47:41,580:INFO: 2019-06-16 21:47:41	 batch 2   to 2  :	global_step 0    	loss 0.0479	acc 1.0000
+2019-06-16 21:47:41,828:INFO: 2019-06-16 21:47:41	 batch 3   to 3  :	global_step 0    	loss 0.0645	acc 0.9844
+2019-06-16 21:47:41,926:INFO: 2019-06-16 21:47:41	 batch 4   to 4  :	global_step 0    	loss 0.0687	acc 0.9844
+2019-06-16 21:47:42,024:INFO: 2019-06-16 21:47:42	 batch 5   to 5  :	global_step 0    	loss 0.0497	acc 0.9844
+2019-06-16 21:47:42,121:INFO: 2019-06-16 21:47:42	 batch 6   to 6  :	global_step 0    	loss 0.0227	acc 1.0000
+2019-06-16 21:47:42,214:INFO: 2019-06-16 21:47:42	 batch 7   to 7  :	global_step 0    	loss 0.0962	acc 0.9844
+2019-06-16 21:47:42,305:INFO: 2019-06-16 21:47:42	 batch 8   to 8  :	global_step 0    	loss 0.0535	acc 0.9844
+2019-06-16 21:47:42,399:INFO: 2019-06-16 21:47:42	 batch 9   to 9  :	global_step 0    	loss 0.0287	acc 1.0000
+2019-06-16 21:47:42,496:INFO: 2019-06-16 21:47:42	 batch 10  to 10 :	global_step 0    	loss 0.0828	acc 0.9844
+2019-06-16 21:47:42,591:INFO: 2019-06-16 21:47:42	 batch 11  to 11 :	global_step 0    	loss 0.1172	acc 0.9688
+2019-06-16 21:47:42,688:INFO: 2019-06-16 21:47:42	 batch 12  to 12 :	global_step 0    	loss 0.1120	acc 0.9844
+2019-06-16 21:47:42,784:INFO: 2019-06-16 21:47:42	 batch 13  to 13 :	global_step 0    	loss 0.1060	acc 0.9844
+2019-06-16 21:47:42,880:INFO: 2019-06-16 21:47:42	 batch 14  to 14 :	global_step 0    	loss 0.0312	acc 1.0000
+2019-06-16 21:47:42,983:INFO: 2019-06-16 21:47:42	 batch 15  to 15 :	global_step 0    	loss 0.1062	acc 0.9844
+2019-06-16 21:47:43,091:INFO: 2019-06-16 21:47:43	 batch 16  to 16 :	global_step 0    	loss 0.0264	acc 1.0000
+2019-06-16 21:47:43,195:INFO: 2019-06-16 21:47:43	 batch 17  to 17 :	global_step 0    	loss 0.0480	acc 1.0000
+2019-06-16 21:47:43,298:INFO: 2019-06-16 21:47:43	 batch 18  to 18 :	global_step 0    	loss 0.0475	acc 1.0000
+2019-06-16 21:47:43,393:INFO: 2019-06-16 21:47:43	 batch 19  to 19 :	global_step 0    	loss 0.0791	acc 0.9844
+2019-06-16 21:47:43,485:INFO: 2019-06-16 21:47:43	 batch 20  to 20 :	global_step 0    	loss 0.1165	acc 0.9844
+2019-06-16 21:47:43,575:INFO: 2019-06-16 21:47:43	 batch 21  to 21 :	global_step 0    	loss 0.0880	acc 0.9844
+2019-06-16 21:47:43,666:INFO: 2019-06-16 21:47:43	 batch 22  to 22 :	global_step 0    	loss 0.1224	acc 0.9688
+2019-06-16 21:47:43,760:INFO: 2019-06-16 21:47:43	 batch 23  to 23 :	global_step 0    	loss 0.0841	acc 0.9844
+2019-06-16 21:47:43,853:INFO: 2019-06-16 21:47:43	 batch 24  to 24 :	global_step 0    	loss 0.0807	acc 0.9844
+2019-06-16 21:47:43,944:INFO: 2019-06-16 21:47:43	 batch 25  to 25 :	global_step 0    	loss 0.0305	acc 1.0000
+2019-06-16 21:47:44,036:INFO: 2019-06-16 21:47:44	 batch 26  to 26 :	global_step 0    	loss 0.0991	acc 0.9844
+2019-06-16 21:47:44,133:INFO: 2019-06-16 21:47:44	 batch 27  to 27 :	global_step 0    	loss 0.0279	acc 1.0000
+2019-06-16 21:47:44,229:INFO: 2019-06-16 21:47:44	 batch 28  to 28 :	global_step 0    	loss 0.0210	acc 1.0000
+2019-06-16 21:47:44,346:INFO: 2019-06-16 21:47:44	 batch 29  to 29 :	global_step 0    	loss 0.1851	acc 1.0000
+2019-06-16 21:47:45,119:INFO: 2019-06-16 21:47:45	acc 0.8564	p 0.8217	r 0.7633	f1 0.7872
+2019-06-16 21:47:45,121:INFO: ########################################
+2019-06-16 21:47:45,121:INFO: Epoch 25 / 50
+2019-06-16 21:47:46,145:INFO: 2019-06-16 21:47:46	 batch 1   to 1  :	global_step 0    	loss 0.0727	acc 0.9844
+2019-06-16 21:47:46,239:INFO: 2019-06-16 21:47:46	 batch 2   to 2  :	global_step 0    	loss 0.0503	acc 1.0000
+2019-06-16 21:47:46,331:INFO: 2019-06-16 21:47:46	 batch 3   to 3  :	global_step 0    	loss 0.0390	acc 1.0000
+2019-06-16 21:47:46,421:INFO: 2019-06-16 21:47:46	 batch 4   to 4  :	global_step 0    	loss 0.1117	acc 0.9844
+2019-06-16 21:47:46,528:INFO: 2019-06-16 21:47:46	 batch 5   to 5  :	global_step 0    	loss 0.1149	acc 0.9844
+2019-06-16 21:47:46,626:INFO: 2019-06-16 21:47:46	 batch 6   to 6  :	global_step 0    	loss 0.0201	acc 1.0000
+2019-06-16 21:47:46,722:INFO: 2019-06-16 21:47:46	 batch 7   to 7  :	global_step 0    	loss 0.1072	acc 0.9688
+2019-06-16 21:47:46,818:INFO: 2019-06-16 21:47:46	 batch 8   to 8  :	global_step 0    	loss 0.0233	acc 1.0000
+2019-06-16 21:47:46,913:INFO: 2019-06-16 21:47:46	 batch 9   to 9  :	global_step 0    	loss 0.1108	acc 0.9688
+2019-06-16 21:47:47,004:INFO: 2019-06-16 21:47:47	 batch 10  to 10 :	global_step 0    	loss 0.1368	acc 0.9688
+2019-06-16 21:47:47,098:INFO: 2019-06-16 21:47:47	 batch 11  to 11 :	global_step 0    	loss 0.0650	acc 0.9844
+2019-06-16 21:47:47,188:INFO: 2019-06-16 21:47:47	 batch 12  to 12 :	global_step 0    	loss 0.0224	acc 1.0000
+2019-06-16 21:47:47,279:INFO: 2019-06-16 21:47:47	 batch 13  to 13 :	global_step 0    	loss 0.1297	acc 0.9531
+2019-06-16 21:47:47,369:INFO: 2019-06-16 21:47:47	 batch 14  to 14 :	global_step 0    	loss 0.0592	acc 1.0000
+2019-06-16 21:47:47,460:INFO: 2019-06-16 21:47:47	 batch 15  to 15 :	global_step 0    	loss 0.0738	acc 0.9844
+2019-06-16 21:47:47,550:INFO: 2019-06-16 21:47:47	 batch 16  to 16 :	global_step 0    	loss 0.0256	acc 1.0000
+2019-06-16 21:47:47,643:INFO: 2019-06-16 21:47:47	 batch 17  to 17 :	global_step 0    	loss 0.0307	acc 1.0000
+2019-06-16 21:47:47,737:INFO: 2019-06-16 21:47:47	 batch 18  to 18 :	global_step 0    	loss 0.0579	acc 0.9844
+2019-06-16 21:47:47,830:INFO: 2019-06-16 21:47:47	 batch 19  to 19 :	global_step 0    	loss 0.0253	acc 1.0000
+2019-06-16 21:47:47,925:INFO: 2019-06-16 21:47:47	 batch 20  to 20 :	global_step 0    	loss 0.0353	acc 1.0000
+2019-06-16 21:47:48,022:INFO: 2019-06-16 21:47:48	 batch 21  to 21 :	global_step 0    	loss 0.0421	acc 1.0000
+2019-06-16 21:47:48,117:INFO: 2019-06-16 21:47:48	 batch 22  to 22 :	global_step 0    	loss 0.0671	acc 0.9844
+2019-06-16 21:47:48,211:INFO: 2019-06-16 21:47:48	 batch 23  to 23 :	global_step 0    	loss 0.0226	acc 1.0000
+2019-06-16 21:47:48,308:INFO: 2019-06-16 21:47:48	 batch 24  to 24 :	global_step 0    	loss 0.0322	acc 1.0000
+2019-06-16 21:47:48,404:INFO: 2019-06-16 21:47:48	 batch 25  to 25 :	global_step 0    	loss 0.0807	acc 0.9844
+2019-06-16 21:47:48,501:INFO: 2019-06-16 21:47:48	 batch 26  to 26 :	global_step 0    	loss 0.0658	acc 0.9844
+2019-06-16 21:47:48,594:INFO: 2019-06-16 21:47:48	 batch 27  to 27 :	global_step 0    	loss 0.0568	acc 0.9844
+2019-06-16 21:47:48,776:INFO: 2019-06-16 21:47:48	 batch 28  to 28 :	global_step 0    	loss 0.0246	acc 1.0000
+2019-06-16 21:47:48,949:INFO: 2019-06-16 21:47:48	 batch 29  to 29 :	global_step 0    	loss 0.2762	acc 1.0000
+2019-06-16 21:47:49,790:INFO: 2019-06-16 21:47:49	acc 0.8525	p 0.8045	r 0.7698	f1 0.7832
+2019-06-16 21:47:49,791:INFO: ########################################
+2019-06-16 21:47:49,792:INFO: Epoch 26 / 50
+2019-06-16 21:47:50,476:INFO: 2019-06-16 21:47:50	 batch 1   to 1  :	global_step 0    	loss 0.0248	acc 1.0000
+2019-06-16 21:47:50,574:INFO: 2019-06-16 21:47:50	 batch 2   to 2  :	global_step 0    	loss 0.0337	acc 1.0000
+2019-06-16 21:47:50,671:INFO: 2019-06-16 21:47:50	 batch 3   to 3  :	global_step 0    	loss 0.0790	acc 0.9844
+2019-06-16 21:47:50,768:INFO: 2019-06-16 21:47:50	 batch 4   to 4  :	global_step 0    	loss 0.0261	acc 1.0000
+2019-06-16 21:47:50,866:INFO: 2019-06-16 21:47:50	 batch 5   to 5  :	global_step 0    	loss 0.0229	acc 1.0000
+2019-06-16 21:47:50,968:INFO: 2019-06-16 21:47:50	 batch 6   to 6  :	global_step 0    	loss 0.0898	acc 0.9844
+2019-06-16 21:47:51,066:INFO: 2019-06-16 21:47:51	 batch 7   to 7  :	global_step 0    	loss 0.1017	acc 0.9844
+2019-06-16 21:47:51,162:INFO: 2019-06-16 21:47:51	 batch 8   to 8  :	global_step 0    	loss 0.0219	acc 1.0000
+2019-06-16 21:47:51,257:INFO: 2019-06-16 21:47:51	 batch 9   to 9  :	global_step 0    	loss 0.0256	acc 1.0000
+2019-06-16 21:47:51,353:INFO: 2019-06-16 21:47:51	 batch 10  to 10 :	global_step 0    	loss 0.0160	acc 1.0000
+2019-06-16 21:47:51,449:INFO: 2019-06-16 21:47:51	 batch 11  to 11 :	global_step 0    	loss 0.1282	acc 0.9688
+2019-06-16 21:47:51,545:INFO: 2019-06-16 21:47:51	 batch 12  to 12 :	global_step 0    	loss 0.0321	acc 1.0000
+2019-06-16 21:47:51,778:INFO: 2019-06-16 21:47:51	 batch 13  to 13 :	global_step 0    	loss 0.0323	acc 0.9844
+2019-06-16 21:47:52,032:INFO: 2019-06-16 21:47:52	 batch 14  to 14 :	global_step 0    	loss 0.1038	acc 0.9844
+2019-06-16 21:47:52,219:INFO: 2019-06-16 21:47:52	 batch 15  to 15 :	global_step 0    	loss 0.0874	acc 0.9844
+2019-06-16 21:47:52,333:INFO: 2019-06-16 21:47:52	 batch 16  to 16 :	global_step 0    	loss 0.0876	acc 0.9844
+2019-06-16 21:47:52,453:INFO: 2019-06-16 21:47:52	 batch 17  to 17 :	global_step 0    	loss 0.0776	acc 0.9844
+2019-06-16 21:47:52,562:INFO: 2019-06-16 21:47:52	 batch 18  to 18 :	global_step 0    	loss 0.0232	acc 1.0000
+2019-06-16 21:47:52,662:INFO: 2019-06-16 21:47:52	 batch 19  to 19 :	global_step 0    	loss 0.0330	acc 1.0000
+2019-06-16 21:47:52,762:INFO: 2019-06-16 21:47:52	 batch 20  to 20 :	global_step 0    	loss 0.0318	acc 1.0000
+2019-06-16 21:47:52,871:INFO: 2019-06-16 21:47:52	 batch 21  to 21 :	global_step 0    	loss 0.0331	acc 1.0000
+2019-06-16 21:47:52,975:INFO: 2019-06-16 21:47:52	 batch 22  to 22 :	global_step 0    	loss 0.0839	acc 0.9844
+2019-06-16 21:47:53,083:INFO: 2019-06-16 21:47:53	 batch 23  to 23 :	global_step 0    	loss 0.0187	acc 1.0000
+2019-06-16 21:47:53,181:INFO: 2019-06-16 21:47:53	 batch 24  to 24 :	global_step 0    	loss 0.1599	acc 0.9688
+2019-06-16 21:47:53,292:INFO: 2019-06-16 21:47:53	 batch 25  to 25 :	global_step 0    	loss 0.0341	acc 1.0000
+2019-06-16 21:47:53,403:INFO: 2019-06-16 21:47:53	 batch 26  to 26 :	global_step 0    	loss 0.1805	acc 0.9531
+2019-06-16 21:47:53,527:INFO: 2019-06-16 21:47:53	 batch 27  to 27 :	global_step 0    	loss 0.0380	acc 1.0000
+2019-06-16 21:47:53,628:INFO: 2019-06-16 21:47:53	 batch 28  to 28 :	global_step 0    	loss 0.0207	acc 1.0000
+2019-06-16 21:47:53,973:INFO: 2019-06-16 21:47:53	 batch 29  to 29 :	global_step 0    	loss 0.1405	acc 1.0000
+2019-06-16 21:47:55,205:INFO: 2019-06-16 21:47:55	acc 0.8603	p 0.8000	r 0.7773	f1 0.7860
+2019-06-16 21:47:55,443:INFO: Model saved in C:\code\challenge\clfzoo\models/textcnn/1560692747/ckpt/, with name textcnn.
+2019-06-16 21:47:55,443:INFO: New best score!
+
+2019-06-16 21:47:55,444:INFO: ########################################
+2019-06-16 21:47:55,444:INFO: Epoch 27 / 50
+2019-06-16 21:47:57,219:INFO: 2019-06-16 21:47:57	 batch 1   to 1  :	global_step 0    	loss 0.0268	acc 1.0000
+2019-06-16 21:47:57,513:INFO: 2019-06-16 21:47:57	 batch 2   to 2  :	global_step 0    	loss 0.0808	acc 0.9844
+2019-06-16 21:47:57,782:INFO: 2019-06-16 21:47:57	 batch 3   to 3  :	global_step 0    	loss 0.0460	acc 0.9844
+2019-06-16 21:47:57,903:INFO: 2019-06-16 21:47:57	 batch 4   to 4  :	global_step 0    	loss 0.0341	acc 1.0000
+2019-06-16 21:47:58,032:INFO: 2019-06-16 21:47:58	 batch 5   to 5  :	global_step 0    	loss 0.1161	acc 0.9688
+2019-06-16 21:47:58,154:INFO: 2019-06-16 21:47:58	 batch 6   to 6  :	global_step 0    	loss 0.0740	acc 0.9844
+2019-06-16 21:47:58,254:INFO: 2019-06-16 21:47:58	 batch 7   to 7  :	global_step 0    	loss 0.0270	acc 1.0000
+2019-06-16 21:47:58,365:INFO: 2019-06-16 21:47:58	 batch 8   to 8  :	global_step 0    	loss 0.0335	acc 1.0000
+2019-06-16 21:47:58,471:INFO: 2019-06-16 21:47:58	 batch 9   to 9  :	global_step 0    	loss 0.0175	acc 1.0000
+2019-06-16 21:47:58,618:INFO: 2019-06-16 21:47:58	 batch 10  to 10 :	global_step 0    	loss 0.0217	acc 1.0000
+2019-06-16 21:47:58,785:INFO: 2019-06-16 21:47:58	 batch 11  to 11 :	global_step 0    	loss 0.0148	acc 1.0000
+2019-06-16 21:47:58,894:INFO: 2019-06-16 21:47:58	 batch 12  to 12 :	global_step 0    	loss 0.0745	acc 0.9844
+2019-06-16 21:47:59,029:INFO: 2019-06-16 21:47:59	 batch 13  to 13 :	global_step 0    	loss 0.0995	acc 0.9844
+2019-06-16 21:47:59,222:INFO: 2019-06-16 21:47:59	 batch 14  to 14 :	global_step 0    	loss 0.0700	acc 0.9844
+2019-06-16 21:47:59,414:INFO: 2019-06-16 21:47:59	 batch 15  to 15 :	global_step 0    	loss 0.0536	acc 1.0000
+2019-06-16 21:47:59,569:INFO: 2019-06-16 21:47:59	 batch 16  to 16 :	global_step 0    	loss 0.0779	acc 0.9844
+2019-06-16 21:47:59,766:INFO: 2019-06-16 21:47:59	 batch 17  to 17 :	global_step 0    	loss 0.0428	acc 0.9844
+2019-06-16 21:48:00,076:INFO: 2019-06-16 21:48:00	 batch 18  to 18 :	global_step 0    	loss 0.0934	acc 0.9844
+2019-06-16 21:48:00,277:INFO: 2019-06-16 21:48:00	 batch 19  to 19 :	global_step 0    	loss 0.0267	acc 1.0000
+2019-06-16 21:48:00,478:INFO: 2019-06-16 21:48:00	 batch 20  to 20 :	global_step 0    	loss 0.0109	acc 1.0000
+2019-06-16 21:48:00,630:INFO: 2019-06-16 21:48:00	 batch 21  to 21 :	global_step 0    	loss 0.0804	acc 0.9844
+2019-06-16 21:48:00,757:INFO: 2019-06-16 21:48:00	 batch 22  to 22 :	global_step 0    	loss 0.0330	acc 1.0000
+2019-06-16 21:48:00,856:INFO: 2019-06-16 21:48:00	 batch 23  to 23 :	global_step 0    	loss 0.0925	acc 0.9688
+2019-06-16 21:48:00,991:INFO: 2019-06-16 21:48:00	 batch 24  to 24 :	global_step 0    	loss 0.0586	acc 0.9844
+2019-06-16 21:48:01,099:INFO: 2019-06-16 21:48:01	 batch 25  to 25 :	global_step 0    	loss 0.0348	acc 1.0000
+2019-06-16 21:48:01,201:INFO: 2019-06-16 21:48:01	 batch 26  to 26 :	global_step 0    	loss 0.0197	acc 1.0000
+2019-06-16 21:48:01,319:INFO: 2019-06-16 21:48:01	 batch 27  to 27 :	global_step 0    	loss 0.0372	acc 0.9844
+2019-06-16 21:48:01,417:INFO: 2019-06-16 21:48:01	 batch 28  to 28 :	global_step 0    	loss 0.0426	acc 0.9844
+2019-06-16 21:48:01,549:INFO: 2019-06-16 21:48:01	 batch 29  to 29 :	global_step 0    	loss 0.2829	acc 1.0000
+2019-06-16 21:48:02,466:INFO: 2019-06-16 21:48:02	acc 0.8551	p 0.8128	r 0.7665	f1 0.7855
+2019-06-16 21:48:02,467:INFO: ########################################
+2019-06-16 21:48:02,468:INFO: Epoch 28 / 50
+2019-06-16 21:48:03,621:INFO: 2019-06-16 21:48:03	 batch 1   to 1  :	global_step 0    	loss 0.0583	acc 0.9844
+2019-06-16 21:48:03,723:INFO: 2019-06-16 21:48:03	 batch 2   to 2  :	global_step 0    	loss 0.0198	acc 1.0000
+2019-06-16 21:48:03,848:INFO: 2019-06-16 21:48:03	 batch 3   to 3  :	global_step 0    	loss 0.1068	acc 0.9844
+2019-06-16 21:48:03,971:INFO: 2019-06-16 21:48:03	 batch 4   to 4  :	global_step 0    	loss 0.0243	acc 1.0000
+2019-06-16 21:48:04,152:INFO: 2019-06-16 21:48:04	 batch 5   to 5  :	global_step 0    	loss 0.0231	acc 1.0000
+2019-06-16 21:48:04,252:INFO: 2019-06-16 21:48:04	 batch 6   to 6  :	global_step 0    	loss 0.0725	acc 0.9844
+2019-06-16 21:48:04,354:INFO: 2019-06-16 21:48:04	 batch 7   to 7  :	global_step 0    	loss 0.1083	acc 0.9688
+2019-06-16 21:48:04,472:INFO: 2019-06-16 21:48:04	 batch 8   to 8  :	global_step 0    	loss 0.0242	acc 1.0000
+2019-06-16 21:48:04,591:INFO: 2019-06-16 21:48:04	 batch 9   to 9  :	global_step 0    	loss 0.0285	acc 1.0000
+2019-06-16 21:48:04,730:INFO: 2019-06-16 21:48:04	 batch 10  to 10 :	global_step 0    	loss 0.0210	acc 1.0000
+2019-06-16 21:48:04,829:INFO: 2019-06-16 21:48:04	 batch 11  to 11 :	global_step 0    	loss 0.0216	acc 1.0000
+2019-06-16 21:48:04,979:INFO: 2019-06-16 21:48:04	 batch 12  to 12 :	global_step 0    	loss 0.0307	acc 1.0000
+2019-06-16 21:48:05,092:INFO: 2019-06-16 21:48:05	 batch 13  to 13 :	global_step 0    	loss 0.0203	acc 1.0000
+2019-06-16 21:48:05,194:INFO: 2019-06-16 21:48:05	 batch 14  to 14 :	global_step 0    	loss 0.0857	acc 0.9844
+2019-06-16 21:48:05,313:INFO: 2019-06-16 21:48:05	 batch 15  to 15 :	global_step 0    	loss 0.0168	acc 1.0000
+2019-06-16 21:48:05,413:INFO: 2019-06-16 21:48:05	 batch 16  to 16 :	global_step 0    	loss 0.0226	acc 1.0000
+2019-06-16 21:48:05,511:INFO: 2019-06-16 21:48:05	 batch 17  to 17 :	global_step 0    	loss 0.0834	acc 0.9844
+2019-06-16 21:48:05,662:INFO: 2019-06-16 21:48:05	 batch 18  to 18 :	global_step 0    	loss 0.0270	acc 1.0000
+2019-06-16 21:48:05,876:INFO: 2019-06-16 21:48:05	 batch 19  to 19 :	global_step 0    	loss 0.0815	acc 0.9844
+2019-06-16 21:48:06,097:INFO: 2019-06-16 21:48:06	 batch 20  to 20 :	global_step 0    	loss 0.0801	acc 0.9844
+2019-06-16 21:48:06,226:INFO: 2019-06-16 21:48:06	 batch 21  to 21 :	global_step 0    	loss 0.0180	acc 1.0000
+2019-06-16 21:48:06,352:INFO: 2019-06-16 21:48:06	 batch 22  to 22 :	global_step 0    	loss 0.0897	acc 0.9844
+2019-06-16 21:48:06,450:INFO: 2019-06-16 21:48:06	 batch 23  to 23 :	global_step 0    	loss 0.0717	acc 0.9844
+2019-06-16 21:48:06,556:INFO: 2019-06-16 21:48:06	 batch 24  to 24 :	global_step 0    	loss 0.0384	acc 1.0000
+2019-06-16 21:48:06,659:INFO: 2019-06-16 21:48:06	 batch 25  to 25 :	global_step 0    	loss 0.0765	acc 0.9844
+2019-06-16 21:48:06,771:INFO: 2019-06-16 21:48:06	 batch 26  to 26 :	global_step 0    	loss 0.0198	acc 1.0000
+2019-06-16 21:48:06,874:INFO: 2019-06-16 21:48:06	 batch 27  to 27 :	global_step 0    	loss 0.1263	acc 0.9688
+2019-06-16 21:48:07,009:INFO: 2019-06-16 21:48:07	 batch 28  to 28 :	global_step 0    	loss 0.0535	acc 0.9688
+2019-06-16 21:48:07,121:INFO: 2019-06-16 21:48:07	 batch 29  to 29 :	global_step 0    	loss 0.1452	acc 1.0000
+2019-06-16 21:48:07,958:INFO: 2019-06-16 21:48:07	acc 0.8564	p 0.8380	r 0.8078	f1 0.8185
+2019-06-16 21:48:07,960:INFO: ########################################
+2019-06-16 21:48:07,960:INFO: Epoch 29 / 50
+2019-06-16 21:48:08,943:INFO: 2019-06-16 21:48:08	 batch 1   to 1  :	global_step 0    	loss 0.0517	acc 0.9844
+2019-06-16 21:48:09,159:INFO: 2019-06-16 21:48:09	 batch 2   to 2  :	global_step 0    	loss 0.0213	acc 1.0000
+2019-06-16 21:48:09,276:INFO: 2019-06-16 21:48:09	 batch 3   to 3  :	global_step 0    	loss 0.0839	acc 0.9844
+2019-06-16 21:48:09,374:INFO: 2019-06-16 21:48:09	 batch 4   to 4  :	global_step 0    	loss 0.0213	acc 1.0000
+2019-06-16 21:48:09,472:INFO: 2019-06-16 21:48:09	 batch 5   to 5  :	global_step 0    	loss 0.0154	acc 1.0000
+2019-06-16 21:48:09,569:INFO: 2019-06-16 21:48:09	 batch 6   to 6  :	global_step 0    	loss 0.0175	acc 1.0000
+2019-06-16 21:48:09,667:INFO: 2019-06-16 21:48:09	 batch 7   to 7  :	global_step 0    	loss 0.0211	acc 1.0000
+2019-06-16 21:48:09,763:INFO: 2019-06-16 21:48:09	 batch 8   to 8  :	global_step 0    	loss 0.1250	acc 0.9688
+2019-06-16 21:48:09,861:INFO: 2019-06-16 21:48:09	 batch 9   to 9  :	global_step 0    	loss 0.0260	acc 1.0000
+2019-06-16 21:48:09,959:INFO: 2019-06-16 21:48:09	 batch 10  to 10 :	global_step 0    	loss 0.0272	acc 1.0000
+2019-06-16 21:48:10,058:INFO: 2019-06-16 21:48:10	 batch 11  to 11 :	global_step 0    	loss 0.0693	acc 0.9844
+2019-06-16 21:48:10,155:INFO: 2019-06-16 21:48:10	 batch 12  to 12 :	global_step 0    	loss 0.0159	acc 1.0000
+2019-06-16 21:48:10,253:INFO: 2019-06-16 21:48:10	 batch 13  to 13 :	global_step 0    	loss 0.0146	acc 1.0000
+2019-06-16 21:48:10,347:INFO: 2019-06-16 21:48:10	 batch 14  to 14 :	global_step 0    	loss 0.0656	acc 0.9844
+2019-06-16 21:48:10,445:INFO: 2019-06-16 21:48:10	 batch 15  to 15 :	global_step 0    	loss 0.0684	acc 0.9844
+2019-06-16 21:48:10,541:INFO: 2019-06-16 21:48:10	 batch 16  to 16 :	global_step 0    	loss 0.0385	acc 0.9844
+2019-06-16 21:48:10,640:INFO: 2019-06-16 21:48:10	 batch 17  to 17 :	global_step 0    	loss 0.0352	acc 1.0000
+2019-06-16 21:48:10,738:INFO: 2019-06-16 21:48:10	 batch 18  to 18 :	global_step 0    	loss 0.0334	acc 1.0000
+2019-06-16 21:48:10,839:INFO: 2019-06-16 21:48:10	 batch 19  to 19 :	global_step 0    	loss 0.0216	acc 1.0000
+2019-06-16 21:48:10,961:INFO: 2019-06-16 21:48:10	 batch 20  to 20 :	global_step 0    	loss 0.0722	acc 0.9688
+2019-06-16 21:48:11,129:INFO: 2019-06-16 21:48:11	 batch 21  to 21 :	global_step 0    	loss 0.0159	acc 1.0000
+2019-06-16 21:48:11,240:INFO: 2019-06-16 21:48:11	 batch 22  to 22 :	global_step 0    	loss 0.0206	acc 1.0000
+2019-06-16 21:48:11,381:INFO: 2019-06-16 21:48:11	 batch 23  to 23 :	global_step 0    	loss 0.0206	acc 1.0000
+2019-06-16 21:48:11,491:INFO: 2019-06-16 21:48:11	 batch 24  to 24 :	global_step 0    	loss 0.0159	acc 1.0000
+2019-06-16 21:48:11,590:INFO: 2019-06-16 21:48:11	 batch 25  to 25 :	global_step 0    	loss 0.1689	acc 0.9688
+2019-06-16 21:48:11,691:INFO: 2019-06-16 21:48:11	 batch 26  to 26 :	global_step 0    	loss 0.0176	acc 1.0000
+2019-06-16 21:48:11,788:INFO: 2019-06-16 21:48:11	 batch 27  to 27 :	global_step 0    	loss 0.0613	acc 0.9844
+2019-06-16 21:48:11,909:INFO: 2019-06-16 21:48:11	 batch 28  to 28 :	global_step 0    	loss 0.1914	acc 0.9531
+2019-06-16 21:48:12,020:INFO: 2019-06-16 21:48:12	 batch 29  to 29 :	global_step 0    	loss 0.2148	acc 1.0000
+2019-06-16 21:48:12,767:INFO: 2019-06-16 21:48:12	acc 0.8577	p 0.8425	r 0.8095	f1 0.8224
+2019-06-16 21:48:12,768:INFO: ########################################
+2019-06-16 21:48:12,768:INFO: Epoch 30 / 50
+2019-06-16 21:48:13,755:INFO: 2019-06-16 21:48:13	 batch 1   to 1  :	global_step 0    	loss 0.0183	acc 1.0000
+2019-06-16 21:48:13,852:INFO: 2019-06-16 21:48:13	 batch 2   to 2  :	global_step 0    	loss 0.0595	acc 0.9844
+2019-06-16 21:48:13,949:INFO: 2019-06-16 21:48:13	 batch 3   to 3  :	global_step 0    	loss 0.1003	acc 0.9844
+2019-06-16 21:48:14,046:INFO: 2019-06-16 21:48:14	 batch 4   to 4  :	global_step 0    	loss 0.0164	acc 1.0000
+2019-06-16 21:48:14,141:INFO: 2019-06-16 21:48:14	 batch 5   to 5  :	global_step 0    	loss 0.0316	acc 1.0000
+2019-06-16 21:48:14,238:INFO: 2019-06-16 21:48:14	 batch 6   to 6  :	global_step 0    	loss 0.0714	acc 0.9844
+2019-06-16 21:48:14,336:INFO: 2019-06-16 21:48:14	 batch 7   to 7  :	global_step 0    	loss 0.0378	acc 0.9844
+2019-06-16 21:48:14,430:INFO: 2019-06-16 21:48:14	 batch 8   to 8  :	global_step 0    	loss 0.0210	acc 1.0000
+2019-06-16 21:48:14,528:INFO: 2019-06-16 21:48:14	 batch 9   to 9  :	global_step 0    	loss 0.0228	acc 1.0000
+2019-06-16 21:48:14,623:INFO: 2019-06-16 21:48:14	 batch 10  to 10 :	global_step 0    	loss 0.0765	acc 0.9844
+2019-06-16 21:48:14,719:INFO: 2019-06-16 21:48:14	 batch 11  to 11 :	global_step 0    	loss 0.0167	acc 1.0000
+2019-06-16 21:48:14,815:INFO: 2019-06-16 21:48:14	 batch 12  to 12 :	global_step 0    	loss 0.0684	acc 0.9844
+2019-06-16 21:48:14,913:INFO: 2019-06-16 21:48:14	 batch 13  to 13 :	global_step 0    	loss 0.1637	acc 0.9531
+2019-06-16 21:48:15,038:INFO: 2019-06-16 21:48:15	 batch 14  to 14 :	global_step 0    	loss 0.0188	acc 1.0000
+2019-06-16 21:48:15,136:INFO: 2019-06-16 21:48:15	 batch 15  to 15 :	global_step 0    	loss 0.0201	acc 1.0000
+2019-06-16 21:48:15,242:INFO: 2019-06-16 21:48:15	 batch 16  to 16 :	global_step 0    	loss 0.0163	acc 1.0000
+2019-06-16 21:48:15,352:INFO: 2019-06-16 21:48:15	 batch 17  to 17 :	global_step 0    	loss 0.0834	acc 0.9844
+2019-06-16 21:48:15,515:INFO: 2019-06-16 21:48:15	 batch 18  to 18 :	global_step 0    	loss 0.0700	acc 0.9844
+2019-06-16 21:48:15,642:INFO: 2019-06-16 21:48:15	 batch 19  to 19 :	global_step 0    	loss 0.0171	acc 1.0000
+2019-06-16 21:48:15,850:INFO: 2019-06-16 21:48:15	 batch 20  to 20 :	global_step 0    	loss 0.0132	acc 1.0000
+2019-06-16 21:48:16,005:INFO: 2019-06-16 21:48:16	 batch 21  to 21 :	global_step 0    	loss 0.0273	acc 1.0000
+2019-06-16 21:48:16,158:INFO: 2019-06-16 21:48:16	 batch 22  to 22 :	global_step 0    	loss 0.0619	acc 0.9844
+2019-06-16 21:48:16,370:INFO: 2019-06-16 21:48:16	 batch 23  to 23 :	global_step 0    	loss 0.0909	acc 0.9844
+2019-06-16 21:48:16,492:INFO: 2019-06-16 21:48:16	 batch 24  to 24 :	global_step 0    	loss 0.0539	acc 0.9844
+2019-06-16 21:48:16,590:INFO: 2019-06-16 21:48:16	 batch 25  to 25 :	global_step 0    	loss 0.0232	acc 1.0000
+2019-06-16 21:48:16,713:INFO: 2019-06-16 21:48:16	 batch 26  to 26 :	global_step 0    	loss 0.0264	acc 1.0000
+2019-06-16 21:48:16,872:INFO: 2019-06-16 21:48:16	 batch 27  to 27 :	global_step 0    	loss 0.0268	acc 1.0000
+2019-06-16 21:48:16,997:INFO: 2019-06-16 21:48:16	 batch 28  to 28 :	global_step 0    	loss 0.0127	acc 1.0000
+2019-06-16 21:48:17,205:INFO: 2019-06-16 21:48:17	 batch 29  to 29 :	global_step 0    	loss 0.2647	acc 1.0000
+2019-06-16 21:48:18,095:INFO: 2019-06-16 21:48:18	acc 0.8629	p 0.8127	r 0.7830	f1 0.7938
+2019-06-16 21:48:18,343:INFO: Model saved in C:\code\challenge\clfzoo\models/textcnn/1560692747/ckpt/, with name textcnn.
+2019-06-16 21:48:18,343:INFO: New best score!
+
+2019-06-16 21:48:18,344:INFO: ########################################
+2019-06-16 21:48:18,344:INFO: Epoch 31 / 50
+2019-06-16 21:48:19,427:INFO: 2019-06-16 21:48:19	 batch 1   to 1  :	global_step 0    	loss 0.0189	acc 1.0000
+2019-06-16 21:48:19,523:INFO: 2019-06-16 21:48:19	 batch 2   to 2  :	global_step 0    	loss 0.0199	acc 1.0000
+2019-06-16 21:48:19,615:INFO: 2019-06-16 21:48:19	 batch 3   to 3  :	global_step 0    	loss 0.1099	acc 0.9688
+2019-06-16 21:48:19,708:INFO: 2019-06-16 21:48:19	 batch 4   to 4  :	global_step 0    	loss 0.0682	acc 0.9844
+2019-06-16 21:48:19,803:INFO: 2019-06-16 21:48:19	 batch 5   to 5  :	global_step 0    	loss 0.0249	acc 1.0000
+2019-06-16 21:48:19,896:INFO: 2019-06-16 21:48:19	 batch 6   to 6  :	global_step 0    	loss 0.0129	acc 1.0000
+2019-06-16 21:48:19,997:INFO: 2019-06-16 21:48:19	 batch 7   to 7  :	global_step 0    	loss 0.1328	acc 0.9688
+2019-06-16 21:48:20,091:INFO: 2019-06-16 21:48:20	 batch 8   to 8  :	global_step 0    	loss 0.0711	acc 0.9844
+2019-06-16 21:48:20,187:INFO: 2019-06-16 21:48:20	 batch 9   to 9  :	global_step 0    	loss 0.0352	acc 0.9844
+2019-06-16 21:48:20,280:INFO: 2019-06-16 21:48:20	 batch 10  to 10 :	global_step 0    	loss 0.1104	acc 0.9688
+2019-06-16 21:48:20,375:INFO: 2019-06-16 21:48:20	 batch 11  to 11 :	global_step 0    	loss 0.0131	acc 1.0000
+2019-06-16 21:48:20,474:INFO: 2019-06-16 21:48:20	 batch 12  to 12 :	global_step 0    	loss 0.0162	acc 1.0000
+2019-06-16 21:48:20,570:INFO: 2019-06-16 21:48:20	 batch 13  to 13 :	global_step 0    	loss 0.0141	acc 1.0000
+2019-06-16 21:48:20,663:INFO: 2019-06-16 21:48:20	 batch 14  to 14 :	global_step 0    	loss 0.0264	acc 1.0000
+2019-06-16 21:48:20,759:INFO: 2019-06-16 21:48:20	 batch 15  to 15 :	global_step 0    	loss 0.0601	acc 0.9844
+2019-06-16 21:48:20,858:INFO: 2019-06-16 21:48:20	 batch 16  to 16 :	global_step 0    	loss 0.0136	acc 1.0000
+2019-06-16 21:48:20,959:INFO: 2019-06-16 21:48:20	 batch 17  to 17 :	global_step 0    	loss 0.0155	acc 1.0000
+2019-06-16 21:48:21,097:INFO: 2019-06-16 21:48:21	 batch 18  to 18 :	global_step 0    	loss 0.1442	acc 0.9688
+2019-06-16 21:48:21,196:INFO: 2019-06-16 21:48:21	 batch 19  to 19 :	global_step 0    	loss 0.0142	acc 1.0000
+2019-06-16 21:48:21,294:INFO: 2019-06-16 21:48:21	 batch 20  to 20 :	global_step 0    	loss 0.0193	acc 1.0000
+2019-06-16 21:48:21,392:INFO: 2019-06-16 21:48:21	 batch 21  to 21 :	global_step 0    	loss 0.0793	acc 0.9844
+2019-06-16 21:48:21,488:INFO: 2019-06-16 21:48:21	 batch 22  to 22 :	global_step 0    	loss 0.0160	acc 1.0000
+2019-06-16 21:48:21,588:INFO: 2019-06-16 21:48:21	 batch 23  to 23 :	global_step 0    	loss 0.0191	acc 1.0000
+2019-06-16 21:48:21,686:INFO: 2019-06-16 21:48:21	 batch 24  to 24 :	global_step 0    	loss 0.0619	acc 0.9844
+2019-06-16 21:48:21,781:INFO: 2019-06-16 21:48:21	 batch 25  to 25 :	global_step 0    	loss 0.0139	acc 1.0000
+2019-06-16 21:48:21,875:INFO: 2019-06-16 21:48:21	 batch 26  to 26 :	global_step 0    	loss 0.0219	acc 1.0000
+2019-06-16 21:48:21,971:INFO: 2019-06-16 21:48:21	 batch 27  to 27 :	global_step 0    	loss 0.0179	acc 1.0000
+2019-06-16 21:48:22,065:INFO: 2019-06-16 21:48:22	 batch 28  to 28 :	global_step 0    	loss 0.0256	acc 1.0000
+2019-06-16 21:48:22,169:INFO: 2019-06-16 21:48:22	 batch 29  to 29 :	global_step 0    	loss 0.2014	acc 1.0000
+2019-06-16 21:48:23,145:INFO: 2019-06-16 21:48:23	acc 0.8616	p 0.8525	r 0.8092	f1 0.8270
+2019-06-16 21:48:23,146:INFO: ########################################
+2019-06-16 21:48:23,147:INFO: Epoch 32 / 50
+2019-06-16 21:48:25,659:INFO: 2019-06-16 21:48:25	 batch 1   to 1  :	global_step 0    	loss 0.0771	acc 0.9844
+2019-06-16 21:48:25,803:INFO: 2019-06-16 21:48:25	 batch 2   to 2  :	global_step 0    	loss 0.0272	acc 1.0000
+2019-06-16 21:48:25,938:INFO: 2019-06-16 21:48:25	 batch 3   to 3  :	global_step 0    	loss 0.0173	acc 1.0000
+2019-06-16 21:48:26,049:INFO: 2019-06-16 21:48:26	 batch 4   to 4  :	global_step 0    	loss 0.0208	acc 1.0000
+2019-06-16 21:48:26,161:INFO: 2019-06-16 21:48:26	 batch 5   to 5  :	global_step 0    	loss 0.0147	acc 1.0000
+2019-06-16 21:48:26,348:INFO: 2019-06-16 21:48:26	 batch 6   to 6  :	global_step 0    	loss 0.0212	acc 1.0000
+2019-06-16 21:48:26,527:INFO: 2019-06-16 21:48:26	 batch 7   to 7  :	global_step 0    	loss 0.1190	acc 0.9688
+2019-06-16 21:48:26,743:INFO: 2019-06-16 21:48:26	 batch 8   to 8  :	global_step 0    	loss 0.0665	acc 0.9844
+2019-06-16 21:48:26,899:INFO: 2019-06-16 21:48:26	 batch 9   to 9  :	global_step 0    	loss 0.0938	acc 0.9844
+2019-06-16 21:48:27,005:INFO: 2019-06-16 21:48:27	 batch 10  to 10 :	global_step 0    	loss 0.0141	acc 1.0000
+2019-06-16 21:48:27,104:INFO: 2019-06-16 21:48:27	 batch 11  to 11 :	global_step 0    	loss 0.1263	acc 0.9688
+2019-06-16 21:48:27,209:INFO: 2019-06-16 21:48:27	 batch 12  to 12 :	global_step 0    	loss 0.0122	acc 1.0000
+2019-06-16 21:48:27,312:INFO: 2019-06-16 21:48:27	 batch 13  to 13 :	global_step 0    	loss 0.0126	acc 1.0000
+2019-06-16 21:48:27,420:INFO: 2019-06-16 21:48:27	 batch 14  to 14 :	global_step 0    	loss 0.0668	acc 0.9844
+2019-06-16 21:48:27,518:INFO: 2019-06-16 21:48:27	 batch 15  to 15 :	global_step 0    	loss 0.0157	acc 1.0000
+2019-06-16 21:48:27,619:INFO: 2019-06-16 21:48:27	 batch 16  to 16 :	global_step 0    	loss 0.1062	acc 0.9688
+2019-06-16 21:48:27,719:INFO: 2019-06-16 21:48:27	 batch 17  to 17 :	global_step 0    	loss 0.0126	acc 1.0000
+2019-06-16 21:48:27,820:INFO: 2019-06-16 21:48:27	 batch 18  to 18 :	global_step 0    	loss 0.0291	acc 0.9844
+2019-06-16 21:48:27,944:INFO: 2019-06-16 21:48:27	 batch 19  to 19 :	global_step 0    	loss 0.0103	acc 1.0000
+2019-06-16 21:48:28,046:INFO: 2019-06-16 21:48:28	 batch 20  to 20 :	global_step 0    	loss 0.0148	acc 1.0000
+2019-06-16 21:48:28,248:INFO: 2019-06-16 21:48:28	 batch 21  to 21 :	global_step 0    	loss 0.0103	acc 1.0000
+2019-06-16 21:48:28,347:INFO: 2019-06-16 21:48:28	 batch 22  to 22 :	global_step 0    	loss 0.0957	acc 0.9844
+2019-06-16 21:48:28,450:INFO: 2019-06-16 21:48:28	 batch 23  to 23 :	global_step 0    	loss 0.0250	acc 1.0000
+2019-06-16 21:48:28,570:INFO: 2019-06-16 21:48:28	 batch 24  to 24 :	global_step 0    	loss 0.0612	acc 0.9844
+2019-06-16 21:48:28,671:INFO: 2019-06-16 21:48:28	 batch 25  to 25 :	global_step 0    	loss 0.0249	acc 1.0000
+2019-06-16 21:48:28,770:INFO: 2019-06-16 21:48:28	 batch 26  to 26 :	global_step 0    	loss 0.0521	acc 0.9844
+2019-06-16 21:48:28,867:INFO: 2019-06-16 21:48:28	 batch 27  to 27 :	global_step 0    	loss 0.0192	acc 1.0000
+2019-06-16 21:48:28,975:INFO: 2019-06-16 21:48:28	 batch 28  to 28 :	global_step 0    	loss 0.0126	acc 1.0000
+2019-06-16 21:48:29,091:INFO: 2019-06-16 21:48:29	 batch 29  to 29 :	global_step 0    	loss 0.1895	acc 1.0000
+2019-06-16 21:48:30,160:INFO: 2019-06-16 21:48:30	acc 0.8564	p 0.8355	r 0.8064	f1 0.8176
+2019-06-16 21:48:30,162:INFO: ########################################
+2019-06-16 21:48:30,162:INFO: Epoch 33 / 50
+2019-06-16 21:48:31,561:INFO: 2019-06-16 21:48:31	 batch 1   to 1  :	global_step 0    	loss 0.0130	acc 1.0000
+2019-06-16 21:48:31,660:INFO: 2019-06-16 21:48:31	 batch 2   to 2  :	global_step 0    	loss 0.0159	acc 1.0000
+2019-06-16 21:48:31,763:INFO: 2019-06-16 21:48:31	 batch 3   to 3  :	global_step 0    	loss 0.0109	acc 1.0000
+2019-06-16 21:48:31,869:INFO: 2019-06-16 21:48:31	 batch 4   to 4  :	global_step 0    	loss 0.0644	acc 0.9844
+2019-06-16 21:48:31,972:INFO: 2019-06-16 21:48:31	 batch 5   to 5  :	global_step 0    	loss 0.0110	acc 1.0000
+2019-06-16 21:48:32,131:INFO: 2019-06-16 21:48:32	 batch 6   to 6  :	global_step 0    	loss 0.0186	acc 1.0000
+2019-06-16 21:48:32,244:INFO: 2019-06-16 21:48:32	 batch 7   to 7  :	global_step 0    	loss 0.0661	acc 0.9844
+2019-06-16 21:48:32,379:INFO: 2019-06-16 21:48:32	 batch 8   to 8  :	global_step 0    	loss 0.0082	acc 1.0000
+2019-06-16 21:48:32,478:INFO: 2019-06-16 21:48:32	 batch 9   to 9  :	global_step 0    	loss 0.0107	acc 1.0000
+2019-06-16 21:48:32,595:INFO: 2019-06-16 21:48:32	 batch 10  to 10 :	global_step 0    	loss 0.1407	acc 0.9531
+2019-06-16 21:48:32,700:INFO: 2019-06-16 21:48:32	 batch 11  to 11 :	global_step 0    	loss 0.0135	acc 1.0000
+2019-06-16 21:48:32,800:INFO: 2019-06-16 21:48:32	 batch 12  to 12 :	global_step 0    	loss 0.0144	acc 1.0000
+2019-06-16 21:48:32,902:INFO: 2019-06-16 21:48:32	 batch 13  to 13 :	global_step 0    	loss 0.0200	acc 1.0000
+2019-06-16 21:48:33,014:INFO: 2019-06-16 21:48:33	 batch 14  to 14 :	global_step 0    	loss 0.0137	acc 1.0000
+2019-06-16 21:48:33,111:INFO: 2019-06-16 21:48:33	 batch 15  to 15 :	global_step 0    	loss 0.0138	acc 1.0000
+2019-06-16 21:48:33,205:INFO: 2019-06-16 21:48:33	 batch 16  to 16 :	global_step 0    	loss 0.0976	acc 0.9844
+2019-06-16 21:48:33,298:INFO: 2019-06-16 21:48:33	 batch 17  to 17 :	global_step 0    	loss 0.0111	acc 1.0000
+2019-06-16 21:48:33,396:INFO: 2019-06-16 21:48:33	 batch 18  to 18 :	global_step 0    	loss 0.0823	acc 0.9844
+2019-06-16 21:48:33,495:INFO: 2019-06-16 21:48:33	 batch 19  to 19 :	global_step 0    	loss 0.1001	acc 0.9844
+2019-06-16 21:48:33,607:INFO: 2019-06-16 21:48:33	 batch 20  to 20 :	global_step 0    	loss 0.1258	acc 0.9531
+2019-06-16 21:48:33,709:INFO: 2019-06-16 21:48:33	 batch 21  to 21 :	global_step 0    	loss 0.0224	acc 1.0000
+2019-06-16 21:48:33,808:INFO: 2019-06-16 21:48:33	 batch 22  to 22 :	global_step 0    	loss 0.0107	acc 1.0000
+2019-06-16 21:48:33,917:INFO: 2019-06-16 21:48:33	 batch 23  to 23 :	global_step 0    	loss 0.0133	acc 1.0000
+2019-06-16 21:48:34,016:INFO: 2019-06-16 21:48:34	 batch 24  to 24 :	global_step 0    	loss 0.0128	acc 1.0000
+2019-06-16 21:48:34,109:INFO: 2019-06-16 21:48:34	 batch 25  to 25 :	global_step 0    	loss 0.0086	acc 1.0000
+2019-06-16 21:48:34,204:INFO: 2019-06-16 21:48:34	 batch 26  to 26 :	global_step 0    	loss 0.1069	acc 0.9688
+2019-06-16 21:48:34,302:INFO: 2019-06-16 21:48:34	 batch 27  to 27 :	global_step 0    	loss 0.1035	acc 0.9688
+2019-06-16 21:48:34,400:INFO: 2019-06-16 21:48:34	 batch 28  to 28 :	global_step 0    	loss 0.0174	acc 1.0000
+2019-06-16 21:48:34,512:INFO: 2019-06-16 21:48:34	 batch 29  to 29 :	global_step 0    	loss 0.1718	acc 1.0000
+2019-06-16 21:48:35,184:INFO: 2019-06-16 21:48:35	acc 0.8577	p 0.8404	r 0.8102	f1 0.8222
+2019-06-16 21:48:35,185:INFO: ########################################
+2019-06-16 21:48:35,185:INFO: Epoch 34 / 50
+2019-06-16 21:48:35,951:INFO: 2019-06-16 21:48:35	 batch 1   to 1  :	global_step 0    	loss 0.0541	acc 0.9844
+2019-06-16 21:48:36,049:INFO: 2019-06-16 21:48:36	 batch 2   to 2  :	global_step 0    	loss 0.0109	acc 1.0000
+2019-06-16 21:48:36,145:INFO: 2019-06-16 21:48:36	 batch 3   to 3  :	global_step 0    	loss 0.0133	acc 1.0000
+2019-06-16 21:48:36,238:INFO: 2019-06-16 21:48:36	 batch 4   to 4  :	global_step 0    	loss 0.0091	acc 1.0000
+2019-06-16 21:48:36,334:INFO: 2019-06-16 21:48:36	 batch 5   to 5  :	global_step 0    	loss 0.0116	acc 1.0000
+2019-06-16 21:48:36,427:INFO: 2019-06-16 21:48:36	 batch 6   to 6  :	global_step 0    	loss 0.0131	acc 1.0000
+2019-06-16 21:48:36,529:INFO: 2019-06-16 21:48:36	 batch 7   to 7  :	global_step 0    	loss 0.0106	acc 1.0000
+2019-06-16 21:48:36,626:INFO: 2019-06-16 21:48:36	 batch 8   to 8  :	global_step 0    	loss 0.0112	acc 1.0000
+2019-06-16 21:48:36,723:INFO: 2019-06-16 21:48:36	 batch 9   to 9  :	global_step 0    	loss 0.0535	acc 0.9844
+2019-06-16 21:48:36,819:INFO: 2019-06-16 21:48:36	 batch 10  to 10 :	global_step 0    	loss 0.0096	acc 1.0000
+2019-06-16 21:48:36,912:INFO: 2019-06-16 21:48:36	 batch 11  to 11 :	global_step 0    	loss 0.0155	acc 1.0000
+2019-06-16 21:48:37,008:INFO: 2019-06-16 21:48:37	 batch 12  to 12 :	global_step 0    	loss 0.1200	acc 0.9688
+2019-06-16 21:48:37,104:INFO: 2019-06-16 21:48:37	 batch 13  to 13 :	global_step 0    	loss 0.0582	acc 0.9844
+2019-06-16 21:48:37,198:INFO: 2019-06-16 21:48:37	 batch 14  to 14 :	global_step 0    	loss 0.0135	acc 1.0000
+2019-06-16 21:48:37,295:INFO: 2019-06-16 21:48:37	 batch 15  to 15 :	global_step 0    	loss 0.0209	acc 1.0000
+2019-06-16 21:48:37,387:INFO: 2019-06-16 21:48:37	 batch 16  to 16 :	global_step 0    	loss 0.0148	acc 1.0000
+2019-06-16 21:48:37,481:INFO: 2019-06-16 21:48:37	 batch 17  to 17 :	global_step 0    	loss 0.0134	acc 1.0000
+2019-06-16 21:48:37,574:INFO: 2019-06-16 21:48:37	 batch 18  to 18 :	global_step 0    	loss 0.0550	acc 0.9844
+2019-06-16 21:48:37,694:INFO: 2019-06-16 21:48:37	 batch 19  to 19 :	global_step 0    	loss 0.0156	acc 1.0000
+2019-06-16 21:48:37,800:INFO: 2019-06-16 21:48:37	 batch 20  to 20 :	global_step 0    	loss 0.0161	acc 1.0000
+2019-06-16 21:48:37,894:INFO: 2019-06-16 21:48:37	 batch 21  to 21 :	global_step 0    	loss 0.0100	acc 1.0000
+2019-06-16 21:48:37,991:INFO: 2019-06-16 21:48:37	 batch 22  to 22 :	global_step 0    	loss 0.0624	acc 0.9844
+2019-06-16 21:48:38,088:INFO: 2019-06-16 21:48:38	 batch 23  to 23 :	global_step 0    	loss 0.1297	acc 0.9688
+2019-06-16 21:48:38,184:INFO: 2019-06-16 21:48:38	 batch 24  to 24 :	global_step 0    	loss 0.0130	acc 1.0000
+2019-06-16 21:48:38,282:INFO: 2019-06-16 21:48:38	 batch 25  to 25 :	global_step 0    	loss 0.0714	acc 0.9844
+2019-06-16 21:48:38,379:INFO: 2019-06-16 21:48:38	 batch 26  to 26 :	global_step 0    	loss 0.0483	acc 0.9844
+2019-06-16 21:48:38,477:INFO: 2019-06-16 21:48:38	 batch 27  to 27 :	global_step 0    	loss 0.0562	acc 0.9844
+2019-06-16 21:48:38,571:INFO: 2019-06-16 21:48:38	 batch 28  to 28 :	global_step 0    	loss 0.0834	acc 0.9844
+2019-06-16 21:48:38,670:INFO: 2019-06-16 21:48:38	 batch 29  to 29 :	global_step 0    	loss 0.2241	acc 1.0000
+2019-06-16 21:48:39,404:INFO: 2019-06-16 21:48:39	acc 0.8616	p 0.8028	r 0.7729	f1 0.7848
+2019-06-16 21:48:39,405:INFO: ########################################
+2019-06-16 21:48:39,406:INFO: Epoch 35 / 50
+2019-06-16 21:48:40,256:INFO: 2019-06-16 21:48:40	 batch 1   to 1  :	global_step 0    	loss 0.0113	acc 1.0000
+2019-06-16 21:48:40,352:INFO: 2019-06-16 21:48:40	 batch 2   to 2  :	global_step 0    	loss 0.0109	acc 1.0000
+2019-06-16 21:48:40,446:INFO: 2019-06-16 21:48:40	 batch 3   to 3  :	global_step 0    	loss 0.0099	acc 1.0000
+2019-06-16 21:48:40,542:INFO: 2019-06-16 21:48:40	 batch 4   to 4  :	global_step 0    	loss 0.0514	acc 0.9844
+2019-06-16 21:48:40,637:INFO: 2019-06-16 21:48:40	 batch 5   to 5  :	global_step 0    	loss 0.0851	acc 0.9844
+2019-06-16 21:48:40,731:INFO: 2019-06-16 21:48:40	 batch 6   to 6  :	global_step 0    	loss 0.0147	acc 1.0000
+2019-06-16 21:48:40,829:INFO: 2019-06-16 21:48:40	 batch 7   to 7  :	global_step 0    	loss 0.0161	acc 1.0000
+2019-06-16 21:48:40,927:INFO: 2019-06-16 21:48:40	 batch 8   to 8  :	global_step 0    	loss 0.0519	acc 0.9844
+2019-06-16 21:48:41,025:INFO: 2019-06-16 21:48:41	 batch 9   to 9  :	global_step 0    	loss 0.0169	acc 1.0000
+2019-06-16 21:48:41,120:INFO: 2019-06-16 21:48:41	 batch 10  to 10 :	global_step 0    	loss 0.0158	acc 1.0000
+2019-06-16 21:48:41,212:INFO: 2019-06-16 21:48:41	 batch 11  to 11 :	global_step 0    	loss 0.0638	acc 0.9844
+2019-06-16 21:48:41,309:INFO: 2019-06-16 21:48:41	 batch 12  to 12 :	global_step 0    	loss 0.0086	acc 1.0000
+2019-06-16 21:48:41,402:INFO: 2019-06-16 21:48:41	 batch 13  to 13 :	global_step 0    	loss 0.0121	acc 1.0000
+2019-06-16 21:48:41,495:INFO: 2019-06-16 21:48:41	 batch 14  to 14 :	global_step 0    	loss 0.0153	acc 1.0000
+2019-06-16 21:48:41,592:INFO: 2019-06-16 21:48:41	 batch 15  to 15 :	global_step 0    	loss 0.0135	acc 1.0000
+2019-06-16 21:48:41,688:INFO: 2019-06-16 21:48:41	 batch 16  to 16 :	global_step 0    	loss 0.0112	acc 1.0000
+2019-06-16 21:48:41,782:INFO: 2019-06-16 21:48:41	 batch 17  to 17 :	global_step 0    	loss 0.0158	acc 1.0000
+2019-06-16 21:48:41,879:INFO: 2019-06-16 21:48:41	 batch 18  to 18 :	global_step 0    	loss 0.0096	acc 1.0000
+2019-06-16 21:48:41,974:INFO: 2019-06-16 21:48:41	 batch 19  to 19 :	global_step 0    	loss 0.0098	acc 1.0000
+2019-06-16 21:48:42,073:INFO: 2019-06-16 21:48:42	 batch 20  to 20 :	global_step 0    	loss 0.0645	acc 0.9844
+2019-06-16 21:48:42,170:INFO: 2019-06-16 21:48:42	 batch 21  to 21 :	global_step 0    	loss 0.0136	acc 1.0000
+2019-06-16 21:48:42,264:INFO: 2019-06-16 21:48:42	 batch 22  to 22 :	global_step 0    	loss 0.1347	acc 0.9688
+2019-06-16 21:48:42,359:INFO: 2019-06-16 21:48:42	 batch 23  to 23 :	global_step 0    	loss 0.0109	acc 1.0000
+2019-06-16 21:48:42,452:INFO: 2019-06-16 21:48:42	 batch 24  to 24 :	global_step 0    	loss 0.0619	acc 0.9844
+2019-06-16 21:48:42,547:INFO: 2019-06-16 21:48:42	 batch 25  to 25 :	global_step 0    	loss 0.0113	acc 1.0000
+2019-06-16 21:48:42,640:INFO: 2019-06-16 21:48:42	 batch 26  to 26 :	global_step 0    	loss 0.1237	acc 0.9688
+2019-06-16 21:48:42,734:INFO: 2019-06-16 21:48:42	 batch 27  to 27 :	global_step 0    	loss 0.0989	acc 0.9688
+2019-06-16 21:48:42,831:INFO: 2019-06-16 21:48:42	 batch 28  to 28 :	global_step 0    	loss 0.0578	acc 0.9844
+2019-06-16 21:48:42,934:INFO: 2019-06-16 21:48:42	 batch 29  to 29 :	global_step 0    	loss 0.1597	acc 1.0000
+2019-06-16 21:48:43,663:INFO: 2019-06-16 21:48:43	acc 0.8629	p 0.8005	r 0.7768	f1 0.7859
+2019-06-16 21:48:43,865:INFO: Model saved in C:\code\challenge\clfzoo\models/textcnn/1560692747/ckpt/, with name textcnn.
+2019-06-16 21:48:43,866:INFO: New best score!
+
+2019-06-16 21:48:43,866:INFO: ########################################
+2019-06-16 21:48:43,867:INFO: Epoch 36 / 50
+2019-06-16 21:48:44,690:INFO: 2019-06-16 21:48:44	 batch 1   to 1  :	global_step 0    	loss 0.0546	acc 0.9844
+2019-06-16 21:48:44,785:INFO: 2019-06-16 21:48:44	 batch 2   to 2  :	global_step 0    	loss 0.0104	acc 1.0000
+2019-06-16 21:48:44,883:INFO: 2019-06-16 21:48:44	 batch 3   to 3  :	global_step 0    	loss 0.0115	acc 1.0000
+2019-06-16 21:48:44,981:INFO: 2019-06-16 21:48:44	 batch 4   to 4  :	global_step 0    	loss 0.1279	acc 0.9688
+2019-06-16 21:48:45,079:INFO: 2019-06-16 21:48:45	 batch 5   to 5  :	global_step 0    	loss 0.0141	acc 1.0000
+2019-06-16 21:48:45,179:INFO: 2019-06-16 21:48:45	 batch 6   to 6  :	global_step 0    	loss 0.0240	acc 1.0000
+2019-06-16 21:48:45,276:INFO: 2019-06-16 21:48:45	 batch 7   to 7  :	global_step 0    	loss 0.0491	acc 0.9844
+2019-06-16 21:48:45,373:INFO: 2019-06-16 21:48:45	 batch 8   to 8  :	global_step 0    	loss 0.0610	acc 0.9844
+2019-06-16 21:48:45,467:INFO: 2019-06-16 21:48:45	 batch 9   to 9  :	global_step 0    	loss 0.0075	acc 1.0000
+2019-06-16 21:48:45,559:INFO: 2019-06-16 21:48:45	 batch 10  to 10 :	global_step 0    	loss 0.0160	acc 1.0000
+2019-06-16 21:48:45,659:INFO: 2019-06-16 21:48:45	 batch 11  to 11 :	global_step 0    	loss 0.0086	acc 1.0000
+2019-06-16 21:48:45,757:INFO: 2019-06-16 21:48:45	 batch 12  to 12 :	global_step 0    	loss 0.0119	acc 1.0000
+2019-06-16 21:48:45,850:INFO: 2019-06-16 21:48:45	 batch 13  to 13 :	global_step 0    	loss 0.0596	acc 0.9844
+2019-06-16 21:48:45,946:INFO: 2019-06-16 21:48:45	 batch 14  to 14 :	global_step 0    	loss 0.0102	acc 1.0000
+2019-06-16 21:48:46,038:INFO: 2019-06-16 21:48:46	 batch 15  to 15 :	global_step 0    	loss 0.0460	acc 0.9844
+2019-06-16 21:48:46,134:INFO: 2019-06-16 21:48:46	 batch 16  to 16 :	global_step 0    	loss 0.0090	acc 1.0000
+2019-06-16 21:48:46,229:INFO: 2019-06-16 21:48:46	 batch 17  to 17 :	global_step 0    	loss 0.0081	acc 1.0000
+2019-06-16 21:48:46,321:INFO: 2019-06-16 21:48:46	 batch 18  to 18 :	global_step 0    	loss 0.0081	acc 1.0000
+2019-06-16 21:48:46,416:INFO: 2019-06-16 21:48:46	 batch 19  to 19 :	global_step 0    	loss 0.0090	acc 1.0000
+2019-06-16 21:48:46,514:INFO: 2019-06-16 21:48:46	 batch 20  to 20 :	global_step 0    	loss 0.0101	acc 1.0000
+2019-06-16 21:48:46,610:INFO: 2019-06-16 21:48:46	 batch 21  to 21 :	global_step 0    	loss 0.0102	acc 1.0000
+2019-06-16 21:48:46,707:INFO: 2019-06-16 21:48:46	 batch 22  to 22 :	global_step 0    	loss 0.0551	acc 0.9844
+2019-06-16 21:48:46,804:INFO: 2019-06-16 21:48:46	 batch 23  to 23 :	global_step 0    	loss 0.0086	acc 1.0000
+2019-06-16 21:48:46,906:INFO: 2019-06-16 21:48:46	 batch 24  to 24 :	global_step 0    	loss 0.1016	acc 0.9688
+2019-06-16 21:48:47,007:INFO: 2019-06-16 21:48:47	 batch 25  to 25 :	global_step 0    	loss 0.0216	acc 1.0000
+2019-06-16 21:48:47,104:INFO: 2019-06-16 21:48:47	 batch 26  to 26 :	global_step 0    	loss 0.0421	acc 0.9844
+2019-06-16 21:48:47,201:INFO: 2019-06-16 21:48:47	 batch 27  to 27 :	global_step 0    	loss 0.0780	acc 0.9844
+2019-06-16 21:48:47,299:INFO: 2019-06-16 21:48:47	 batch 28  to 28 :	global_step 0    	loss 0.0557	acc 0.9844
+2019-06-16 21:48:47,403:INFO: 2019-06-16 21:48:47	 batch 29  to 29 :	global_step 0    	loss 0.2672	acc 1.0000
+2019-06-16 21:48:48,171:INFO: 2019-06-16 21:48:48	acc 0.8590	p 0.8067	r 0.7740	f1 0.7870
+2019-06-16 21:48:48,172:INFO: ########################################
+2019-06-16 21:48:48,172:INFO: Epoch 37 / 50
+2019-06-16 21:48:49,139:INFO: 2019-06-16 21:48:49	 batch 1   to 1  :	global_step 0    	loss 0.0110	acc 1.0000
+2019-06-16 21:48:49,237:INFO: 2019-06-16 21:48:49	 batch 2   to 2  :	global_step 0    	loss 0.0505	acc 0.9844
+2019-06-16 21:48:49,336:INFO: 2019-06-16 21:48:49	 batch 3   to 3  :	global_step 0    	loss 0.0085	acc 1.0000
+2019-06-16 21:48:49,436:INFO: 2019-06-16 21:48:49	 batch 4   to 4  :	global_step 0    	loss 0.0073	acc 1.0000
+2019-06-16 21:48:49,534:INFO: 2019-06-16 21:48:49	 batch 5   to 5  :	global_step 0    	loss 0.0157	acc 1.0000
+2019-06-16 21:48:49,630:INFO: 2019-06-16 21:48:49	 batch 6   to 6  :	global_step 0    	loss 0.0100	acc 1.0000
+2019-06-16 21:48:49,727:INFO: 2019-06-16 21:48:49	 batch 7   to 7  :	global_step 0    	loss 0.0574	acc 0.9844
+2019-06-16 21:48:49,825:INFO: 2019-06-16 21:48:49	 batch 8   to 8  :	global_step 0    	loss 0.0586	acc 0.9844
+2019-06-16 21:48:49,921:INFO: 2019-06-16 21:48:49	 batch 9   to 9  :	global_step 0    	loss 0.0102	acc 1.0000
+2019-06-16 21:48:50,018:INFO: 2019-06-16 21:48:50	 batch 10  to 10 :	global_step 0    	loss 0.0087	acc 1.0000
+2019-06-16 21:48:50,115:INFO: 2019-06-16 21:48:50	 batch 11  to 11 :	global_step 0    	loss 0.0827	acc 0.9844
+2019-06-16 21:48:50,213:INFO: 2019-06-16 21:48:50	 batch 12  to 12 :	global_step 0    	loss 0.0128	acc 1.0000
+2019-06-16 21:48:50,310:INFO: 2019-06-16 21:48:50	 batch 13  to 13 :	global_step 0    	loss 0.0094	acc 1.0000
+2019-06-16 21:48:50,424:INFO: 2019-06-16 21:48:50	 batch 14  to 14 :	global_step 0    	loss 0.1091	acc 0.9688
+2019-06-16 21:48:50,557:INFO: 2019-06-16 21:48:50	 batch 15  to 15 :	global_step 0    	loss 0.0121	acc 1.0000
+2019-06-16 21:48:50,658:INFO: 2019-06-16 21:48:50	 batch 16  to 16 :	global_step 0    	loss 0.0754	acc 0.9844
+2019-06-16 21:48:50,757:INFO: 2019-06-16 21:48:50	 batch 17  to 17 :	global_step 0    	loss 0.0105	acc 1.0000
+2019-06-16 21:48:50,858:INFO: 2019-06-16 21:48:50	 batch 18  to 18 :	global_step 0    	loss 0.1443	acc 0.9688
+2019-06-16 21:48:50,983:INFO: 2019-06-16 21:48:50	 batch 19  to 19 :	global_step 0    	loss 0.0127	acc 1.0000
+2019-06-16 21:48:51,082:INFO: 2019-06-16 21:48:51	 batch 20  to 20 :	global_step 0    	loss 0.0101	acc 1.0000
+2019-06-16 21:48:51,179:INFO: 2019-06-16 21:48:51	 batch 21  to 21 :	global_step 0    	loss 0.0115	acc 1.0000
+2019-06-16 21:48:51,278:INFO: 2019-06-16 21:48:51	 batch 22  to 22 :	global_step 0    	loss 0.0092	acc 1.0000
+2019-06-16 21:48:51,383:INFO: 2019-06-16 21:48:51	 batch 23  to 23 :	global_step 0    	loss 0.0639	acc 0.9844
+2019-06-16 21:48:51,480:INFO: 2019-06-16 21:48:51	 batch 24  to 24 :	global_step 0    	loss 0.0587	acc 0.9844
+2019-06-16 21:48:51,578:INFO: 2019-06-16 21:48:51	 batch 25  to 25 :	global_step 0    	loss 0.0808	acc 0.9844
+2019-06-16 21:48:51,675:INFO: 2019-06-16 21:48:51	 batch 26  to 26 :	global_step 0    	loss 0.0131	acc 1.0000
+2019-06-16 21:48:51,773:INFO: 2019-06-16 21:48:51	 batch 27  to 27 :	global_step 0    	loss 0.0110	acc 1.0000
+2019-06-16 21:48:51,874:INFO: 2019-06-16 21:48:51	 batch 28  to 28 :	global_step 0    	loss 0.0520	acc 0.9844
+2019-06-16 21:48:51,984:INFO: 2019-06-16 21:48:51	 batch 29  to 29 :	global_step 0    	loss 0.1724	acc 1.0000
+2019-06-16 21:48:52,746:INFO: 2019-06-16 21:48:52	acc 0.8629	p 0.8033	r 0.7846	f1 0.7910
+2019-06-16 21:48:52,984:INFO: Model saved in C:\code\challenge\clfzoo\models/textcnn/1560692747/ckpt/, with name textcnn.
+2019-06-16 21:48:52,985:INFO: New best score!
+
+2019-06-16 21:48:52,985:INFO: ########################################
+2019-06-16 21:48:52,986:INFO: Epoch 38 / 50
+2019-06-16 21:48:53,957:INFO: 2019-06-16 21:48:53	 batch 1   to 1  :	global_step 0    	loss 0.0126	acc 1.0000
+2019-06-16 21:48:54,051:INFO: 2019-06-16 21:48:54	 batch 2   to 2  :	global_step 0    	loss 0.0837	acc 0.9844
+2019-06-16 21:48:54,150:INFO: 2019-06-16 21:48:54	 batch 3   to 3  :	global_step 0    	loss 0.0086	acc 1.0000
+2019-06-16 21:48:54,250:INFO: 2019-06-16 21:48:54	 batch 4   to 4  :	global_step 0    	loss 0.1303	acc 0.9688
+2019-06-16 21:48:54,351:INFO: 2019-06-16 21:48:54	 batch 5   to 5  :	global_step 0    	loss 0.0074	acc 1.0000
+2019-06-16 21:48:54,449:INFO: 2019-06-16 21:48:54	 batch 6   to 6  :	global_step 0    	loss 0.0100	acc 1.0000
+2019-06-16 21:48:54,546:INFO: 2019-06-16 21:48:54	 batch 7   to 7  :	global_step 0    	loss 0.0085	acc 1.0000
+2019-06-16 21:48:54,643:INFO: 2019-06-16 21:48:54	 batch 8   to 8  :	global_step 0    	loss 0.0092	acc 1.0000
+2019-06-16 21:48:54,740:INFO: 2019-06-16 21:48:54	 batch 9   to 9  :	global_step 0    	loss 0.0076	acc 1.0000
+2019-06-16 21:48:54,833:INFO: 2019-06-16 21:48:54	 batch 10  to 10 :	global_step 0    	loss 0.0562	acc 0.9844
+2019-06-16 21:48:54,932:INFO: 2019-06-16 21:48:54	 batch 11  to 11 :	global_step 0    	loss 0.0088	acc 1.0000
+2019-06-16 21:48:55,029:INFO: 2019-06-16 21:48:55	 batch 12  to 12 :	global_step 0    	loss 0.0066	acc 1.0000
+2019-06-16 21:48:55,126:INFO: 2019-06-16 21:48:55	 batch 13  to 13 :	global_step 0    	loss 0.0094	acc 1.0000
+2019-06-16 21:48:55,224:INFO: 2019-06-16 21:48:55	 batch 14  to 14 :	global_step 0    	loss 0.0074	acc 1.0000
+2019-06-16 21:48:55,322:INFO: 2019-06-16 21:48:55	 batch 15  to 15 :	global_step 0    	loss 0.0048	acc 1.0000
+2019-06-16 21:48:55,423:INFO: 2019-06-16 21:48:55	 batch 16  to 16 :	global_step 0    	loss 0.0090	acc 1.0000
+2019-06-16 21:48:55,522:INFO: 2019-06-16 21:48:55	 batch 17  to 17 :	global_step 0    	loss 0.0182	acc 1.0000
+2019-06-16 21:48:55,617:INFO: 2019-06-16 21:48:55	 batch 18  to 18 :	global_step 0    	loss 0.1727	acc 0.9531
+2019-06-16 21:48:55,716:INFO: 2019-06-16 21:48:55	 batch 19  to 19 :	global_step 0    	loss 0.0059	acc 1.0000
+2019-06-16 21:48:55,812:INFO: 2019-06-16 21:48:55	 batch 20  to 20 :	global_step 0    	loss 0.0177	acc 1.0000
+2019-06-16 21:48:55,910:INFO: 2019-06-16 21:48:55	 batch 21  to 21 :	global_step 0    	loss 0.0671	acc 0.9844
+2019-06-16 21:48:56,007:INFO: 2019-06-16 21:48:56	 batch 22  to 22 :	global_step 0    	loss 0.0086	acc 1.0000
+2019-06-16 21:48:56,106:INFO: 2019-06-16 21:48:56	 batch 23  to 23 :	global_step 0    	loss 0.0134	acc 1.0000
+2019-06-16 21:48:56,207:INFO: 2019-06-16 21:48:56	 batch 24  to 24 :	global_step 0    	loss 0.1035	acc 0.9688
+2019-06-16 21:48:56,306:INFO: 2019-06-16 21:48:56	 batch 25  to 25 :	global_step 0    	loss 0.0588	acc 0.9844
+2019-06-16 21:48:56,419:INFO: 2019-06-16 21:48:56	 batch 26  to 26 :	global_step 0    	loss 0.0117	acc 1.0000
+2019-06-16 21:48:56,535:INFO: 2019-06-16 21:48:56	 batch 27  to 27 :	global_step 0    	loss 0.0065	acc 1.0000
+2019-06-16 21:48:56,670:INFO: 2019-06-16 21:48:56	 batch 28  to 28 :	global_step 0    	loss 0.0881	acc 0.9688
+2019-06-16 21:48:56,789:INFO: 2019-06-16 21:48:56	 batch 29  to 29 :	global_step 0    	loss 0.1917	acc 1.0000
+2019-06-16 21:48:57,565:INFO: 2019-06-16 21:48:57	acc 0.8590	p 0.8244	r 0.8128	f1 0.8168
+2019-06-16 21:48:57,566:INFO: ########################################
+2019-06-16 21:48:57,566:INFO: Epoch 39 / 50
+2019-06-16 21:48:58,770:INFO: 2019-06-16 21:48:58	 batch 1   to 1  :	global_step 0    	loss 0.0072	acc 1.0000
+2019-06-16 21:48:58,957:INFO: 2019-06-16 21:48:58	 batch 2   to 2  :	global_step 0    	loss 0.0541	acc 0.9844
+2019-06-16 21:48:59,109:INFO: 2019-06-16 21:48:59	 batch 3   to 3  :	global_step 0    	loss 0.0114	acc 1.0000
+2019-06-16 21:48:59,323:INFO: 2019-06-16 21:48:59	 batch 4   to 4  :	global_step 0    	loss 0.0084	acc 1.0000
+2019-06-16 21:48:59,584:INFO: 2019-06-16 21:48:59	 batch 5   to 5  :	global_step 0    	loss 0.1022	acc 0.9688
+2019-06-16 21:48:59,761:INFO: 2019-06-16 21:48:59	 batch 6   to 6  :	global_step 0    	loss 0.0126	acc 1.0000
+2019-06-16 21:48:59,891:INFO: 2019-06-16 21:48:59	 batch 7   to 7  :	global_step 0    	loss 0.0563	acc 0.9844
+2019-06-16 21:49:00,159:INFO: 2019-06-16 21:49:00	 batch 8   to 8  :	global_step 0    	loss 0.0108	acc 1.0000
+2019-06-16 21:49:00,414:INFO: 2019-06-16 21:49:00	 batch 9   to 9  :	global_step 0    	loss 0.0092	acc 1.0000
+2019-06-16 21:49:00,515:INFO: 2019-06-16 21:49:00	 batch 10  to 10 :	global_step 0    	loss 0.0082	acc 1.0000
+2019-06-16 21:49:00,624:INFO: 2019-06-16 21:49:00	 batch 11  to 11 :	global_step 0    	loss 0.0087	acc 1.0000
+2019-06-16 21:49:00,725:INFO: 2019-06-16 21:49:00	 batch 12  to 12 :	global_step 0    	loss 0.0545	acc 0.9844
+2019-06-16 21:49:00,827:INFO: 2019-06-16 21:49:00	 batch 13  to 13 :	global_step 0    	loss 0.0094	acc 1.0000
+2019-06-16 21:49:00,931:INFO: 2019-06-16 21:49:00	 batch 14  to 14 :	global_step 0    	loss 0.0060	acc 1.0000
+2019-06-16 21:49:01,031:INFO: 2019-06-16 21:49:01	 batch 15  to 15 :	global_step 0    	loss 0.1570	acc 0.9688
+2019-06-16 21:49:01,128:INFO: 2019-06-16 21:49:01	 batch 16  to 16 :	global_step 0    	loss 0.0119	acc 1.0000
+2019-06-16 21:49:01,225:INFO: 2019-06-16 21:49:01	 batch 17  to 17 :	global_step 0    	loss 0.0126	acc 1.0000
+2019-06-16 21:49:01,362:INFO: 2019-06-16 21:49:01	 batch 18  to 18 :	global_step 0    	loss 0.0504	acc 0.9844
+2019-06-16 21:49:01,678:INFO: 2019-06-16 21:49:01	 batch 19  to 19 :	global_step 0    	loss 0.0075	acc 1.0000
+2019-06-16 21:49:01,920:INFO: 2019-06-16 21:49:01	 batch 20  to 20 :	global_step 0    	loss 0.0064	acc 1.0000
+2019-06-16 21:49:02,105:INFO: 2019-06-16 21:49:02	 batch 21  to 21 :	global_step 0    	loss 0.0070	acc 1.0000
+2019-06-16 21:49:02,274:INFO: 2019-06-16 21:49:02	 batch 22  to 22 :	global_step 0    	loss 0.0501	acc 0.9844
+2019-06-16 21:49:02,411:INFO: 2019-06-16 21:49:02	 batch 23  to 23 :	global_step 0    	loss 0.0143	acc 1.0000
+2019-06-16 21:49:02,509:INFO: 2019-06-16 21:49:02	 batch 24  to 24 :	global_step 0    	loss 0.0823	acc 0.9844
+2019-06-16 21:49:02,608:INFO: 2019-06-16 21:49:02	 batch 25  to 25 :	global_step 0    	loss 0.0096	acc 1.0000
+2019-06-16 21:49:02,705:INFO: 2019-06-16 21:49:02	 batch 26  to 26 :	global_step 0    	loss 0.0853	acc 0.9688
+2019-06-16 21:49:02,802:INFO: 2019-06-16 21:49:02	 batch 27  to 27 :	global_step 0    	loss 0.0452	acc 0.9844
+2019-06-16 21:49:02,899:INFO: 2019-06-16 21:49:02	 batch 28  to 28 :	global_step 0    	loss 0.0076	acc 1.0000
+2019-06-16 21:49:03,015:INFO: 2019-06-16 21:49:03	 batch 29  to 29 :	global_step 0    	loss 0.2230	acc 1.0000
+2019-06-16 21:49:03,790:INFO: 2019-06-16 21:49:03	acc 0.8629	p 0.8047	r 0.7842	f1 0.7920
+2019-06-16 21:49:04,002:INFO: Model saved in C:\code\challenge\clfzoo\models/textcnn/1560692747/ckpt/, with name textcnn.
+2019-06-16 21:49:04,003:INFO: New best score!
+
+2019-06-16 21:49:04,003:INFO: ########################################
+2019-06-16 21:49:04,004:INFO: Epoch 40 / 50
+2019-06-16 21:49:05,215:INFO: 2019-06-16 21:49:05	 batch 1   to 1  :	global_step 0    	loss 0.0504	acc 0.9844
+2019-06-16 21:49:05,312:INFO: 2019-06-16 21:49:05	 batch 2   to 2  :	global_step 0    	loss 0.0068	acc 1.0000
+2019-06-16 21:49:05,409:INFO: 2019-06-16 21:49:05	 batch 3   to 3  :	global_step 0    	loss 0.0064	acc 1.0000
+2019-06-16 21:49:05,506:INFO: 2019-06-16 21:49:05	 batch 4   to 4  :	global_step 0    	loss 0.0068	acc 1.0000
+2019-06-16 21:49:05,602:INFO: 2019-06-16 21:49:05	 batch 5   to 5  :	global_step 0    	loss 0.0084	acc 1.0000
+2019-06-16 21:49:05,699:INFO: 2019-06-16 21:49:05	 batch 6   to 6  :	global_step 0    	loss 0.0065	acc 1.0000
+2019-06-16 21:49:05,795:INFO: 2019-06-16 21:49:05	 batch 7   to 7  :	global_step 0    	loss 0.1318	acc 0.9688
+2019-06-16 21:49:05,892:INFO: 2019-06-16 21:49:05	 batch 8   to 8  :	global_step 0    	loss 0.0053	acc 1.0000
+2019-06-16 21:49:05,989:INFO: 2019-06-16 21:49:05	 batch 9   to 9  :	global_step 0    	loss 0.0078	acc 1.0000
+2019-06-16 21:49:06,086:INFO: 2019-06-16 21:49:06	 batch 10  to 10 :	global_step 0    	loss 0.0063	acc 1.0000
+2019-06-16 21:49:06,186:INFO: 2019-06-16 21:49:06	 batch 11  to 11 :	global_step 0    	loss 0.0089	acc 1.0000
+2019-06-16 21:49:06,290:INFO: 2019-06-16 21:49:06	 batch 12  to 12 :	global_step 0    	loss 0.1856	acc 0.9531
+2019-06-16 21:49:06,387:INFO: 2019-06-16 21:49:06	 batch 13  to 13 :	global_step 0    	loss 0.0063	acc 1.0000
+2019-06-16 21:49:06,486:INFO: 2019-06-16 21:49:06	 batch 14  to 14 :	global_step 0    	loss 0.0547	acc 0.9844
+2019-06-16 21:49:06,735:INFO: 2019-06-16 21:49:06	 batch 15  to 15 :	global_step 0    	loss 0.0091	acc 1.0000
+2019-06-16 21:49:06,956:INFO: 2019-06-16 21:49:06	 batch 16  to 16 :	global_step 0    	loss 0.1196	acc 0.9688
+2019-06-16 21:49:07,085:INFO: 2019-06-16 21:49:07	 batch 17  to 17 :	global_step 0    	loss 0.0564	acc 0.9844
+2019-06-16 21:49:07,186:INFO: 2019-06-16 21:49:07	 batch 18  to 18 :	global_step 0    	loss 0.0135	acc 1.0000
+2019-06-16 21:49:07,284:INFO: 2019-06-16 21:49:07	 batch 19  to 19 :	global_step 0    	loss 0.0121	acc 1.0000
+2019-06-16 21:49:07,441:INFO: 2019-06-16 21:49:07	 batch 20  to 20 :	global_step 0    	loss 0.0461	acc 0.9844
+2019-06-16 21:49:07,578:INFO: 2019-06-16 21:49:07	 batch 21  to 21 :	global_step 0    	loss 0.0530	acc 0.9844
+2019-06-16 21:49:07,684:INFO: 2019-06-16 21:49:07	 batch 22  to 22 :	global_step 0    	loss 0.0096	acc 1.0000
+2019-06-16 21:49:07,783:INFO: 2019-06-16 21:49:07	 batch 23  to 23 :	global_step 0    	loss 0.0540	acc 0.9844
+2019-06-16 21:49:07,883:INFO: 2019-06-16 21:49:07	 batch 24  to 24 :	global_step 0    	loss 0.0081	acc 1.0000
+2019-06-16 21:49:07,981:INFO: 2019-06-16 21:49:07	 batch 25  to 25 :	global_step 0    	loss 0.0184	acc 1.0000
+2019-06-16 21:49:08,080:INFO: 2019-06-16 21:49:08	 batch 26  to 26 :	global_step 0    	loss 0.0120	acc 1.0000
+2019-06-16 21:49:08,177:INFO: 2019-06-16 21:49:08	 batch 27  to 27 :	global_step 0    	loss 0.0059	acc 1.0000
+2019-06-16 21:49:08,275:INFO: 2019-06-16 21:49:08	 batch 28  to 28 :	global_step 0    	loss 0.0091	acc 1.0000
+2019-06-16 21:49:08,379:INFO: 2019-06-16 21:49:08	 batch 29  to 29 :	global_step 0    	loss 0.2415	acc 1.0000
+2019-06-16 21:49:09,182:INFO: 2019-06-16 21:49:09	acc 0.8680	p 0.8410	r 0.8165	f1 0.8262
+2019-06-16 21:49:09,400:INFO: Model saved in C:\code\challenge\clfzoo\models/textcnn/1560692747/ckpt/, with name textcnn.
+2019-06-16 21:49:09,401:INFO: New best score!
+
+2019-06-16 21:49:09,401:INFO: ########################################
+2019-06-16 21:49:09,401:INFO: Epoch 41 / 50
+2019-06-16 21:49:10,493:INFO: 2019-06-16 21:49:10	 batch 1   to 1  :	global_step 0    	loss 0.0084	acc 1.0000
+2019-06-16 21:49:10,586:INFO: 2019-06-16 21:49:10	 batch 2   to 2  :	global_step 0    	loss 0.0059	acc 1.0000
+2019-06-16 21:49:10,679:INFO: 2019-06-16 21:49:10	 batch 3   to 3  :	global_step 0    	loss 0.0073	acc 1.0000
+2019-06-16 21:49:10,774:INFO: 2019-06-16 21:49:10	 batch 4   to 4  :	global_step 0    	loss 0.0076	acc 1.0000
+2019-06-16 21:49:10,870:INFO: 2019-06-16 21:49:10	 batch 5   to 5  :	global_step 0    	loss 0.0099	acc 1.0000
+2019-06-16 21:49:10,967:INFO: 2019-06-16 21:49:10	 batch 6   to 6  :	global_step 0    	loss 0.0070	acc 1.0000
+2019-06-16 21:49:11,065:INFO: 2019-06-16 21:49:11	 batch 7   to 7  :	global_step 0    	loss 0.0069	acc 1.0000
+2019-06-16 21:49:11,160:INFO: 2019-06-16 21:49:11	 batch 8   to 8  :	global_step 0    	loss 0.0087	acc 1.0000
+2019-06-16 21:49:11,258:INFO: 2019-06-16 21:49:11	 batch 9   to 9  :	global_step 0    	loss 0.0597	acc 0.9844
+2019-06-16 21:49:11,355:INFO: 2019-06-16 21:49:11	 batch 10  to 10 :	global_step 0    	loss 0.0062	acc 1.0000
+2019-06-16 21:49:11,448:INFO: 2019-06-16 21:49:11	 batch 11  to 11 :	global_step 0    	loss 0.0790	acc 0.9844
+2019-06-16 21:49:11,544:INFO: 2019-06-16 21:49:11	 batch 12  to 12 :	global_step 0    	loss 0.0660	acc 0.9844
+2019-06-16 21:49:11,636:INFO: 2019-06-16 21:49:11	 batch 13  to 13 :	global_step 0    	loss 0.0599	acc 0.9844
+2019-06-16 21:49:11,730:INFO: 2019-06-16 21:49:11	 batch 14  to 14 :	global_step 0    	loss 0.0620	acc 0.9844
+2019-06-16 21:49:11,934:INFO: 2019-06-16 21:49:11	 batch 15  to 15 :	global_step 0    	loss 0.0066	acc 1.0000
+2019-06-16 21:49:12,076:INFO: 2019-06-16 21:49:12	 batch 16  to 16 :	global_step 0    	loss 0.0106	acc 1.0000
+2019-06-16 21:49:12,223:INFO: 2019-06-16 21:49:12	 batch 17  to 17 :	global_step 0    	loss 0.0066	acc 1.0000
+2019-06-16 21:49:12,319:INFO: 2019-06-16 21:49:12	 batch 18  to 18 :	global_step 0    	loss 0.0086	acc 1.0000
+2019-06-16 21:49:12,417:INFO: 2019-06-16 21:49:12	 batch 19  to 19 :	global_step 0    	loss 0.0097	acc 1.0000
+2019-06-16 21:49:12,517:INFO: 2019-06-16 21:49:12	 batch 20  to 20 :	global_step 0    	loss 0.1136	acc 0.9688
+2019-06-16 21:49:12,612:INFO: 2019-06-16 21:49:12	 batch 21  to 21 :	global_step 0    	loss 0.0641	acc 0.9844
+2019-06-16 21:49:12,705:INFO: 2019-06-16 21:49:12	 batch 22  to 22 :	global_step 0    	loss 0.0062	acc 1.0000
+2019-06-16 21:49:12,801:INFO: 2019-06-16 21:49:12	 batch 23  to 23 :	global_step 0    	loss 0.0079	acc 1.0000
+2019-06-16 21:49:12,894:INFO: 2019-06-16 21:49:12	 batch 24  to 24 :	global_step 0    	loss 0.0614	acc 0.9844
+2019-06-16 21:49:12,989:INFO: 2019-06-16 21:49:12	 batch 25  to 25 :	global_step 0    	loss 0.0089	acc 1.0000
+2019-06-16 21:49:13,088:INFO: 2019-06-16 21:49:13	 batch 26  to 26 :	global_step 0    	loss 0.0076	acc 1.0000
+2019-06-16 21:49:13,186:INFO: 2019-06-16 21:49:13	 batch 27  to 27 :	global_step 0    	loss 0.2099	acc 0.9531
+2019-06-16 21:49:13,284:INFO: 2019-06-16 21:49:13	 batch 28  to 28 :	global_step 0    	loss 0.0540	acc 0.9844
+2019-06-16 21:49:13,392:INFO: 2019-06-16 21:49:13	 batch 29  to 29 :	global_step 0    	loss 0.1300	acc 1.0000
+2019-06-16 21:49:14,149:INFO: 2019-06-16 21:49:14	acc 0.8629	p 0.8347	r 0.8141	f1 0.8223
+2019-06-16 21:49:14,150:INFO: ########################################
+2019-06-16 21:49:14,150:INFO: Epoch 42 / 50
+2019-06-16 21:49:15,145:INFO: 2019-06-16 21:49:15	 batch 1   to 1  :	global_step 0    	loss 0.0068	acc 1.0000
+2019-06-16 21:49:15,245:INFO: 2019-06-16 21:49:15	 batch 2   to 2  :	global_step 0    	loss 0.0067	acc 1.0000
+2019-06-16 21:49:15,343:INFO: 2019-06-16 21:49:15	 batch 3   to 3  :	global_step 0    	loss 0.0081	acc 1.0000
+2019-06-16 21:49:15,440:INFO: 2019-06-16 21:49:15	 batch 4   to 4  :	global_step 0    	loss 0.0547	acc 0.9844
+2019-06-16 21:49:15,534:INFO: 2019-06-16 21:49:15	 batch 5   to 5  :	global_step 0    	loss 0.0592	acc 0.9844
+2019-06-16 21:49:15,627:INFO: 2019-06-16 21:49:15	 batch 6   to 6  :	global_step 0    	loss 0.0040	acc 1.0000
+2019-06-16 21:49:15,719:INFO: 2019-06-16 21:49:15	 batch 7   to 7  :	global_step 0    	loss 0.0107	acc 1.0000
+2019-06-16 21:49:15,813:INFO: 2019-06-16 21:49:15	 batch 8   to 8  :	global_step 0    	loss 0.0051	acc 1.0000
+2019-06-16 21:49:15,906:INFO: 2019-06-16 21:49:15	 batch 9   to 9  :	global_step 0    	loss 0.0067	acc 1.0000
+2019-06-16 21:49:15,999:INFO: 2019-06-16 21:49:15	 batch 10  to 10 :	global_step 0    	loss 0.0059	acc 1.0000
+2019-06-16 21:49:16,093:INFO: 2019-06-16 21:49:16	 batch 11  to 11 :	global_step 0    	loss 0.0573	acc 0.9844
+2019-06-16 21:49:16,188:INFO: 2019-06-16 21:49:16	 batch 12  to 12 :	global_step 0    	loss 0.0083	acc 1.0000
+2019-06-16 21:49:16,281:INFO: 2019-06-16 21:49:16	 batch 13  to 13 :	global_step 0    	loss 0.1006	acc 0.9688
+2019-06-16 21:49:16,377:INFO: 2019-06-16 21:49:16	 batch 14  to 14 :	global_step 0    	loss 0.0070	acc 1.0000
+2019-06-16 21:49:16,472:INFO: 2019-06-16 21:49:16	 batch 15  to 15 :	global_step 0    	loss 0.0083	acc 1.0000
+2019-06-16 21:49:16,570:INFO: 2019-06-16 21:49:16	 batch 16  to 16 :	global_step 0    	loss 0.0081	acc 1.0000
+2019-06-16 21:49:16,663:INFO: 2019-06-16 21:49:16	 batch 17  to 17 :	global_step 0    	loss 0.0823	acc 0.9844
+2019-06-16 21:49:16,755:INFO: 2019-06-16 21:49:16	 batch 18  to 18 :	global_step 0    	loss 0.0063	acc 1.0000
+2019-06-16 21:49:16,849:INFO: 2019-06-16 21:49:16	 batch 19  to 19 :	global_step 0    	loss 0.0059	acc 1.0000
+2019-06-16 21:49:17,073:INFO: 2019-06-16 21:49:17	 batch 20  to 20 :	global_step 0    	loss 0.0062	acc 1.0000
+2019-06-16 21:49:17,203:INFO: 2019-06-16 21:49:17	 batch 21  to 21 :	global_step 0    	loss 0.0104	acc 1.0000
+2019-06-16 21:49:17,329:INFO: 2019-06-16 21:49:17	 batch 22  to 22 :	global_step 0    	loss 0.0079	acc 1.0000
+2019-06-16 21:49:17,441:INFO: 2019-06-16 21:49:17	 batch 23  to 23 :	global_step 0    	loss 0.0433	acc 0.9844
+2019-06-16 21:49:17,560:INFO: 2019-06-16 21:49:17	 batch 24  to 24 :	global_step 0    	loss 0.0493	acc 0.9844
+2019-06-16 21:49:17,697:INFO: 2019-06-16 21:49:17	 batch 25  to 25 :	global_step 0    	loss 0.0468	acc 0.9844
+2019-06-16 21:49:17,797:INFO: 2019-06-16 21:49:17	 batch 26  to 26 :	global_step 0    	loss 0.0045	acc 1.0000
+2019-06-16 21:49:17,898:INFO: 2019-06-16 21:49:17	 batch 27  to 27 :	global_step 0    	loss 0.2316	acc 0.9375
+2019-06-16 21:49:17,995:INFO: 2019-06-16 21:49:17	 batch 28  to 28 :	global_step 0    	loss 0.0073	acc 1.0000
+2019-06-16 21:49:18,109:INFO: 2019-06-16 21:49:18	 batch 29  to 29 :	global_step 0    	loss 0.2264	acc 1.0000
+2019-06-16 21:49:18,870:INFO: 2019-06-16 21:49:18	acc 0.8590	p 0.8370	r 0.8082	f1 0.8197
+2019-06-16 21:49:18,871:INFO: ########################################
+2019-06-16 21:49:18,872:INFO: Epoch 43 / 50
+2019-06-16 21:49:19,773:INFO: 2019-06-16 21:49:19	 batch 1   to 1  :	global_step 0    	loss 0.0079	acc 1.0000
+2019-06-16 21:49:19,865:INFO: 2019-06-16 21:49:19	 batch 2   to 2  :	global_step 0    	loss 0.0881	acc 0.9688
+2019-06-16 21:49:20,052:INFO: 2019-06-16 21:49:20	 batch 3   to 3  :	global_step 0    	loss 0.0066	acc 1.0000
+2019-06-16 21:49:20,240:INFO: 2019-06-16 21:49:20	 batch 4   to 4  :	global_step 0    	loss 0.0038	acc 1.0000
+2019-06-16 21:49:20,344:INFO: 2019-06-16 21:49:20	 batch 5   to 5  :	global_step 0    	loss 0.0057	acc 1.0000
+2019-06-16 21:49:20,439:INFO: 2019-06-16 21:49:20	 batch 6   to 6  :	global_step 0    	loss 0.0065	acc 1.0000
+2019-06-16 21:49:20,533:INFO: 2019-06-16 21:49:20	 batch 7   to 7  :	global_step 0    	loss 0.1274	acc 0.9688
+2019-06-16 21:49:20,626:INFO: 2019-06-16 21:49:20	 batch 8   to 8  :	global_step 0    	loss 0.0053	acc 1.0000
+2019-06-16 21:49:20,717:INFO: 2019-06-16 21:49:20	 batch 9   to 9  :	global_step 0    	loss 0.0798	acc 0.9844
+2019-06-16 21:49:20,808:INFO: 2019-06-16 21:49:20	 batch 10  to 10 :	global_step 0    	loss 0.0084	acc 1.0000
+2019-06-16 21:49:20,902:INFO: 2019-06-16 21:49:20	 batch 11  to 11 :	global_step 0    	loss 0.0059	acc 1.0000
+2019-06-16 21:49:20,997:INFO: 2019-06-16 21:49:20	 batch 12  to 12 :	global_step 0    	loss 0.0973	acc 0.9688
+2019-06-16 21:49:21,090:INFO: 2019-06-16 21:49:21	 batch 13  to 13 :	global_step 0    	loss 0.0529	acc 0.9844
+2019-06-16 21:49:21,182:INFO: 2019-06-16 21:49:21	 batch 14  to 14 :	global_step 0    	loss 0.0510	acc 0.9844
+2019-06-16 21:49:21,279:INFO: 2019-06-16 21:49:21	 batch 15  to 15 :	global_step 0    	loss 0.0128	acc 1.0000
+2019-06-16 21:49:21,374:INFO: 2019-06-16 21:49:21	 batch 16  to 16 :	global_step 0    	loss 0.0094	acc 1.0000
+2019-06-16 21:49:21,469:INFO: 2019-06-16 21:49:21	 batch 17  to 17 :	global_step 0    	loss 0.0495	acc 0.9844
+2019-06-16 21:49:21,567:INFO: 2019-06-16 21:49:21	 batch 18  to 18 :	global_step 0    	loss 0.0050	acc 1.0000
+2019-06-16 21:49:21,663:INFO: 2019-06-16 21:49:21	 batch 19  to 19 :	global_step 0    	loss 0.0084	acc 1.0000
+2019-06-16 21:49:21,756:INFO: 2019-06-16 21:49:21	 batch 20  to 20 :	global_step 0    	loss 0.0062	acc 1.0000
+2019-06-16 21:49:21,853:INFO: 2019-06-16 21:49:21	 batch 21  to 21 :	global_step 0    	loss 0.1183	acc 0.9688
+2019-06-16 21:49:21,948:INFO: 2019-06-16 21:49:21	 batch 22  to 22 :	global_step 0    	loss 0.0086	acc 1.0000
+2019-06-16 21:49:22,044:INFO: 2019-06-16 21:49:22	 batch 23  to 23 :	global_step 0    	loss 0.0078	acc 1.0000
+2019-06-16 21:49:22,140:INFO: 2019-06-16 21:49:22	 batch 24  to 24 :	global_step 0    	loss 0.0444	acc 0.9844
+2019-06-16 21:49:22,231:INFO: 2019-06-16 21:49:22	 batch 25  to 25 :	global_step 0    	loss 0.0086	acc 1.0000
+2019-06-16 21:49:22,327:INFO: 2019-06-16 21:49:22	 batch 26  to 26 :	global_step 0    	loss 0.0050	acc 1.0000
+2019-06-16 21:49:22,421:INFO: 2019-06-16 21:49:22	 batch 27  to 27 :	global_step 0    	loss 0.0072	acc 1.0000
+2019-06-16 21:49:22,513:INFO: 2019-06-16 21:49:22	 batch 28  to 28 :	global_step 0    	loss 0.0065	acc 1.0000
+2019-06-16 21:49:22,620:INFO: 2019-06-16 21:49:22	 batch 29  to 29 :	global_step 0    	loss 0.2492	acc 1.0000
+2019-06-16 21:49:23,451:INFO: 2019-06-16 21:49:23	acc 0.8603	p 0.8126	r 0.7794	f1 0.7930
+2019-06-16 21:49:23,452:INFO: ########################################
+2019-06-16 21:49:23,452:INFO: Epoch 44 / 50
+2019-06-16 21:49:24,308:INFO: 2019-06-16 21:49:24	 batch 1   to 1  :	global_step 0    	loss 0.0475	acc 0.9844
+2019-06-16 21:49:24,405:INFO: 2019-06-16 21:49:24	 batch 2   to 2  :	global_step 0    	loss 0.0060	acc 1.0000
+2019-06-16 21:49:24,503:INFO: 2019-06-16 21:49:24	 batch 3   to 3  :	global_step 0    	loss 0.0074	acc 1.0000
+2019-06-16 21:49:24,600:INFO: 2019-06-16 21:49:24	 batch 4   to 4  :	global_step 0    	loss 0.0088	acc 1.0000
+2019-06-16 21:49:24,697:INFO: 2019-06-16 21:49:24	 batch 5   to 5  :	global_step 0    	loss 0.0501	acc 0.9844
+2019-06-16 21:49:24,796:INFO: 2019-06-16 21:49:24	 batch 6   to 6  :	global_step 0    	loss 0.0078	acc 1.0000
+2019-06-16 21:49:24,895:INFO: 2019-06-16 21:49:24	 batch 7   to 7  :	global_step 0    	loss 0.0563	acc 0.9844
+2019-06-16 21:49:24,994:INFO: 2019-06-16 21:49:24	 batch 8   to 8  :	global_step 0    	loss 0.0533	acc 0.9844
+2019-06-16 21:49:25,102:INFO: 2019-06-16 21:49:25	 batch 9   to 9  :	global_step 0    	loss 0.0068	acc 1.0000
+2019-06-16 21:49:25,200:INFO: 2019-06-16 21:49:25	 batch 10  to 10 :	global_step 0    	loss 0.1276	acc 0.9688
+2019-06-16 21:49:25,293:INFO: 2019-06-16 21:49:25	 batch 11  to 11 :	global_step 0    	loss 0.0048	acc 1.0000
+2019-06-16 21:49:25,387:INFO: 2019-06-16 21:49:25	 batch 12  to 12 :	global_step 0    	loss 0.0059	acc 1.0000
+2019-06-16 21:49:25,483:INFO: 2019-06-16 21:49:25	 batch 13  to 13 :	global_step 0    	loss 0.0060	acc 1.0000
+2019-06-16 21:49:25,575:INFO: 2019-06-16 21:49:25	 batch 14  to 14 :	global_step 0    	loss 0.1318	acc 0.9688
+2019-06-16 21:49:25,670:INFO: 2019-06-16 21:49:25	 batch 15  to 15 :	global_step 0    	loss 0.0089	acc 1.0000
+2019-06-16 21:49:25,764:INFO: 2019-06-16 21:49:25	 batch 16  to 16 :	global_step 0    	loss 0.0828	acc 0.9844
+2019-06-16 21:49:25,861:INFO: 2019-06-16 21:49:25	 batch 17  to 17 :	global_step 0    	loss 0.0078	acc 1.0000
+2019-06-16 21:49:25,957:INFO: 2019-06-16 21:49:25	 batch 18  to 18 :	global_step 0    	loss 0.0083	acc 1.0000
+2019-06-16 21:49:26,052:INFO: 2019-06-16 21:49:26	 batch 19  to 19 :	global_step 0    	loss 0.0066	acc 1.0000
+2019-06-16 21:49:26,150:INFO: 2019-06-16 21:49:26	 batch 20  to 20 :	global_step 0    	loss 0.0044	acc 1.0000
+2019-06-16 21:49:26,249:INFO: 2019-06-16 21:49:26	 batch 21  to 21 :	global_step 0    	loss 0.0051	acc 1.0000
+2019-06-16 21:49:26,346:INFO: 2019-06-16 21:49:26	 batch 22  to 22 :	global_step 0    	loss 0.0096	acc 1.0000
+2019-06-16 21:49:26,444:INFO: 2019-06-16 21:49:26	 batch 23  to 23 :	global_step 0    	loss 0.0524	acc 0.9844
+2019-06-16 21:49:26,542:INFO: 2019-06-16 21:49:26	 batch 24  to 24 :	global_step 0    	loss 0.0063	acc 1.0000
+2019-06-16 21:49:26,636:INFO: 2019-06-16 21:49:26	 batch 25  to 25 :	global_step 0    	loss 0.0479	acc 0.9844
+2019-06-16 21:49:26,731:INFO: 2019-06-16 21:49:26	 batch 26  to 26 :	global_step 0    	loss 0.0553	acc 0.9844
+2019-06-16 21:49:26,823:INFO: 2019-06-16 21:49:26	 batch 27  to 27 :	global_step 0    	loss 0.0057	acc 1.0000
+2019-06-16 21:49:26,916:INFO: 2019-06-16 21:49:26	 batch 28  to 28 :	global_step 0    	loss 0.0528	acc 0.9844
+2019-06-16 21:49:27,024:INFO: 2019-06-16 21:49:27	 batch 29  to 29 :	global_step 0    	loss 0.1576	acc 1.0000
+2019-06-16 21:49:27,761:INFO: 2019-06-16 21:49:27	acc 0.8629	p 0.8004	r 0.7756	f1 0.7849
+2019-06-16 21:49:27,762:INFO: ########################################
+2019-06-16 21:49:27,762:INFO: Epoch 45 / 50
+2019-06-16 21:49:28,700:INFO: 2019-06-16 21:49:28	 batch 1   to 1  :	global_step 0    	loss 0.0096	acc 1.0000
+2019-06-16 21:49:28,847:INFO: 2019-06-16 21:49:28	 batch 2   to 2  :	global_step 0    	loss 0.0065	acc 1.0000
+2019-06-16 21:49:28,992:INFO: 2019-06-16 21:49:28	 batch 3   to 3  :	global_step 0    	loss 0.0056	acc 1.0000
+2019-06-16 21:49:29,109:INFO: 2019-06-16 21:49:29	 batch 4   to 4  :	global_step 0    	loss 0.0061	acc 1.0000
+2019-06-16 21:49:29,211:INFO: 2019-06-16 21:49:29	 batch 5   to 5  :	global_step 0    	loss 0.0557	acc 0.9844
+2019-06-16 21:49:29,317:INFO: 2019-06-16 21:49:29	 batch 6   to 6  :	global_step 0    	loss 0.0048	acc 1.0000
+2019-06-16 21:49:29,421:INFO: 2019-06-16 21:49:29	 batch 7   to 7  :	global_step 0    	loss 0.0562	acc 0.9844
+2019-06-16 21:49:29,583:INFO: 2019-06-16 21:49:29	 batch 8   to 8  :	global_step 0    	loss 0.0044	acc 1.0000
+2019-06-16 21:49:29,695:INFO: 2019-06-16 21:49:29	 batch 9   to 9  :	global_step 0    	loss 0.0574	acc 0.9844
+2019-06-16 21:49:29,809:INFO: 2019-06-16 21:49:29	 batch 10  to 10 :	global_step 0    	loss 0.0071	acc 1.0000
+2019-06-16 21:49:30,059:INFO: 2019-06-16 21:49:30	 batch 11  to 11 :	global_step 0    	loss 0.0062	acc 1.0000
+2019-06-16 21:49:30,212:INFO: 2019-06-16 21:49:30	 batch 12  to 12 :	global_step 0    	loss 0.0061	acc 1.0000
+2019-06-16 21:49:30,366:INFO: 2019-06-16 21:49:30	 batch 13  to 13 :	global_step 0    	loss 0.0529	acc 0.9844
+2019-06-16 21:49:30,471:INFO: 2019-06-16 21:49:30	 batch 14  to 14 :	global_step 0    	loss 0.0060	acc 1.0000
+2019-06-16 21:49:30,599:INFO: 2019-06-16 21:49:30	 batch 15  to 15 :	global_step 0    	loss 0.0064	acc 1.0000
+2019-06-16 21:49:30,704:INFO: 2019-06-16 21:49:30	 batch 16  to 16 :	global_step 0    	loss 0.1752	acc 0.9531
+2019-06-16 21:49:30,815:INFO: 2019-06-16 21:49:30	 batch 17  to 17 :	global_step 0    	loss 0.0526	acc 0.9844
+2019-06-16 21:49:30,913:INFO: 2019-06-16 21:49:30	 batch 18  to 18 :	global_step 0    	loss 0.0088	acc 1.0000
+2019-06-16 21:49:31,010:INFO: 2019-06-16 21:49:31	 batch 19  to 19 :	global_step 0    	loss 0.0067	acc 1.0000
+2019-06-16 21:49:31,110:INFO: 2019-06-16 21:49:31	 batch 20  to 20 :	global_step 0    	loss 0.0099	acc 1.0000
+2019-06-16 21:49:31,209:INFO: 2019-06-16 21:49:31	 batch 21  to 21 :	global_step 0    	loss 0.0049	acc 1.0000
+2019-06-16 21:49:31,316:INFO: 2019-06-16 21:49:31	 batch 22  to 22 :	global_step 0    	loss 0.0535	acc 0.9844
+2019-06-16 21:49:31,414:INFO: 2019-06-16 21:49:31	 batch 23  to 23 :	global_step 0    	loss 0.0073	acc 1.0000
+2019-06-16 21:49:31,512:INFO: 2019-06-16 21:49:31	 batch 24  to 24 :	global_step 0    	loss 0.0078	acc 1.0000
+2019-06-16 21:49:31,611:INFO: 2019-06-16 21:49:31	 batch 25  to 25 :	global_step 0    	loss 0.1675	acc 0.9531
+2019-06-16 21:49:31,711:INFO: 2019-06-16 21:49:31	 batch 26  to 26 :	global_step 0    	loss 0.0788	acc 0.9844
+2019-06-16 21:49:31,808:INFO: 2019-06-16 21:49:31	 batch 27  to 27 :	global_step 0    	loss 0.0064	acc 1.0000
+2019-06-16 21:49:31,902:INFO: 2019-06-16 21:49:31	 batch 28  to 28 :	global_step 0    	loss 0.0079	acc 1.0000
+2019-06-16 21:49:32,005:INFO: 2019-06-16 21:49:32	 batch 29  to 29 :	global_step 0    	loss 0.2073	acc 1.0000
+2019-06-16 21:49:32,721:INFO: 2019-06-16 21:49:32	acc 0.8629	p 0.8407	r 0.8215	f1 0.8286
+2019-06-16 21:49:32,722:INFO: ########################################
+2019-06-16 21:49:32,722:INFO: Epoch 46 / 50
+2019-06-16 21:49:33,600:INFO: 2019-06-16 21:49:33	 batch 1   to 1  :	global_step 0    	loss 0.0080	acc 1.0000
+2019-06-16 21:49:33,692:INFO: 2019-06-16 21:49:33	 batch 2   to 2  :	global_step 0    	loss 0.0059	acc 1.0000
+2019-06-16 21:49:33,786:INFO: 2019-06-16 21:49:33	 batch 3   to 3  :	global_step 0    	loss 0.0054	acc 1.0000
+2019-06-16 21:49:33,881:INFO: 2019-06-16 21:49:33	 batch 4   to 4  :	global_step 0    	loss 0.0044	acc 1.0000
+2019-06-16 21:49:33,978:INFO: 2019-06-16 21:49:33	 batch 5   to 5  :	global_step 0    	loss 0.0520	acc 0.9844
+2019-06-16 21:49:34,074:INFO: 2019-06-16 21:49:34	 batch 6   to 6  :	global_step 0    	loss 0.0067	acc 1.0000
+2019-06-16 21:49:34,167:INFO: 2019-06-16 21:49:34	 batch 7   to 7  :	global_step 0    	loss 0.0069	acc 1.0000
+2019-06-16 21:49:34,261:INFO: 2019-06-16 21:49:34	 batch 8   to 8  :	global_step 0    	loss 0.0062	acc 1.0000
+2019-06-16 21:49:34,354:INFO: 2019-06-16 21:49:34	 batch 9   to 9  :	global_step 0    	loss 0.0773	acc 0.9844
+2019-06-16 21:49:34,448:INFO: 2019-06-16 21:49:34	 batch 10  to 10 :	global_step 0    	loss 0.0988	acc 0.9688
+2019-06-16 21:49:34,544:INFO: 2019-06-16 21:49:34	 batch 11  to 11 :	global_step 0    	loss 0.0556	acc 0.9844
+2019-06-16 21:49:34,637:INFO: 2019-06-16 21:49:34	 batch 12  to 12 :	global_step 0    	loss 0.0057	acc 1.0000
+2019-06-16 21:49:34,732:INFO: 2019-06-16 21:49:34	 batch 13  to 13 :	global_step 0    	loss 0.0050	acc 1.0000
+2019-06-16 21:49:34,828:INFO: 2019-06-16 21:49:34	 batch 14  to 14 :	global_step 0    	loss 0.0051	acc 1.0000
+2019-06-16 21:49:34,923:INFO: 2019-06-16 21:49:34	 batch 15  to 15 :	global_step 0    	loss 0.0515	acc 0.9844
+2019-06-16 21:49:35,019:INFO: 2019-06-16 21:49:35	 batch 16  to 16 :	global_step 0    	loss 0.0825	acc 0.9844
+2019-06-16 21:49:35,119:INFO: 2019-06-16 21:49:35	 batch 17  to 17 :	global_step 0    	loss 0.0068	acc 1.0000
+2019-06-16 21:49:35,216:INFO: 2019-06-16 21:49:35	 batch 18  to 18 :	global_step 0    	loss 0.0066	acc 1.0000
+2019-06-16 21:49:35,308:INFO: 2019-06-16 21:49:35	 batch 19  to 19 :	global_step 0    	loss 0.0050	acc 1.0000
+2019-06-16 21:49:35,402:INFO: 2019-06-16 21:49:35	 batch 20  to 20 :	global_step 0    	loss 0.0589	acc 0.9844
+2019-06-16 21:49:35,499:INFO: 2019-06-16 21:49:35	 batch 21  to 21 :	global_step 0    	loss 0.0070	acc 1.0000
+2019-06-16 21:49:35,593:INFO: 2019-06-16 21:49:35	 batch 22  to 22 :	global_step 0    	loss 0.0059	acc 1.0000
+2019-06-16 21:49:35,687:INFO: 2019-06-16 21:49:35	 batch 23  to 23 :	global_step 0    	loss 0.0581	acc 0.9844
+2019-06-16 21:49:35,781:INFO: 2019-06-16 21:49:35	 batch 24  to 24 :	global_step 0    	loss 0.0065	acc 1.0000
+2019-06-16 21:49:35,878:INFO: 2019-06-16 21:49:35	 batch 25  to 25 :	global_step 0    	loss 0.1754	acc 0.9531
+2019-06-16 21:49:35,972:INFO: 2019-06-16 21:49:35	 batch 26  to 26 :	global_step 0    	loss 0.0046	acc 1.0000
+2019-06-16 21:49:36,064:INFO: 2019-06-16 21:49:36	 batch 27  to 27 :	global_step 0    	loss 0.0439	acc 0.9844
+2019-06-16 21:49:36,158:INFO: 2019-06-16 21:49:36	 batch 28  to 28 :	global_step 0    	loss 0.0063	acc 1.0000
+2019-06-16 21:49:36,263:INFO: 2019-06-16 21:49:36	 batch 29  to 29 :	global_step 0    	loss 0.2051	acc 1.0000
+2019-06-16 21:49:37,086:INFO: 2019-06-16 21:49:37	acc 0.8668	p 0.8013	r 0.7819	f1 0.7892
+2019-06-16 21:49:37,087:INFO: ########################################
+2019-06-16 21:49:37,088:INFO: Epoch 47 / 50
+2019-06-16 21:49:38,060:INFO: 2019-06-16 21:49:38	 batch 1   to 1  :	global_step 0    	loss 0.0086	acc 1.0000
+2019-06-16 21:49:38,158:INFO: 2019-06-16 21:49:38	 batch 2   to 2  :	global_step 0    	loss 0.0709	acc 0.9844
+2019-06-16 21:49:38,256:INFO: 2019-06-16 21:49:38	 batch 3   to 3  :	global_step 0    	loss 0.0035	acc 1.0000
+2019-06-16 21:49:38,351:INFO: 2019-06-16 21:49:38	 batch 4   to 4  :	global_step 0    	loss 0.0463	acc 0.9844
+2019-06-16 21:49:38,450:INFO: 2019-06-16 21:49:38	 batch 5   to 5  :	global_step 0    	loss 0.0076	acc 1.0000
+2019-06-16 21:49:38,545:INFO: 2019-06-16 21:49:38	 batch 6   to 6  :	global_step 0    	loss 0.0045	acc 1.0000
+2019-06-16 21:49:38,640:INFO: 2019-06-16 21:49:38	 batch 7   to 7  :	global_step 0    	loss 0.0040	acc 1.0000
+2019-06-16 21:49:38,741:INFO: 2019-06-16 21:49:38	 batch 8   to 8  :	global_step 0    	loss 0.0052	acc 1.0000
+2019-06-16 21:49:38,839:INFO: 2019-06-16 21:49:38	 batch 9   to 9  :	global_step 0    	loss 0.0043	acc 1.0000
+2019-06-16 21:49:38,941:INFO: 2019-06-16 21:49:38	 batch 10  to 10 :	global_step 0    	loss 0.0521	acc 0.9844
+2019-06-16 21:49:39,041:INFO: 2019-06-16 21:49:39	 batch 11  to 11 :	global_step 0    	loss 0.0061	acc 1.0000
+2019-06-16 21:49:39,137:INFO: 2019-06-16 21:49:39	 batch 12  to 12 :	global_step 0    	loss 0.0543	acc 0.9844
+2019-06-16 21:49:39,235:INFO: 2019-06-16 21:49:39	 batch 13  to 13 :	global_step 0    	loss 0.0065	acc 1.0000
+2019-06-16 21:49:39,334:INFO: 2019-06-16 21:49:39	 batch 14  to 14 :	global_step 0    	loss 0.0077	acc 1.0000
+2019-06-16 21:49:39,431:INFO: 2019-06-16 21:49:39	 batch 15  to 15 :	global_step 0    	loss 0.0577	acc 0.9844
+2019-06-16 21:49:39,530:INFO: 2019-06-16 21:49:39	 batch 16  to 16 :	global_step 0    	loss 0.0524	acc 0.9844
+2019-06-16 21:49:39,626:INFO: 2019-06-16 21:49:39	 batch 17  to 17 :	global_step 0    	loss 0.0046	acc 1.0000
+2019-06-16 21:49:39,723:INFO: 2019-06-16 21:49:39	 batch 18  to 18 :	global_step 0    	loss 0.1299	acc 0.9688
+2019-06-16 21:49:39,820:INFO: 2019-06-16 21:49:39	 batch 19  to 19 :	global_step 0    	loss 0.0775	acc 0.9844
+2019-06-16 21:49:39,916:INFO: 2019-06-16 21:49:39	 batch 20  to 20 :	global_step 0    	loss 0.0511	acc 0.9844
+2019-06-16 21:49:40,015:INFO: 2019-06-16 21:49:40	 batch 21  to 21 :	global_step 0    	loss 0.0536	acc 0.9844
+2019-06-16 21:49:40,114:INFO: 2019-06-16 21:49:40	 batch 22  to 22 :	global_step 0    	loss 0.0047	acc 1.0000
+2019-06-16 21:49:40,208:INFO: 2019-06-16 21:49:40	 batch 23  to 23 :	global_step 0    	loss 0.0040	acc 1.0000
+2019-06-16 21:49:40,305:INFO: 2019-06-16 21:49:40	 batch 24  to 24 :	global_step 0    	loss 0.0458	acc 0.9844
+2019-06-16 21:49:40,403:INFO: 2019-06-16 21:49:40	 batch 25  to 25 :	global_step 0    	loss 0.0061	acc 1.0000
+2019-06-16 21:49:40,501:INFO: 2019-06-16 21:49:40	 batch 26  to 26 :	global_step 0    	loss 0.0512	acc 0.9844
+2019-06-16 21:49:40,599:INFO: 2019-06-16 21:49:40	 batch 27  to 27 :	global_step 0    	loss 0.0053	acc 1.0000
+2019-06-16 21:49:40,695:INFO: 2019-06-16 21:49:40	 batch 28  to 28 :	global_step 0    	loss 0.0064	acc 1.0000
+2019-06-16 21:49:40,803:INFO: 2019-06-16 21:49:40	 batch 29  to 29 :	global_step 0    	loss 0.2074	acc 1.0000
+2019-06-16 21:49:41,612:INFO: 2019-06-16 21:49:41	acc 0.8616	p 0.8450	r 0.8107	f1 0.8248
+2019-06-16 21:49:41,613:INFO: ########################################
+2019-06-16 21:49:41,614:INFO: Epoch 48 / 50
+2019-06-16 21:49:42,666:INFO: 2019-06-16 21:49:42	 batch 1   to 1  :	global_step 0    	loss 0.0046	acc 1.0000
+2019-06-16 21:49:42,774:INFO: 2019-06-16 21:49:42	 batch 2   to 2  :	global_step 0    	loss 0.0698	acc 0.9844
+2019-06-16 21:49:42,874:INFO: 2019-06-16 21:49:42	 batch 3   to 3  :	global_step 0    	loss 0.0035	acc 1.0000
+2019-06-16 21:49:43,002:INFO: 2019-06-16 21:49:43	 batch 4   to 4  :	global_step 0    	loss 0.0495	acc 0.9844
+2019-06-16 21:49:43,103:INFO: 2019-06-16 21:49:43	 batch 5   to 5  :	global_step 0    	loss 0.0056	acc 1.0000
+2019-06-16 21:49:43,197:INFO: 2019-06-16 21:49:43	 batch 6   to 6  :	global_step 0    	loss 0.0051	acc 1.0000
+2019-06-16 21:49:43,295:INFO: 2019-06-16 21:49:43	 batch 7   to 7  :	global_step 0    	loss 0.0551	acc 0.9844
+2019-06-16 21:49:43,391:INFO: 2019-06-16 21:49:43	 batch 8   to 8  :	global_step 0    	loss 0.0532	acc 0.9844
+2019-06-16 21:49:43,490:INFO: 2019-06-16 21:49:43	 batch 9   to 9  :	global_step 0    	loss 0.0055	acc 1.0000
+2019-06-16 21:49:43,587:INFO: 2019-06-16 21:49:43	 batch 10  to 10 :	global_step 0    	loss 0.0034	acc 1.0000
+2019-06-16 21:49:43,683:INFO: 2019-06-16 21:49:43	 batch 11  to 11 :	global_step 0    	loss 0.0055	acc 1.0000
+2019-06-16 21:49:43,782:INFO: 2019-06-16 21:49:43	 batch 12  to 12 :	global_step 0    	loss 0.0551	acc 0.9844
+2019-06-16 21:49:43,880:INFO: 2019-06-16 21:49:43	 batch 13  to 13 :	global_step 0    	loss 0.0804	acc 0.9844
+2019-06-16 21:49:43,978:INFO: 2019-06-16 21:49:43	 batch 14  to 14 :	global_step 0    	loss 0.0508	acc 0.9844
+2019-06-16 21:49:44,075:INFO: 2019-06-16 21:49:44	 batch 15  to 15 :	global_step 0    	loss 0.0509	acc 0.9844
+2019-06-16 21:49:44,173:INFO: 2019-06-16 21:49:44	 batch 16  to 16 :	global_step 0    	loss 0.0504	acc 0.9844
+2019-06-16 21:49:44,271:INFO: 2019-06-16 21:49:44	 batch 17  to 17 :	global_step 0    	loss 0.0062	acc 1.0000
+2019-06-16 21:49:44,370:INFO: 2019-06-16 21:49:44	 batch 18  to 18 :	global_step 0    	loss 0.0791	acc 0.9844
+2019-06-16 21:49:44,468:INFO: 2019-06-16 21:49:44	 batch 19  to 19 :	global_step 0    	loss 0.0066	acc 1.0000
+2019-06-16 21:49:44,567:INFO: 2019-06-16 21:49:44	 batch 20  to 20 :	global_step 0    	loss 0.0947	acc 0.9688
+2019-06-16 21:49:44,664:INFO: 2019-06-16 21:49:44	 batch 21  to 21 :	global_step 0    	loss 0.0067	acc 1.0000
+2019-06-16 21:49:44,761:INFO: 2019-06-16 21:49:44	 batch 22  to 22 :	global_step 0    	loss 0.0489	acc 0.9844
+2019-06-16 21:49:44,859:INFO: 2019-06-16 21:49:44	 batch 23  to 23 :	global_step 0    	loss 0.0061	acc 1.0000
+2019-06-16 21:49:44,962:INFO: 2019-06-16 21:49:44	 batch 24  to 24 :	global_step 0    	loss 0.0061	acc 1.0000
+2019-06-16 21:49:45,077:INFO: 2019-06-16 21:49:45	 batch 25  to 25 :	global_step 0    	loss 0.0055	acc 1.0000
+2019-06-16 21:49:45,174:INFO: 2019-06-16 21:49:45	 batch 26  to 26 :	global_step 0    	loss 0.0046	acc 1.0000
+2019-06-16 21:49:45,268:INFO: 2019-06-16 21:49:45	 batch 27  to 27 :	global_step 0    	loss 0.0049	acc 1.0000
+2019-06-16 21:49:45,364:INFO: 2019-06-16 21:49:45	 batch 28  to 28 :	global_step 0    	loss 0.0044	acc 1.0000
+2019-06-16 21:49:45,475:INFO: 2019-06-16 21:49:45	 batch 29  to 29 :	global_step 0    	loss 0.2303	acc 1.0000
+2019-06-16 21:49:46,284:INFO: 2019-06-16 21:49:46	acc 0.8590	p 0.8043	r 0.7738	f1 0.7858
+2019-06-16 21:49:46,285:INFO: ########################################
+2019-06-16 21:49:46,286:INFO: Epoch 49 / 50
+2019-06-16 21:49:47,311:INFO: 2019-06-16 21:49:47	 batch 1   to 1  :	global_step 0    	loss 0.0066	acc 1.0000
+2019-06-16 21:49:47,418:INFO: 2019-06-16 21:49:47	 batch 2   to 2  :	global_step 0    	loss 0.0443	acc 0.9844
+2019-06-16 21:49:47,518:INFO: 2019-06-16 21:49:47	 batch 3   to 3  :	global_step 0    	loss 0.1373	acc 0.9531
+2019-06-16 21:49:47,616:INFO: 2019-06-16 21:49:47	 batch 4   to 4  :	global_step 0    	loss 0.0465	acc 0.9844
+2019-06-16 21:49:47,713:INFO: 2019-06-16 21:49:47	 batch 5   to 5  :	global_step 0    	loss 0.0060	acc 1.0000
+2019-06-16 21:49:47,811:INFO: 2019-06-16 21:49:47	 batch 6   to 6  :	global_step 0    	loss 0.0072	acc 1.0000
+2019-06-16 21:49:47,909:INFO: 2019-06-16 21:49:47	 batch 7   to 7  :	global_step 0    	loss 0.0504	acc 0.9844
+2019-06-16 21:49:48,007:INFO: 2019-06-16 21:49:48	 batch 8   to 8  :	global_step 0    	loss 0.0050	acc 1.0000
+2019-06-16 21:49:48,102:INFO: 2019-06-16 21:49:48	 batch 9   to 9  :	global_step 0    	loss 0.0052	acc 1.0000
+2019-06-16 21:49:48,201:INFO: 2019-06-16 21:49:48	 batch 10  to 10 :	global_step 0    	loss 0.0496	acc 0.9844
+2019-06-16 21:49:48,340:INFO: 2019-06-16 21:49:48	 batch 11  to 11 :	global_step 0    	loss 0.0070	acc 1.0000
+2019-06-16 21:49:48,565:INFO: 2019-06-16 21:49:48	 batch 12  to 12 :	global_step 0    	loss 0.0045	acc 1.0000
+2019-06-16 21:49:48,757:INFO: 2019-06-16 21:49:48	 batch 13  to 13 :	global_step 0    	loss 0.0765	acc 0.9844
+2019-06-16 21:49:48,960:INFO: 2019-06-16 21:49:48	 batch 14  to 14 :	global_step 0    	loss 0.0516	acc 0.9844
+2019-06-16 21:49:49,106:INFO: 2019-06-16 21:49:49	 batch 15  to 15 :	global_step 0    	loss 0.0047	acc 1.0000
+2019-06-16 21:49:49,291:INFO: 2019-06-16 21:49:49	 batch 16  to 16 :	global_step 0    	loss 0.0066	acc 1.0000
+2019-06-16 21:49:49,388:INFO: 2019-06-16 21:49:49	 batch 17  to 17 :	global_step 0    	loss 0.0034	acc 1.0000
+2019-06-16 21:49:49,486:INFO: 2019-06-16 21:49:49	 batch 18  to 18 :	global_step 0    	loss 0.0057	acc 1.0000
+2019-06-16 21:49:49,584:INFO: 2019-06-16 21:49:49	 batch 19  to 19 :	global_step 0    	loss 0.0062	acc 1.0000
+2019-06-16 21:49:49,680:INFO: 2019-06-16 21:49:49	 batch 20  to 20 :	global_step 0    	loss 0.0509	acc 0.9844
+2019-06-16 21:49:49,778:INFO: 2019-06-16 21:49:49	 batch 21  to 21 :	global_step 0    	loss 0.0052	acc 1.0000
+2019-06-16 21:49:49,873:INFO: 2019-06-16 21:49:49	 batch 22  to 22 :	global_step 0    	loss 0.0051	acc 1.0000
+2019-06-16 21:49:49,974:INFO: 2019-06-16 21:49:49	 batch 23  to 23 :	global_step 0    	loss 0.0464	acc 0.9844
+2019-06-16 21:49:50,074:INFO: 2019-06-16 21:49:50	 batch 24  to 24 :	global_step 0    	loss 0.0802	acc 0.9844
+2019-06-16 21:49:50,171:INFO: 2019-06-16 21:49:50	 batch 25  to 25 :	global_step 0    	loss 0.0751	acc 0.9844
+2019-06-16 21:49:50,268:INFO: 2019-06-16 21:49:50	 batch 26  to 26 :	global_step 0    	loss 0.0064	acc 1.0000
+2019-06-16 21:49:50,366:INFO: 2019-06-16 21:49:50	 batch 27  to 27 :	global_step 0    	loss 0.0046	acc 1.0000
+2019-06-16 21:49:50,463:INFO: 2019-06-16 21:49:50	 batch 28  to 28 :	global_step 0    	loss 0.0057	acc 1.0000
+2019-06-16 21:49:50,574:INFO: 2019-06-16 21:49:50	 batch 29  to 29 :	global_step 0    	loss 0.1822	acc 1.0000
+2019-06-16 21:49:51,408:INFO: 2019-06-16 21:49:51	acc 0.8616	p 0.8384	r 0.8118	f1 0.8229
+2019-06-16 21:49:51,410:INFO: ########################################
+2019-06-16 21:49:51,410:INFO: Epoch 50 / 50
+2019-06-16 21:49:52,417:INFO: 2019-06-16 21:49:52	 batch 1   to 1  :	global_step 0    	loss 0.0053	acc 1.0000
+2019-06-16 21:49:52,521:INFO: 2019-06-16 21:49:52	 batch 2   to 2  :	global_step 0    	loss 0.0477	acc 0.9844
+2019-06-16 21:49:52,619:INFO: 2019-06-16 21:49:52	 batch 3   to 3  :	global_step 0    	loss 0.0059	acc 1.0000
+2019-06-16 21:49:52,716:INFO: 2019-06-16 21:49:52	 batch 4   to 4  :	global_step 0    	loss 0.0048	acc 1.0000
+2019-06-16 21:49:52,815:INFO: 2019-06-16 21:49:52	 batch 5   to 5  :	global_step 0    	loss 0.0511	acc 0.9844
+2019-06-16 21:49:52,913:INFO: 2019-06-16 21:49:52	 batch 6   to 6  :	global_step 0    	loss 0.0526	acc 0.9844
+2019-06-16 21:49:53,011:INFO: 2019-06-16 21:49:53	 batch 7   to 7  :	global_step 0    	loss 0.0034	acc 1.0000
+2019-06-16 21:49:53,108:INFO: 2019-06-16 21:49:53	 batch 8   to 8  :	global_step 0    	loss 0.0560	acc 0.9844
+2019-06-16 21:49:53,207:INFO: 2019-06-16 21:49:53	 batch 9   to 9  :	global_step 0    	loss 0.0047	acc 1.0000
+2019-06-16 21:49:53,393:INFO: 2019-06-16 21:49:53	 batch 10  to 10 :	global_step 0    	loss 0.0778	acc 0.9844
+2019-06-16 21:49:53,657:INFO: 2019-06-16 21:49:53	 batch 11  to 11 :	global_step 0    	loss 0.0091	acc 1.0000
+2019-06-16 21:49:53,809:INFO: 2019-06-16 21:49:53	 batch 12  to 12 :	global_step 0    	loss 0.0804	acc 0.9844
+2019-06-16 21:49:53,940:INFO: 2019-06-16 21:49:53	 batch 13  to 13 :	global_step 0    	loss 0.0533	acc 0.9844
+2019-06-16 21:49:54,041:INFO: 2019-06-16 21:49:54	 batch 14  to 14 :	global_step 0    	loss 0.0051	acc 1.0000
+2019-06-16 21:49:54,140:INFO: 2019-06-16 21:49:54	 batch 15  to 15 :	global_step 0    	loss 0.0035	acc 1.0000
+2019-06-16 21:49:54,373:INFO: 2019-06-16 21:49:54	 batch 16  to 16 :	global_step 0    	loss 0.0569	acc 0.9844
+2019-06-16 21:49:54,574:INFO: 2019-06-16 21:49:54	 batch 17  to 17 :	global_step 0    	loss 0.0788	acc 0.9844
+2019-06-16 21:49:54,673:INFO: 2019-06-16 21:49:54	 batch 18  to 18 :	global_step 0    	loss 0.0060	acc 1.0000
+2019-06-16 21:49:54,773:INFO: 2019-06-16 21:49:54	 batch 19  to 19 :	global_step 0    	loss 0.0510	acc 0.9844
+2019-06-16 21:49:54,875:INFO: 2019-06-16 21:49:54	 batch 20  to 20 :	global_step 0    	loss 0.0060	acc 1.0000
+2019-06-16 21:49:55,051:INFO: 2019-06-16 21:49:55	 batch 21  to 21 :	global_step 0    	loss 0.0052	acc 1.0000
+2019-06-16 21:49:55,278:INFO: 2019-06-16 21:49:55	 batch 22  to 22 :	global_step 0    	loss 0.0042	acc 1.0000
+2019-06-16 21:49:55,380:INFO: 2019-06-16 21:49:55	 batch 23  to 23 :	global_step 0    	loss 0.0033	acc 1.0000
+2019-06-16 21:49:55,478:INFO: 2019-06-16 21:49:55	 batch 24  to 24 :	global_step 0    	loss 0.0068	acc 1.0000
+2019-06-16 21:49:55,576:INFO: 2019-06-16 21:49:55	 batch 25  to 25 :	global_step 0    	loss 0.0068	acc 1.0000
+2019-06-16 21:49:55,675:INFO: 2019-06-16 21:49:55	 batch 26  to 26 :	global_step 0    	loss 0.0497	acc 0.9844
+2019-06-16 21:49:55,771:INFO: 2019-06-16 21:49:55	 batch 27  to 27 :	global_step 0    	loss 0.0054	acc 1.0000
+2019-06-16 21:49:55,869:INFO: 2019-06-16 21:49:55	 batch 28  to 28 :	global_step 0    	loss 0.0050	acc 1.0000
+2019-06-16 21:49:55,978:INFO: 2019-06-16 21:49:55	 batch 29  to 29 :	global_step 0    	loss 0.2464	acc 0.9688
+2019-06-16 21:49:57,057:INFO: 2019-06-16 21:49:57	acc 0.8590	p 0.8387	r 0.8088	f1 0.8208

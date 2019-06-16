@@ -1,7 +1,9 @@
 # -*- coding: utf-8- -*-
 
+
 def process(fin, fout):
-    outformat = '{}\t{}\n'
+    out_format = '{}\t{}\n'
+
     with open(fin, 'r') as rf, open(fout, 'w') as wf:
         for line in rf:
             line = line.strip()
@@ -9,7 +11,8 @@ def process(fin, fout):
             if len(arr) == 0:
                 continue
 
-            wf.writelines(outformat.format(arr[0], ' '.join(arr[1:])))
+            wf.writelines(out_format.format(arr[0], ' '.join(arr[1:])))
+
 
 process('TREC.train.txt', 'TREC.train')
 process('TREC.test.txt', 'TREC.test')

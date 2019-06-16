@@ -7,6 +7,8 @@ import clfzoo.libs.loss as loss
 from clfzoo.libs.rnn import *
 from clfzoo.libs.attention.multihead_attention import MultiheadAttention
 from clfzoo.base import BaseModel
+import time
+
 
 class HAN(BaseModel):
     def __init__(self, vocab, config):
@@ -29,7 +31,7 @@ class HAN(BaseModel):
         """
         Define placeholders
         """
-        self.s = tf.placeholder(tf.int32, 
+        self.s = tf.placeholder(tf.int32,
                                 [None, self.config.max_sent_num, self.config.max_sent_len],
                                 name="sentence")
         self.label = tf.placeholder(tf.int32,
@@ -44,10 +46,10 @@ class HAN(BaseModel):
         """
         with tf.variable_scope('embeddings'):
             self.word_mat = tf.get_variable(
-                                'word_embeddings',
-                                shape=[self.vocab.word_size(), self.vocab.word_embed_dim],
-                                initializer=tf.constant_initializer(self.vocab.word_embeddings),
-                                trainable=False)
+                'word_embeddings',
+                shape=[self.vocab.word_size(), self.vocab.word_embed_dim],
+                initializer=tf.constant_initializer(self.vocab.word_embeddings),
+                trainable=False)
 
             self.s_emb = tf.nn.embedding_lookup(self.word_mat, self.s)
 
@@ -59,19 +61,19 @@ class HAN(BaseModel):
 
             shape = V.get_shape().as_list()
 
-            W = tf.get_variable('attn_W', 
+            W = tf.get_variable('attn_W',
                                 shape=[shape[-1], shape[-1]],
-                                #initializer=tf.contrib.layers.xavier_initializer(),
+                                # initializer=tf.contrib.layers.xavier_initializer(),
                                 initializer=tf.truncated_normal_initializer(stddev=0.1),
                                 dtype=tf.float32)
             U = tf.get_variable('attn_U',
                                 shape=[shape[-1], shape[-1]],
-                                #initializer=tf.contrib.layers.xavier_initializer(),
+                                # initializer=tf.contrib.layers.xavier_initializer(),
                                 initializer=tf.truncated_normal_initializer(stddev=0.1),
                                 dtype=tf.float32)
             P = tf.get_variable('attn_P',
                                 shape=[shape[-1], 1],
-                                #initializer=tf.contrib.layers.xavier_initializer(),
+                                # initializer=tf.contrib.layers.xavier_initializer(),
                                 initializer=tf.truncated_normal_initializer(stddev=0.1),
                                 dtype=tf.float32)
 
@@ -79,14 +81,13 @@ class HAN(BaseModel):
             K = tf.reshape(K, [-1, shape[-1]])
 
             similarity = tf.nn.tanh(
-                      tf.multiply(
-                          tf.matmul(Q, W),
-                          tf.matmul(K, U)))
+                tf.multiply(
+                    tf.matmul(Q, W),
+                    tf.matmul(K, U)))
 
             alpha = tf.nn.softmax(tf.reshape(tf.matmul(similarity, P), [-1, shape[1], 1]), axis=1)
             V_t = tf.multiply(alpha, V)
         return V_t
-
 
     def layer_encoder(self):
         """
@@ -104,7 +105,7 @@ class HAN(BaseModel):
                 rnn = rnn_kernel(self.config.hidden_dim, self.config.batch_size, shape[-1],
                                  dropout=self.dropout, kernel='gru')
 
-                #attention = MultiheadAttention(num_heads=self.config.num_heads, dropout=self.dropout)
+                # attention = MultiheadAttention(num_heads=self.config.num_heads, dropout=self.dropout)
 
                 sent_embeds = [tf.squeeze(x) for x in tf.split(self.s_emb, self.config.max_sent_num, axis=1)]
 
@@ -112,18 +113,18 @@ class HAN(BaseModel):
                 for i in range(self.config.max_sent_num):
                     sent = sent_embeds[i]
                     sent = tf.reshape(sent, [-1, self.config.max_sent_len, shape[-1]])
-                    
-                    is_reuse= True if i>0 else False
+
+                    is_reuse = True if i > 0 else False
                     word_encoder, _ = rnn(sent, scope="word_level", reuse=is_reuse)
 
-                    word_attention = self.self_attention(word_encoder, scope="word_attention", reuse=is_reuse) 
+                    word_attention = self.self_attention(word_encoder, scope="word_attention", reuse=is_reuse)
                     word_attention = tf.reduce_sum(word_attention, axis=1)
-                    #word_attention = tf.contrib.layers.layer_norm(word_attention)
-                    
+                    # word_attention = tf.contrib.layers.layer_norm(word_attention)
+
                     outputs.append(word_attention)
 
             with tf.variable_scope("sentence_level_encoder"):
-                sentence = tf.stack(outputs, axis=1) #[batch_size,num_sentence,num_units*2]
+                sentence = tf.stack(outputs, axis=1)  # [batch_size,num_sentence,num_units*2]
                 shape = sentence.get_shape()
 
                 rnn = rnn_kernel(self.config.hidden_dim, shape[0], shape[-1],
@@ -132,10 +133,9 @@ class HAN(BaseModel):
                 sentence_encoder, _ = rnn(sentence, scope="sentence_level")
                 sentence_attention = self.self_attention(sentence_encoder, scope="sentence_attention")
                 sentence_attention = tf.contrib.layers.layer_norm(sentence_attention)
-                self.output = tf.reduce_sum(sentence_attention, axis=1) 
-                #self.output = sentence_attention[:, -1, :]
+                self.output = tf.reduce_sum(sentence_attention, axis=1)
+                # self.output = sentence_attention[:, -1, :]
 
- 
     def layer_predict(self):
         with tf.variable_scope('predict'):
 
@@ -143,8 +143,8 @@ class HAN(BaseModel):
             h = tf.layers.dense(output, self.config.hidden_dim)
             h = tf.nn.relu(h)
 
-            self.logit = tf.layers.dense(h, self.n_classes)            
-            
+            self.logit = tf.layers.dense(h, self.n_classes)
+
             if self.config.loss_type == 'cross_entropy':
                 self.loss = loss.cross_entropy(self.label, self.logit)
             elif self.config.loss_type == 'focal_loss':
@@ -168,7 +168,7 @@ class HAN(BaseModel):
             train: train dataset
             dev: dev dataset
             epoch: current epoch
-        """ 
+        """
 
         total_loss, total_accu = 0.0, 0.0
 
@@ -182,23 +182,24 @@ class HAN(BaseModel):
             try:
                 _, loss, accu = self.sess.run([self.train_op, self.loss, self.accu], feed_dict)
                 total_loss += loss
-                total_accu += accu 
+                total_accu += accu
             except Exception as e:
                 continue
 
             if idx % self.config.log_per_batch == 0:
-                self.logger.info("Average loss from batch {} to {} is {}, accuracy is {}".format(
-                    idx-self.config.log_per_batch+1, idx, 
-                    total_loss/self.config.log_per_batch,
-                    total_accu/self.config.log_per_batch 
+                self.logger.info("{}\t batch {} to {}:\tloss {:.4f}\tacc {:.4f}".format(
+                    time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time())),
+                    idx - self.config.log_per_batch + 1, idx,
+                    total_loss / self.config.log_per_batch,
+                    total_accu / self.config.log_per_batch
                 ))
                 total_loss = 0
                 total_accu = 0
 
         # evaluate dev
         _, metrics = self.run_evaluate(dev)
-        msg = " - ".join(["{} {:04.2f}".format(k, v)
-                for k, v in metrics.items()])
+        msg = "{}\t".format(time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(time.time()))) + "\t".join(
+            ["{} {:.4f}".format(k, v) for k, v in metrics.items()])
         self.logger.info(msg)
 
         return metrics
@@ -232,5 +233,3 @@ class HAN(BaseModel):
         y_pred_labels = [self.vocab.idx2label[lidx] for lidx in y_pred]
         metrics = self.calc_metrics(y_pred, y_true)
         return list(zip(y_pred_labels, y_score)), metrics
-
-

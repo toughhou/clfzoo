@@ -1,0 +1,18 @@
+2019-06-16 22:26:25,193:INFO: process train file ../data/smp2019_ecdt/SMP2019.train
+2019-06-16 22:26:25,332:INFO: process dev file ../data/smp2019_ecdt/SMP2019.test
+2019-06-16 22:26:25,585:INFO: Preprocesing...
+2019-06-16 22:26:25,869:INFO: After filter 1881 tokens, the final vocab size is 438
+2019-06-16 22:26:25,871:INFO: Assigning embeddings...
+2019-06-16 22:26:25,879:INFO: Saving vocab...
+2019-06-16 22:26:25,897:INFO: ====== Done with preparing! ======
+2019-06-16 22:26:25,899:INFO: Init model...
+2019-06-16 22:26:28,013:INFO: Init session
+2019-06-16 22:26:29,738:INFO: Convert text to id
+2019-06-16 22:26:29,791:INFO: Start to train
+2019-06-16 22:26:30,183:INFO: ########################################
+2019-06-16 22:26:30,183:INFO: Epoch 1 / 50
+2019-06-16 22:26:44,679:INFO: 2019-06-16 22:26:44	 batch 1   to 5  :	global_step 0    	loss 3.2778	acc 0.1156
+2019-06-16 22:26:45,162:INFO: 2019-06-16 22:26:45	 batch 6   to 10 :	global_step 0    	loss 3.0235	acc 0.1969
+2019-06-16 22:26:45,630:INFO: 2019-06-16 22:26:45	 batch 11  to 15 :	global_step 0    	loss 2.9590	acc 0.1906
+2019-06-16 22:26:46,094:INFO: 2019-06-16 22:26:46	 batch 16  to 20 :	global_step 0    	loss 2.8838	acc 0.2250
+2019-06-16 22:26:46,655:INFO: 2019-06-16 22:26:46	 batch 21  to 25 :	global_step 0    	loss 2.8009	acc 0.2156
